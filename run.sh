@@ -15,6 +15,7 @@ aws iam list-policies --scope AWS > $tmpfile
 
 cat $tmpfile | \
 jq -rc '.Policies[].Arn' | \
+head | \
 while read -r arn; do 
     policy=$(aws iam get-policy --policy-arn "$arn");
     PolicyName=$(jq -r '.Policy.PolicyName' <<< $policy);
@@ -29,7 +30,7 @@ while read -r arn; do
     echo "## $PolicyName" >> $body;
     echo "$Description" >> $body;    
     echo '| Arn | Path |' >> $body;
-    echo '| --- | --- | --- |' >> $body;
+    echo '| --- | --- |' >> $body;
     echo '|' "$Arn" '|' "$PolicyPath" '|' >> $body;
     policy_version=$(aws iam get-policy-version --policy-arn "$Arn" --version-id "$DefaultVersionId");
     echo '```' >> $body;
