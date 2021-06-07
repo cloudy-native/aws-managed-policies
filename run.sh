@@ -29,7 +29,7 @@ while read -r arn; do
     echo "## $PolicyName" >> $body;
     echo "$Description" >> $body;    
     echo '| Arn | Path |' >> $body;
-    echo '| --- | --- | --- |' >> $body;
+    echo '| --- | --- |' >> $body;
     echo '|' "$Arn" '|' "$PolicyPath" '|' >> $body;
     policy_version=$(aws iam get-policy-version --policy-arn "$Arn" --version-id "$DefaultVersionId");
     echo '```' >> $body;
