@@ -2,7 +2,7 @@
 ## AWSDirectConnectReadOnlyAccess
 Provides read only access to AWS Direct Connect via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSDirectConnectReadOnlyAccess | / |
 ```
 {
@@ -31,7 +31,7 @@ Provides read only access to AWS Direct Connect via the AWS Management Console.
 ## AmazonGlacierReadOnlyAccess
 Provides read only access to Amazon Glacier via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonGlacierReadOnlyAccess | / |
 ```
 {
@@ -68,7 +68,7 @@ Provides read only access to Amazon Glacier via the AWS Management Console.
 ## AWSMarketplaceFullAccess
 Provides the ability to subscribe and unsubscribe to AWS Marketplace software, allows users to manage Marketplace software instances from the Marketplace 'Your Software' page, and provides administrative access to EC2.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSMarketplaceFullAccess | / |
 ```
 {
@@ -179,7 +179,7 @@ Provides the ability to subscribe and unsubscribe to AWS Marketplace software, a
 ## ClientVPNServiceRolePolicy
 Policy to enable AWS Client VPN to manage your Client VPN endpoints.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/ClientVPNServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -225,7 +225,7 @@ Policy to enable AWS Client VPN to manage your Client VPN endpoints.
 ## AWSSSODirectoryAdministrator
 Administrator access for SSO Directory
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSSSODirectoryAdministrator | / |
 ```
 {
@@ -253,7 +253,7 @@ Administrator access for SSO Directory
 ## AWSIoT1ClickReadOnlyAccess
 Provides read only access to AWS IoT 1-Click.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSIoT1ClickReadOnlyAccess | / |
 ```
 {
@@ -281,7 +281,7 @@ Provides read only access to AWS IoT 1-Click.
 ## AutoScalingConsoleReadOnlyAccess
 Provides read-only access to Auto Scaling via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AutoScalingConsoleReadOnlyAccess | / |
 ```
 {
@@ -337,7 +337,7 @@ Provides read-only access to Auto Scaling via the AWS Management Console.
 ## AmazonDMSRedshiftS3Role
 Provides access to manage S3 settings for Redshift endpoints for DMS.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AmazonDMSRedshiftS3Role | /service-role/ |
 ```
 {
@@ -378,7 +378,7 @@ Provides access to manage S3 settings for Redshift endpoints for DMS.
 ## AWSQuickSightListIAM
 Allow QuickSight to list IAM entities
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSQuickSightListIAM | /service-role/ |
 ```
 {
@@ -404,7 +404,7 @@ Allow QuickSight to list IAM entities
 ## AWSHealthFullAccess
 Allows full access to the AWS Health Apis and Notifications and the Personal Health Dashboard
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSHealthFullAccess | / |
 ```
 {
@@ -457,7 +457,7 @@ Allows full access to the AWS Health Apis and Notifications and the Personal Hea
 ## AlexaForBusinessGatewayExecution
 Provide gateway execution access to AlexaForBusiness services
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AlexaForBusinessGatewayExecution | / |
 ```
 {
@@ -506,7 +506,7 @@ Provide gateway execution access to AlexaForBusiness services
 ## AmazonElasticTranscoder_ReadOnlyAccess
 Grants users read-only access to Elastic Transcoder and list access to related services.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonElasticTranscoder_ReadOnlyAccess | / |
 ```
 {
@@ -537,7 +537,7 @@ Grants users read-only access to Elastic Transcoder and list access to related s
 ## AmazonRDSFullAccess
 Provides full access to Amazon RDS via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonRDSFullAccess | / |
 ```
 {
@@ -610,7 +610,7 @@ Provides full access to Amazon RDS via the AWS Management Console.
 ## SupportUser
 This policy grants permissions to troubleshoot and resolve issues in an AWS account. This policy also enables the user to contact AWS support to create and manage cases.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/job-function/SupportUser | /job-function/ |
 ```
 {
@@ -834,7 +834,7 @@ This policy grants permissions to troubleshoot and resolve issues in an AWS acco
 ## AmazonEC2FullAccess
 Provides full access to Amazon EC2 via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonEC2FullAccess | / |
 ```
 {
@@ -890,7 +890,7 @@ Provides full access to Amazon EC2 via the AWS Management Console.
 ## SecretsManagerReadWrite
 Provides read/write access to AWS Secrets Manager via the AWS Management Console. Note: this exludes IAM actions, so combine with IAMFullAccess if rotation configuration is required.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/SecretsManagerReadWrite | / |
 ```
 {
@@ -961,7 +961,7 @@ Provides read/write access to AWS Secrets Manager via the AWS Management Console
 ## AWSIoTThingsRegistration
 This policy allows users to register things at bulk using AWS IoT StartThingRegistrationTask API
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSIoTThingsRegistration | /service-role/ |
 ```
 {
@@ -1018,7 +1018,7 @@ This policy allows users to register things at bulk using AWS IoT StartThingRegi
 ## AmazonDocDBReadOnlyAccess
 Provides read-only access to Amazon DocumentDB with MongoDB compatibility. Note that this policy also grants access to Amazon RDS and Amazon Neptune resources.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonDocDBReadOnlyAccess | / |
 ```
 {
@@ -1105,7 +1105,7 @@ Provides read-only access to Amazon DocumentDB with MongoDB compatibility. Note 
 ## AmazonMQApiFullAccess
 Provides full access to AmazonMQ via our API/SDK.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonMQApiFullAccess | / |
 ```
 {
@@ -1162,7 +1162,7 @@ Provides full access to AmazonMQ via our API/SDK.
 ## AWSElementalMediaStoreReadOnly
 Provides read-only permissions for MediaStore APIs
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSElementalMediaStoreReadOnly | / |
 ```
 {
@@ -1195,7 +1195,7 @@ Provides read-only permissions for MediaStore APIs
 ## AWSCertificateManagerReadOnly
 Provides read only access to AWS Certificate Manager (ACM).
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCertificateManagerReadOnly | / |
 ```
 {
@@ -1223,7 +1223,7 @@ Provides read only access to AWS Certificate Manager (ACM).
 ## AWSQuicksightAthenaAccess
 Quicksight access to Athena API and S3 buckets used for Athena query results
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSQuicksightAthenaAccess | /service-role/ |
 ```
 {
@@ -1328,7 +1328,7 @@ Quicksight access to Athena API and S3 buckets used for Athena query results
 ## AWSCloudMapRegisterInstanceAccess
 Provides registrant level access to AWS Cloud Map actions.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCloudMapRegisterInstanceAccess | / |
 ```
 {
@@ -1368,7 +1368,7 @@ Provides registrant level access to AWS Cloud Map actions.
 ## AWSMarketplaceImageBuildFullAccess
 Provides full access to AWS Marketplace Private Image Build Feature. In addition to create private images, it also provides permissions to add tags to images, launch and terminate ec2 instances.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSMarketplaceImageBuildFullAccess | / |
 ```
 {
@@ -1477,7 +1477,7 @@ Provides full access to AWS Marketplace Private Image Build Feature. In addition
 ## AWSCodeCommitPowerUser
 Provides full access to AWS CodeCommit repositories, but does not allow repository deletion.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCodeCommitPowerUser | / |
 ```
 {
@@ -1693,7 +1693,7 @@ Provides full access to AWS CodeCommit repositories, but does not allow reposito
 ## AWSCodeCommitFullAccess
 Provides full access to AWS CodeCommit via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCodeCommitFullAccess | / |
 ```
 {
@@ -1900,7 +1900,7 @@ Provides full access to AWS CodeCommit via the AWS Management Console.
 ## IAMSelfManageServiceSpecificCredentials
 Allows an IAM user to manage their own Service Specific Credentials.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/IAMSelfManageServiceSpecificCredentials | / |
 ```
 {
@@ -1930,7 +1930,7 @@ Allows an IAM user to manage their own Service Specific Credentials.
 ## AmazonEMRCleanupPolicy
 Allows the actions that EMR requires to terminate and delete AWS EC2 resources if the EMR Service role has lost that ability.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AmazonEMRCleanupPolicy | /aws-service-role/ |
 ```
 {
@@ -1970,7 +1970,7 @@ Allows the actions that EMR requires to terminate and delete AWS EC2 resources i
 ## AWSCloud9EnvironmentMember
 Provides the ability to be invited into AWS Cloud9 shared development environments.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCloud9EnvironmentMember | / |
 ```
 {
@@ -2036,7 +2036,7 @@ Provides the ability to be invited into AWS Cloud9 shared development environmen
 ## AWSApplicationAutoscalingSageMakerEndpointPolicy
 Policy granting permissions to Application Auto Scaling to access SageMaker and CloudWatch.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingSageMakerEndpointPolicy | /aws-service-role/ |
 ```
 {
@@ -2069,7 +2069,7 @@ Policy granting permissions to Application Auto Scaling to access SageMaker and 
 ## FMSServiceRolePolicy
 Access policy to allow FM service linked role to perform FM-related actions on FM-managed resources within a customer AWS Organization account.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/FMSServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -2599,7 +2599,7 @@ Access policy to allow FM service linked role to perform FM-related actions on F
 ## AmazonSQSFullAccess
 Provides full access to Amazon SQS via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonSQSFullAccess | / |
 ```
 {
@@ -2625,7 +2625,7 @@ Provides full access to Amazon SQS via the AWS Management Console.
 ## AlexaForBusinessReadOnlyAccess
 Provide read only access to AlexaForBusiness services
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AlexaForBusinessReadOnlyAccess | / |
 ```
 {
@@ -2653,7 +2653,7 @@ Provide read only access to AlexaForBusiness services
 ## AWSLambdaFullAccess
 This policy is on a deprecation path. See documentation for guidance: https://docs.aws.amazon.com/lambda/latest/dg/access-control-identity-based.html. Provides full access to Lambda, S3, DynamoDB, CloudWatch Metrics and Logs.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSLambdaFullAccess | / |
 ```
 {
@@ -2730,7 +2730,7 @@ This policy is on a deprecation path. See documentation for guidance: https://do
 ## AmazonLexBotPolicy
 Policy for AWS Lex Bot use case
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AmazonLexBotPolicy | /aws-service-role/ |
 ```
 {
@@ -2767,7 +2767,7 @@ Policy for AWS Lex Bot use case
 ## AWSIoTLogging
 Allows creation of Amazon CloudWatch Log groups and streaming logs to the groups
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSIoTLogging | /service-role/ |
 ```
 {
@@ -2801,7 +2801,7 @@ Allows creation of Amazon CloudWatch Log groups and streaming logs to the groups
 ## AmazonEC2RoleforSSM
 This policy will soon be deprecated. Please use AmazonSSMManagedInstanceCore policy to enable AWS Systems Manager service core functionality on EC2 instances. For more information see https://docs.aws.amazon.com/systems-manager/latest/userguide/setup-instance-profile.html
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AmazonEC2RoleforSSM | /service-role/ |
 ```
 {
@@ -2909,7 +2909,7 @@ This policy will soon be deprecated. Please use AmazonSSMManagedInstanceCore pol
 ## AlexaForBusinessNetworkProfileServicePolicy
 This policy enables Alexa for Business to perform automated tasks scheduled by your network profiles.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AlexaForBusinessNetworkProfileServicePolicy | /aws-service-role/ |
 ```
 {
@@ -2951,7 +2951,7 @@ This policy enables Alexa for Business to perform automated tasks scheduled by y
 ## AWSCloudHSMRole
 Default policy for the AWS CloudHSM service role.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSCloudHSMRole | /service-role/ |
 ```
 {
@@ -2986,7 +2986,7 @@ Default policy for the AWS CloudHSM service role.
 ## AWSEnhancedClassicNetworkingMangementPolicy
 Policy to enable enhanced classic networking management feature.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSEnhancedClassicNetworkingMangementPolicy | /aws-service-role/ |
 ```
 {
@@ -3013,7 +3013,7 @@ Policy to enable enhanced classic networking management feature.
 ## IAMFullAccess
 Provides full access to IAM via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/IAMFullAccess | / |
 ```
 {
@@ -3049,7 +3049,7 @@ Provides full access to IAM via the AWS Management Console.
 ## AmazonInspectorFullAccess
 Provides full access to Amazon Inspector.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonInspectorFullAccess | / |
 ```
 {
@@ -3104,7 +3104,7 @@ Provides full access to Amazon Inspector.
 ## AmazonElastiCacheFullAccess
 Provides full access to Amazon ElastiCache via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonElastiCacheFullAccess | / |
 ```
 {
@@ -3138,7 +3138,7 @@ Provides full access to Amazon ElastiCache via the AWS Management Console.
 ## AWSAgentlessDiscoveryService
 Provides access for the Discovery Agentless Connector to register with AWS Application Discovery Service.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSAgentlessDiscoveryService | / |
 ```
 {
@@ -3227,7 +3227,7 @@ Provides access for the Discovery Agentless Connector to register with AWS Appli
 ## AWSXrayWriteOnlyAccess
 AWS X-Ray write only managed policy
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSXrayWriteOnlyAccess | / |
 ```
 {
@@ -3259,7 +3259,7 @@ AWS X-Ray write only managed policy
 ## AWSPriceListServiceFullAccess
 Provides full access to AWS Price List Service.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSPriceListServiceFullAccess | / |
 ```
 {
@@ -3285,7 +3285,7 @@ Provides full access to AWS Price List Service.
 ## AWSKeyManagementServiceCustomKeyStoresServiceRolePolicy
 Enables access to AWS services and resources required for AWS KMS custom key stores
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSKeyManagementServiceCustomKeyStoresServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -3317,7 +3317,7 @@ Enables access to AWS services and resources required for AWS KMS custom key sto
 ## AutoScalingReadOnlyAccess
 Provides read-only access to Auto Scaling. 
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AutoScalingReadOnlyAccess | / |
 ```
 {
@@ -3341,7 +3341,7 @@ Provides read-only access to Auto Scaling.
 ## AmazonForecastFullAccess
 Gives access to all actions for Amazon Forecast
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonForecastFullAccess | / |
 ```
 {
@@ -3379,7 +3379,7 @@ Gives access to all actions for Amazon Forecast
 ## AmazonWorkLinkReadOnly
 Grants read only access to Amazon WorkLink resources 
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonWorkLinkReadOnly | / |
 ```
 {
@@ -3407,7 +3407,7 @@ Grants read only access to Amazon WorkLink resources
 ## TranslateFullAccess
 Provides full access to Amazon Translate.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/TranslateFullAccess | / |
 ```
 {
@@ -3441,7 +3441,7 @@ Provides full access to Amazon Translate.
 ## AutoScalingFullAccess
 Provides full access to Auto Scaling.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AutoScalingFullAccess | / |
 ```
 {
@@ -3506,7 +3506,7 @@ Provides full access to Auto Scaling.
 ## AmazonEC2RoleforAWSCodeDeploy
 Provides EC2 access to S3 bucket to download revision. This role is needed by the CodeDeploy agent on EC2 instances.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AmazonEC2RoleforAWSCodeDeploy | /service-role/ |
 ```
 {
@@ -3534,7 +3534,7 @@ Provides EC2 access to S3 bucket to download revision. This role is needed by th
 ## AWSFMMemberReadOnlyAccess
 Provides read only access to AWS WAF actions for AWS Firewall Manager member accounts
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSFMMemberReadOnlyAccess | / |
 ```
 {
@@ -3565,7 +3565,7 @@ Provides read only access to AWS WAF actions for AWS Firewall Manager member acc
 ## AmazonElasticMapReduceEditorsRole
 Default policy for the Amazon Elastic MapReduce Editors service role.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AmazonElasticMapReduceEditorsRole | /service-role/ |
 ```
 {
@@ -3619,7 +3619,7 @@ Default policy for the Amazon Elastic MapReduce Editors service role.
 ## AmazonEKSClusterPolicy
 This policy provides Kubernetes the permissions it requires to manage resources on your behalf. Kubernetes requires Ec2:CreateTags permissions to place identifying information on EC2 resources including but not limited to Instances, Security Groups, and Elastic Network Interfaces. 
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonEKSClusterPolicy | / |
 ```
 {
@@ -3710,7 +3710,7 @@ This policy provides Kubernetes the permissions it requires to manage resources 
 ## AmazonEKSWorkerNodePolicy
 This policy allows Amazon EKS worker nodes to connect to Amazon EKS Clusters.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonEKSWorkerNodePolicy | / |
 ```
 {
@@ -3743,7 +3743,7 @@ This policy allows Amazon EKS worker nodes to connect to Amazon EKS Clusters.
 ## AWSMobileHub_ReadOnly
 This policy may be attached to any User, Role, or Group, in order to grant users permission to list and view projects in AWS Mobile Hub. This also includes permissions to generate and download sample mobile app source code for each Mobile Hub project. It does not allow the user to modify any configuration for any Mobile Hub project.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSMobileHub_ReadOnly | / |
 ```
 {
@@ -3802,7 +3802,7 @@ This policy may be attached to any User, Role, or Group, in order to grant users
 ## CloudWatchEventsBuiltInTargetExecutionAccess
 Allows built-in targets in Amazon CloudWatch Events to perform EC2 actions on your behalf.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/CloudWatchEventsBuiltInTargetExecutionAccess | /service-role/ |
 ```
 {
@@ -3833,7 +3833,7 @@ Allows built-in targets in Amazon CloudWatch Events to perform EC2 actions on yo
 ## AutoScalingServiceRolePolicy
 Enables access to AWS Services and Resources used or managed by Auto Scaling
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AutoScalingServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -3944,7 +3944,7 @@ Enables access to AWS Services and Resources used or managed by Auto Scaling
 ## AmazonElasticTranscoder_FullAccess
 Grants users full access to Elastic Transcoder and the access to associated services that is required for full Elastic Transcoder functionality.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonElasticTranscoder_FullAccess | / |
 ```
 {
@@ -3988,7 +3988,7 @@ Grants users full access to Elastic Transcoder and the access to associated serv
 ## AmazonCloudDirectoryReadOnlyAccess
 Provides read only access to Amazon Cloud Directory Service. 
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonCloudDirectoryReadOnlyAccess | / |
 ```
 {
@@ -4019,7 +4019,7 @@ Provides read only access to Amazon Cloud Directory Service.
 ## CloudWatchAgentAdminPolicy
 Full permissions required to use AmazonCloudWatchAgent.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/CloudWatchAgentAdminPolicy | / |
 ```
 {
@@ -4059,7 +4059,7 @@ Full permissions required to use AmazonCloudWatchAgent.
 ## AWSOpsWorksCMInstanceProfileRole
 Provides S3 access for instances launched by OpsWorks CM.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSOpsWorksCMInstanceProfileRole | / |
 ```
 {
@@ -4111,7 +4111,7 @@ Provides S3 access for instances launched by OpsWorks CM.
 ## AWSBatchServiceEventTargetRole
 Policy to enable CloudWatch Event Target for AWS Batch Job Submission
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSBatchServiceEventTargetRole | /service-role/ |
 ```
 {
@@ -4137,7 +4137,7 @@ Policy to enable CloudWatch Event Target for AWS Batch Job Submission
 ## AWSCodePipelineApproverAccess
 Provides access to view and approve manual changes for all pipelines
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCodePipelineApproverAccess | / |
 ```
 {
@@ -4168,7 +4168,7 @@ Provides access to view and approve manual changes for all pipelines
 ## AWSApplicationDiscoveryAgentAccess
 Provides access for the Discovery Agent to register with AWS Application Discovery Service.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSApplicationDiscoveryAgentAccess | / |
 ```
 {
@@ -4201,7 +4201,7 @@ Provides access for the Discovery Agent to register with AWS Application Discove
 ## ViewOnlyAccess
 This policy grants permissions to view resources and basic metadata across all AWS services. 
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/job-function/ViewOnlyAccess | /job-function/ |
 ```
 {
@@ -4433,7 +4433,7 @@ This policy grants permissions to view resources and basic metadata across all A
 ## AmazonElasticMapReduceRole
 This policy is on a deprecation path. See documentation for guidance: https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-managed-iam-policies.html. Default policy for the Amazon Elastic MapReduce service role.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AmazonElasticMapReduceRole | /service-role/ |
 ```
 {
@@ -4535,7 +4535,7 @@ This policy is on a deprecation path. See documentation for guidance: https://do
 ## ElasticLoadBalancingFullAccess
 Provides full access to Amazon ElasticLoadBalancing, and limited access to other services necessary to provide ElasticLoadBalancing features.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/ElasticLoadBalancingFullAccess | / |
 ```
 {
@@ -4589,7 +4589,7 @@ Provides full access to Amazon ElasticLoadBalancing, and limited access to other
 ## AmazonRoute53DomainsReadOnlyAccess
 Provides access to Route53 Domains list and actions.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonRoute53DomainsReadOnlyAccess | / |
 ```
 {
@@ -4618,7 +4618,7 @@ Provides access to Route53 Domains list and actions.
 ## AmazonSSMAutomationApproverAccess
 Provides access to view automation executions and send approval decisions to automation waiting for approval
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonSSMAutomationApproverAccess | / |
 ```
 {
@@ -4648,7 +4648,7 @@ Provides access to view automation executions and send approval decisions to aut
 ## AWSSecurityHubReadOnlyAccess
 Provides read only access to AWS Security Hub resources
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSSecurityHubReadOnlyAccess | / |
 ```
 {
@@ -4676,7 +4676,7 @@ Provides read only access to AWS Security Hub resources
 ## AWSConfigRoleForOrganizations
 Allows AWS Config to call read-only AWS Organizations APIs
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSConfigRoleForOrganizations | /service-role/ |
 ```
 {
@@ -4705,7 +4705,7 @@ Allows AWS Config to call read-only AWS Organizations APIs
 ## ApplicationAutoScalingForAmazonAppStreamAccess
 Policy to enable Application Autoscaling for Amazon AppStream
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/ApplicationAutoScalingForAmazonAppStreamAccess | /service-role/ |
 ```
 {
@@ -4743,7 +4743,7 @@ Policy to enable Application Autoscaling for Amazon AppStream
 ## AmazonEC2ContainerRegistryFullAccess
 Provides administrative access to Amazon ECR resources
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryFullAccess | / |
 ```
 {
@@ -4784,7 +4784,7 @@ Provides administrative access to Amazon ECR resources
 ## AmazonFSxFullAccess
 Provides full access to Amazon FSx and access to related AWS services.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonFSxFullAccess | / |
 ```
 {
@@ -4835,7 +4835,7 @@ Provides full access to Amazon FSx and access to related AWS services.
 ## SimpleWorkflowFullAccess
 Provides full access to the Simple Workflow configuration service.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/SimpleWorkflowFullAccess | / |
 ```
 {
@@ -4861,7 +4861,7 @@ Provides full access to the Simple Workflow configuration service.
 ## GreengrassOTAUpdateArtifactAccess
 Provides read access to the Greengrass OTA Update artifacts in all Greengrass regions
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/GreengrassOTAUpdateArtifactAccess | /service-role/ |
 ```
 {
@@ -4890,7 +4890,7 @@ Provides read access to the Greengrass OTA Update artifacts in all Greengrass re
 ## AmazonS3FullAccess
 Provides full access to all buckets via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonS3FullAccess | / |
 ```
 {
@@ -4914,7 +4914,7 @@ Provides full access to all buckets via the AWS Management Console.
 ## AWSStorageGatewayReadOnlyAccess
 Provides access to AWS Storage Gateway via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSStorageGatewayReadOnlyAccess | / |
 ```
 {
@@ -4948,7 +4948,7 @@ Provides access to AWS Storage Gateway via the AWS Management Console.
 ## Billing
 Grants permissions for billing and cost management. This includes viewing account usage and viewing and modifying budgets and payment methods.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/job-function/Billing | /job-function/ |
 ```
 {
@@ -4990,7 +4990,7 @@ Grants permissions for billing and cost management. This includes viewing accoun
 ## QuickSightAccessForS3StorageManagementAnalyticsReadOnly
 Policy used by QuickSight team to access customer data produced by S3 Storage Management Analytics.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/QuickSightAccessForS3StorageManagementAnalyticsReadOnly | /service-role/ |
 ```
 {
@@ -5027,7 +5027,7 @@ Policy used by QuickSight team to access customer data produced by S3 Storage Ma
 ## AmazonEC2ContainerRegistryReadOnly
 Provides read-only access to Amazon EC2 Container Registry repositories.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryReadOnly | / |
 ```
 {
@@ -5064,7 +5064,7 @@ Provides read-only access to Amazon EC2 Container Registry repositories.
 ## AmazonElasticMapReduceforEC2Role
 Default policy for the Amazon Elastic MapReduce for EC2 service role.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AmazonElasticMapReduceforEC2Role | /service-role/ |
 ```
 {
@@ -5135,7 +5135,7 @@ Default policy for the Amazon Elastic MapReduce for EC2 service role.
 ## DatabaseAdministrator
 Grants full access permissions to AWS services and actions required to set up and configure AWS database services.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/job-function/DatabaseAdministrator | /job-function/ |
 ```
 {
@@ -5248,7 +5248,7 @@ Grants full access permissions to AWS services and actions required to set up an
 ## AmazonRedshiftReadOnlyAccess
 Provides read only access to Amazon Redshift via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonRedshiftReadOnlyAccess | / |
 ```
 {
@@ -5287,7 +5287,7 @@ Provides read only access to Amazon Redshift via the AWS Management Console.
 ## AmazonEC2ReadOnlyAccess
 Provides read only access to Amazon EC2 via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess | / |
 ```
 {
@@ -5330,7 +5330,7 @@ Provides read only access to Amazon EC2 via the AWS Management Console.
 ## CloudWatchAgentServerPolicy
 Permissions required to use AmazonCloudWatchAgent on servers
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/CloudWatchAgentServerPolicy | / |
 ```
 {
@@ -5370,7 +5370,7 @@ Permissions required to use AmazonCloudWatchAgent on servers
 ## AWSXrayReadOnlyAccess
 AWS X-Ray read only managed policy
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSXrayReadOnlyAccess | / |
 ```
 {
@@ -5412,7 +5412,7 @@ AWS X-Ray read only managed policy
 ## AWSElasticBeanstalkEnhancedHealth
 AWS Elastic Beanstalk Service policy for Health Monitoring system
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkEnhancedHealth | /service-role/ |
 ```
 {
@@ -5464,7 +5464,7 @@ AWS Elastic Beanstalk Service policy for Health Monitoring system
 ## WellArchitectedConsoleFullAccess
 Provides full access to AWS Well-Architected Tool via the AWS Management Console
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/WellArchitectedConsoleFullAccess | / |
 ```
 {
@@ -5490,7 +5490,7 @@ Provides full access to AWS Well-Architected Tool via the AWS Management Console
 ## AmazonElasticMapReduceReadOnlyAccess
 Provides read only access to Amazon Elastic MapReduce via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonElasticMapReduceReadOnlyAccess | / |
 ```
 {
@@ -5524,7 +5524,7 @@ Provides read only access to Amazon Elastic MapReduce via the AWS Management Con
 ## AWSDirectoryServiceReadOnlyAccess
 Provides read only access to AWS Directory Service.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSDirectoryServiceReadOnlyAccess | / |
 ```
 {
@@ -5564,7 +5564,7 @@ Provides read only access to AWS Directory Service.
 ## AWSSSOMasterAccountAdministrator
 Provides access within AWS SSO to manage AWS Organizations master and member accounts and cloud application
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSSSOMasterAccountAdministrator | / |
 ```
 {
@@ -5618,7 +5618,7 @@ Provides access within AWS SSO to manage AWS Organizations master and member acc
 ## AmazonGuardDutyServiceRolePolicy
 Enable access to AWS Resources used or managed by Amazon Guard Duty
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AmazonGuardDutyServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -5655,7 +5655,7 @@ Enable access to AWS Resources used or managed by Amazon Guard Duty
 ## AmazonVPCReadOnlyAccess
 Provides read only access to Amazon VPC via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonVPCReadOnlyAccess | / |
 ```
 {
@@ -5714,7 +5714,7 @@ Provides read only access to Amazon VPC via the AWS Management Console.
 ## AWSElasticBeanstalkServiceRolePolicy
 AWS Elastic Beanstalk Service Linked Role policy which grants permissions to create & manage resources (i.e.: AutoScaling, EC2, S3, CloudFormation, ELB, etc.) on your behalf.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSElasticBeanstalkServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -5785,7 +5785,7 @@ AWS Elastic Beanstalk Service Linked Role policy which grants permissions to cre
 ## ServerMigrationServiceLaunchRole
 Permissions to allow the AWS Server Migration Service to create and update relevant AWS resources into the customer's AWS account for launching migrated servers and applications.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/ServerMigrationServiceLaunchRole | /service-role/ |
 ```
 {
@@ -5907,7 +5907,7 @@ Permissions to allow the AWS Server Migration Service to create and update relev
 ## AWSCodeDeployRoleForECS
 Provides CodeDeploy service wide access to perform an ECS blue/green deployment on your behalf. Grants full access to support services, such as full access to read all S3 objects, invoke all Lambda functions, publish to all SNS topics within the account and update all ECS services.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCodeDeployRoleForECS | / |
 ```
 {
@@ -5960,7 +5960,7 @@ Provides CodeDeploy service wide access to perform an ECS blue/green deployment 
 ## CloudWatchEventsReadOnlyAccess
 Provides read only access to Amazon CloudWatch Events.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/CloudWatchEventsReadOnlyAccess | / |
 ```
 {
@@ -5992,7 +5992,7 @@ Provides read only access to Amazon CloudWatch Events.
 ## AWSLambdaReplicator
 Grants Lambda Replicator necessary permissions to replicate functions across regions
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSLambdaReplicator | /aws-service-role/ |
 ```
 {
@@ -6048,7 +6048,7 @@ Grants Lambda Replicator necessary permissions to replicate functions across reg
 ## AmazonAPIGatewayInvokeFullAccess
 Provides full access to invoke APIs in Amazon API Gateway.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonAPIGatewayInvokeFullAccess | / |
 ```
 {
@@ -6075,7 +6075,7 @@ Provides full access to invoke APIs in Amazon API Gateway.
 ## AWSSSOServiceRolePolicy
 Grants AWS SSO permissions to manage AWS resources, including IAM roles, policies and SAML IdP on your behalf.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSSSOServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -6224,7 +6224,7 @@ Grants AWS SSO permissions to manage AWS resources, including IAM roles, policie
 ## AWSLicenseManagerMasterAccountRolePolicy
 AWS License Manager service master account role policy
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSLicenseManagerMasterAccountRolePolicy | /aws-service-role/ |
 ```
 {
@@ -6429,7 +6429,7 @@ AWS License Manager service master account role policy
 ## AmazonKinesisAnalyticsReadOnly
 Provides read-only access to Amazon Kinesis Analytics via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonKinesisAnalyticsReadOnly | / |
 ```
 {
@@ -6494,7 +6494,7 @@ Provides read-only access to Amazon Kinesis Analytics via the AWS Management Con
 ## AmazonMobileAnalyticsFullAccess
 Provides full access to all application resources.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonMobileAnalyticsFullAccess | / |
 ```
 {
@@ -6518,7 +6518,7 @@ Provides full access to all application resources.
 ## AWSMobileHub_FullAccess
 This policy may be attached to any User, Role, or Group, in order to grant users permission to create, delete, and modify projects (and their associated AWS resources) in AWS Mobile Hub. This also includes permissions to generate and download sample mobile app source code for each Mobile Hub project.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSMobileHub_FullAccess | / |
 ```
 {
@@ -6591,7 +6591,7 @@ This policy may be attached to any User, Role, or Group, in order to grant users
 ## AmazonAPIGatewayPushToCloudWatchLogs
 Allows API Gateway to push logs to user's account.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AmazonAPIGatewayPushToCloudWatchLogs | /service-role/ |
 ```
 {
@@ -6623,7 +6623,7 @@ Allows API Gateway to push logs to user's account.
 ## AWSDataPipelineRole
 This policy is on a deprecation path. See documentation for guidance: https://docs.aws.amazon.com/datapipeline/latest/DeveloperGuide/dp-iam-roles.html. Default policy for the AWS Data Pipeline service role.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSDataPipelineRole | /service-role/ |
 ```
 {
@@ -6721,7 +6721,7 @@ This policy is on a deprecation path. See documentation for guidance: https://do
 ## CloudWatchFullAccess
 Provides full access to CloudWatch.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/CloudWatchFullAccess | / |
 ```
 {
@@ -6763,7 +6763,7 @@ Provides full access to CloudWatch.
 ## AmazonMQApiReadOnlyAccess
 Provides read only access to AmazonMQ via our API/SDK.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonMQApiReadOnlyAccess | / |
 ```
 {
@@ -6794,7 +6794,7 @@ Provides read only access to AmazonMQ via our API/SDK.
 ## AWSDeepLensLambdaFunctionAccessPolicy
 This policy specifies permissions required by DeepLens Administrative lambda functions that run on a DeepLens device
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSDeepLensLambdaFunctionAccessPolicy | / |
 ```
 {
@@ -6859,7 +6859,7 @@ This policy specifies permissions required by DeepLens Administrative lambda fun
 ## AmazonGuardDutyFullAccess
 Provides full access to use Amazon GuardDuty.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonGuardDutyFullAccess | / |
 ```
 {
@@ -6906,7 +6906,7 @@ Provides full access to use Amazon GuardDuty.
 ## AmazonRDSDirectoryServiceAccess
 Allow RDS to access Directory Service Managed AD on behalf of the customer for domain-joined SQL Server DB instances.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AmazonRDSDirectoryServiceAccess | /service-role/ |
 ```
 {
@@ -6935,7 +6935,7 @@ Allow RDS to access Directory Service Managed AD on behalf of the customer for d
 ## AWSCodePipelineReadOnlyAccess
 Provides read only access to AWS CodePipeline via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCodePipelineReadOnlyAccess | / |
 ```
 {
@@ -7002,7 +7002,7 @@ Provides read only access to AWS CodePipeline via the AWS Management Console.
 ## ReadOnlyAccess
 Provides read-only access to AWS services and resources.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/ReadOnlyAccess | / |
 ```
 {
@@ -7891,7 +7891,7 @@ Provides read-only access to AWS services and resources.
 ## AWSAppSyncInvokeFullAccess
 Provides full invoking access to the AppSync service - both through the console and independently
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSAppSyncInvokeFullAccess | / |
 ```
 {
@@ -7920,7 +7920,7 @@ Provides full invoking access to the AppSync service - both through the console 
 ## AmazonMachineLearningBatchPredictionsAccess
 Grants users permission to request Amazon Machine Learning batch predictions.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonMachineLearningBatchPredictionsAccess | / |
 ```
 {
@@ -7950,7 +7950,7 @@ Grants users permission to request Amazon Machine Learning batch predictions.
 ## AWSIoTSiteWiseFullAccess
 Provides full access to IoT SiteWise.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSIoTSiteWiseFullAccess | / |
 ```
 {
@@ -7976,7 +7976,7 @@ Provides full access to IoT SiteWise.
 ## AlexaForBusinessFullAccess
 Grants full access to AlexaForBusiness resources and access to related AWS Services
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AlexaForBusinessFullAccess | / |
 ```
 {
@@ -8044,7 +8044,7 @@ Grants full access to AlexaForBusiness resources and access to related AWS Servi
 ## AWSEC2SpotFleetServiceRolePolicy
 Allows EC2 Spot Fleet to launch and manage spot fleet instances
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSEC2SpotFleetServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -8135,7 +8135,7 @@ Allows EC2 Spot Fleet to launch and manage spot fleet instances
 ## AmazonRekognitionReadOnlyAccess
 Access to all Read rekognition APIs
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonRekognitionReadOnlyAccess | / |
 ```
 {
@@ -8185,7 +8185,7 @@ Access to all Read rekognition APIs
 ## AWSCodeDeployReadOnlyAccess
 Provides read only access to CodeDeploy resources.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCodeDeployReadOnlyAccess | / |
 ```
 {
@@ -8236,7 +8236,7 @@ Provides read only access to CodeDeploy resources.
 ## CloudSearchFullAccess
 Provides full access to the Amazon CloudSearch configuration service.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/CloudSearchFullAccess | / |
 ```
 {
@@ -8262,7 +8262,7 @@ Provides full access to the Amazon CloudSearch configuration service.
 ## AWSLicenseManagerServiceRolePolicy
 AWS License Manager service default role policy
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSLicenseManagerServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -8396,7 +8396,7 @@ AWS License Manager service default role policy
 ## AWSCloudHSMFullAccess
 Provides full access to all CloudHSM resources.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCloudHSMFullAccess | / |
 ```
 {
@@ -8420,7 +8420,7 @@ Provides full access to all CloudHSM resources.
 ## AmazonEC2SpotFleetAutoscaleRole
 Policy to enable Autoscaling for Amazon EC2 Spot Fleet
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AmazonEC2SpotFleetAutoscaleRole | /service-role/ |
 ```
 {
@@ -8470,7 +8470,7 @@ Policy to enable Autoscaling for Amazon EC2 Spot Fleet
 ## AWSElasticLoadBalancingServiceRolePolicy
 Service Linked Role Policy for AWS Elastic Load Balancing Control Plane
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSElasticLoadBalancingServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -8527,7 +8527,7 @@ Service Linked Role Policy for AWS Elastic Load Balancing Control Plane
 ## AWSCodeBuildDeveloperAccess
 Provides access to AWS CodeBuild via the AWS Management Console, but does not allow CodeBuild project administration. Also attach AmazonS3ReadOnlyAccess to provide access to download build artifacts.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCodeBuildDeveloperAccess | / |
 ```
 {
@@ -8642,7 +8642,7 @@ Provides access to AWS CodeBuild via the AWS Management Console, but does not al
 ## ElastiCacheServiceRolePolicy
 This policy allows ElastiCache to manage AWS resources on your behalf as necessary for managing your cache
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/ElastiCacheServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -8684,7 +8684,7 @@ This policy allows ElastiCache to manage AWS resources on your behalf as necessa
 ## AWSGlueServiceNotebookRole
 Policy for AWS Glue service role which allows customer to manage notebook server
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSGlueServiceNotebookRole | /service-role/ |
 ```
 {
@@ -8793,7 +8793,7 @@ Policy for AWS Glue service role which allows customer to manage notebook server
 ## AWSDataPipeline_PowerUser
 Provides full access to Data Pipeline, list access for S3, DynamoDB, Redshift, RDS, SNS, and IAM roles, and passRole access for default Roles.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSDataPipeline_PowerUser | / |
 ```
 {
@@ -8840,7 +8840,7 @@ Provides full access to Data Pipeline, list access for S3, DynamoDB, Redshift, R
 ## AWSCodeStarServiceRole
 DO NOT USE - AWS CodeStar Service Role Policy which grants administrative privileges in order for CodeStar to manage IAM and other service resources on behalf of the customer.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSCodeStarServiceRole | /service-role/ |
 ```
 {
@@ -9061,7 +9061,7 @@ DO NOT USE - AWS CodeStar Service Role Policy which grants administrative privil
 ## AmazonTranscribeFullAccess
 Provides full access to Amazon Transcribe operations
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonTranscribeFullAccess | / |
 ```
 {
@@ -9096,7 +9096,7 @@ Provides full access to Amazon Transcribe operations
 ## AWSDirectoryServiceFullAccess
 Provides full access to AWS Directory Service.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSDirectoryServiceFullAccess | / |
 ```
 {
@@ -9181,7 +9181,7 @@ Provides full access to AWS Directory Service.
 ## AmazonFreeRTOSOTAUpdate
 Allows user to access Amazon FreeRTOS OTA Update 
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AmazonFreeRTOSOTAUpdate | /service-role/ |
 ```
 {
@@ -9252,7 +9252,7 @@ Allows user to access Amazon FreeRTOS OTA Update
 ## AmazonWorkLinkServiceRolePolicy
 Enables access to AWS Services and Resources used or managed by Amazon WorkLink
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AmazonWorkLinkServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -9299,7 +9299,7 @@ Enables access to AWS Services and Resources used or managed by Amazon WorkLink
 ## AmazonDynamoDBFullAccess
 Provides full access to Amazon DynamoDB via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonDynamoDBFullAccess | / |
 ```
 {
@@ -9421,7 +9421,7 @@ Provides full access to Amazon DynamoDB via the AWS Management Console.
 ## AmazonSESReadOnlyAccess
 Provides read only access to Amazon SES via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonSESReadOnlyAccess | / |
 ```
 {
@@ -9448,7 +9448,7 @@ Provides read only access to Amazon SES via the AWS Management Console.
 ## AmazonRedshiftQueryEditor
 Provides full access to the Amazon Redshift Query Editor and to saved queries via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonRedshiftQueryEditor | / |
 ```
 {
@@ -9539,7 +9539,7 @@ Provides full access to the Amazon Redshift Query Editor and to saved queries vi
 ## AWSWAFReadOnlyAccess
 Provides read only access to AWS WAF actions.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSWAFReadOnlyAccess | / |
 ```
 {
@@ -9572,7 +9572,7 @@ Provides read only access to AWS WAF actions.
 ## AutoScalingNotificationAccessRole
 Default policy for the AutoScaling Notification Access service role.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AutoScalingNotificationAccessRole | /service-role/ |
 ```
 {
@@ -9600,7 +9600,7 @@ Default policy for the AutoScaling Notification Access service role.
 ## AmazonMechanicalTurkReadOnly
 Provides access to read only APIs in Amazon Mechanical Turk.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonMechanicalTurkReadOnly | / |
 ```
 {
@@ -9629,7 +9629,7 @@ Provides access to read only APIs in Amazon Mechanical Turk.
 ## AmazonKinesisReadOnlyAccess
 Provides read only access to all streams via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonKinesisReadOnlyAccess | / |
 ```
 {
@@ -9657,7 +9657,7 @@ Provides read only access to all streams via the AWS Management Console.
 ## AWSXRayDaemonWriteAccess
 Allow the AWS X-Ray Daemon to relay raw trace segments data to the service's API and retrieve sampling data (rules, targets, etc.) to be used by the X-Ray SDK.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSXRayDaemonWriteAccess | / |
 ```
 {
@@ -9689,7 +9689,7 @@ Allow the AWS X-Ray Daemon to relay raw trace segments data to the service's API
 ## AWSCloudMapReadOnlyAccess
 Provides read-only access to all AWS Cloud Map actions.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCloudMapReadOnlyAccess | / |
 ```
 {
@@ -9719,7 +9719,7 @@ Provides read-only access to all AWS Cloud Map actions.
 ## AWSCloudFrontLogger
 Grants CloudFront Logger write permissions to CloudWatch Logs. 
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSCloudFrontLogger | /aws-service-role/ |
 ```
 {
@@ -9747,7 +9747,7 @@ Grants CloudFront Logger write permissions to CloudWatch Logs.
 ## AWSCodeDeployFullAccess
 Provides full access to CodeDeploy resources.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCodeDeployFullAccess | / |
 ```
 {
@@ -9825,7 +9825,7 @@ Provides full access to CodeDeploy resources.
 ## AWSBackupServiceRolePolicyForBackup
 Provides AWS Backup permission to create backups on your behalf across AWS services
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSBackupServiceRolePolicyForBackup | /service-role/ |
 ```
 {
@@ -10119,7 +10119,7 @@ Provides AWS Backup permission to create backups on your behalf across AWS servi
 ## AWSRoboMakerServiceRolePolicy
 RoboMaker service policy
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSRoboMakerServiceRolePolicy | / |
 ```
 {
@@ -10180,7 +10180,7 @@ RoboMaker service policy
 ## CloudWatchActionsEC2Access
 Provides read-only access to CloudWatch alarms and metrics as well as EC2 metadata. Provides access to Stop, Terminate and Reboot EC2 instances.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/CloudWatchActionsEC2Access | / |
 ```
 {
@@ -10210,7 +10210,7 @@ Provides read-only access to CloudWatch alarms and metrics as well as EC2 metada
 ## AWSLambdaDynamoDBExecutionRole
 Provides list and read access to DynamoDB streams and write permissions to CloudWatch logs.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSLambdaDynamoDBExecutionRole | /service-role/ |
 ```
 {
@@ -10242,7 +10242,7 @@ Provides list and read access to DynamoDB streams and write permissions to Cloud
 ## AmazonRoute53DomainsFullAccess
 Provides full access to all Route53 Domains actions and Create Hosted Zone to allow Hosted Zone creation as part of domain registrations.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonRoute53DomainsFullAccess | / |
 ```
 {
@@ -10271,7 +10271,7 @@ Provides full access to all Route53 Domains actions and Create Hosted Zone to al
 ## AmazonElastiCacheReadOnlyAccess
 Provides read only access to Amazon ElastiCache via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonElastiCacheReadOnlyAccess | / |
 ```
 {
@@ -10297,7 +10297,7 @@ Provides read only access to Amazon ElastiCache via the AWS Management Console.
 ## AmazonRDSServiceRolePolicy
 Allows Amazon RDS to manage AWS resources on your behalf.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AmazonRDSServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -10416,7 +10416,7 @@ Allows Amazon RDS to manage AWS resources on your behalf.
 ## AmazonAthenaFullAccess
 Provide full access to Amazon Athena and scoped access to the dependencies needed to enable querying, writing results, and data management.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonAthenaFullAccess | / |
 ```
 {
@@ -10538,7 +10538,7 @@ Provide full access to Amazon Athena and scoped access to the dependencies neede
 ## AmazonElasticFileSystemReadOnlyAccess
 Provides read only access to Amazon EFS via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonElasticFileSystemReadOnlyAccess | / |
 ```
 {
@@ -10583,7 +10583,7 @@ Provides read only access to Amazon EFS via the AWS Management Console.
 ## AWSCloudMapDiscoverInstanceAccess
 Provides access to AWS Cloud Map discovery API.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCloudMapDiscoverInstanceAccess | / |
 ```
 {
@@ -10611,7 +10611,7 @@ Provides access to AWS Cloud Map discovery API.
 ## CloudFrontFullAccess
 Provides full access to the CloudFront console plus the ability to list Amazon S3 buckets via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/CloudFrontFullAccess | / |
 ```
 {
@@ -10665,7 +10665,7 @@ Provides full access to the CloudFront console plus the ability to list Amazon S
 ## AWSCloud9Administrator
 Provides administrator access to AWS Cloud9.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCloud9Administrator | / |
 ```
 {
@@ -10729,7 +10729,7 @@ Provides administrator access to AWS Cloud9.
 ## AWSApplicationAutoscalingEMRInstanceGroupPolicy
 Policy granting permissions to Application Auto Scaling to access Elastic Map Reduce and CloudWatch.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingEMRInstanceGroupPolicy | /aws-service-role/ |
 ```
 {
@@ -10759,7 +10759,7 @@ Policy granting permissions to Application Auto Scaling to access Elastic Map Re
 ## AmazonTextractFullAccess
 Access to all Amazon Textract APIs
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonTextractFullAccess | / |
 ```
 {
@@ -10785,7 +10785,7 @@ Access to all Amazon Textract APIs
 ## AWSOrganizationsServiceTrustPolicy
 A policy to allow AWS Organizations to share trust with other approved AWS Services for the purpose of simplifying customer configuration.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSOrganizationsServiceTrustPolicy | /aws-service-role/ |
 ```
 {
@@ -10822,7 +10822,7 @@ A policy to allow AWS Organizations to share trust with other approved AWS Servi
 ## AmazonDocDBFullAccess
 Provides full access to Amazon DocumentDB with MongoDB compatibility. Note this policy also grants full access to publish on all SNS topics within the account and full access to Amazon RDS and Amazon Neptune.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonDocDBFullAccess | / |
 ```
 {
@@ -10947,7 +10947,7 @@ Provides full access to Amazon DocumentDB with MongoDB compatibility. Note this 
 ## AmazonMobileAnalyticsNon-financialReportAccess
 Provides read only access to non financial reports for all application resources.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonMobileAnalyticsNon-financialReportAccess | / |
 ```
 {
@@ -10971,7 +10971,7 @@ Provides read only access to non financial reports for all application resources
 ## AmazonCognitoDeveloperAuthenticatedIdentities
 Provides access to Amazon Cognito APIs to support developer authenticated identities from your authentication backend.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonCognitoDeveloperAuthenticatedIdentities | / |
 ```
 {
@@ -11000,7 +11000,7 @@ Provides access to Amazon Cognito APIs to support developer authenticated identi
 ## AWSConfigRole
 Default policy for AWS Config service role.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSConfigRole | /service-role/ |
 ```
 {
@@ -11244,7 +11244,7 @@ Default policy for AWS Config service role.
 ## AWSSSOMemberAccountAdministrator
 Provides access within AWS SSO to manage AWS Organizations member accounts and cloud application
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSSSOMemberAccountAdministrator | / |
 ```
 {
@@ -11287,7 +11287,7 @@ Provides access within AWS SSO to manage AWS Organizations member accounts and c
 ## AWSApplicationAutoscalingAppStreamFleetPolicy
 Policy granting permissions to Application Auto Scaling to access AppStream and CloudWatch.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingAppStreamFleetPolicy | /aws-service-role/ |
 ```
 {
@@ -11319,7 +11319,7 @@ Policy granting permissions to Application Auto Scaling to access AppStream and 
 ## AWSCertificateManagerPrivateCAFullAccess
 Provides full access to AWS Certificate Manager Private Certificate Authority
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCertificateManagerPrivateCAFullAccess | / |
 ```
 {
@@ -11345,7 +11345,7 @@ Provides full access to AWS Certificate Manager Private Certificate Authority
 ## AWSGlueServiceRole
 Policy for AWS Glue service role which allows access to related services including EC2, S3, and Cloudwatch Logs
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSGlueServiceRole | /service-role/ |
 ```
 {
@@ -11450,7 +11450,7 @@ Policy for AWS Glue service role which allows access to related services includi
 ## AmazonAppStreamServiceAccess
 Default policy for Amazon AppStream service role. 
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AmazonAppStreamServiceAccess | /service-role/ |
 ```
 {
@@ -11509,7 +11509,7 @@ Default policy for Amazon AppStream service role.
 ## AmazonRedshiftFullAccess
 Provides full access to Amazon Redshift via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonRedshiftFullAccess | / |
 ```
 {
@@ -11605,7 +11605,7 @@ Provides full access to Amazon Redshift via the AWS Management Console.
 ## AWSTransferLoggingAccess
 Allows AWS Transfer full access to create log streams and groups and put log events to your account
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSTransferLoggingAccess | /service-role/ |
 ```
 {
@@ -11634,7 +11634,7 @@ Allows AWS Transfer full access to create log streams and groups and put log eve
 ## AmazonZocaloReadOnlyAccess
 Provides read only access to Amazon Zocalo
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonZocaloReadOnlyAccess | / |
 ```
 {
@@ -11663,7 +11663,7 @@ Provides read only access to Amazon Zocalo
 ## AWSCloudHSMReadOnlyAccess
 Provides read only access to all CloudHSM resources.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCloudHSMReadOnlyAccess | / |
 ```
 {
@@ -11691,7 +11691,7 @@ Provides read only access to all CloudHSM resources.
 ## ComprehendFullAccess
 Provides full access to Amazon Comprehend.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/ComprehendFullAccess | / |
 ```
 {
@@ -11722,7 +11722,7 @@ Provides full access to Amazon Comprehend.
 ## AmazonFSxConsoleFullAccess
 Provides full access to Amazon FSx and access to related AWS services via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonFSxConsoleFullAccess | / |
 ```
 {
@@ -11780,7 +11780,7 @@ Provides full access to Amazon FSx and access to related AWS services via the AW
 ## SystemAdministrator
 Grants full access permissions necessary for resources required for application and development operations.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/job-function/SystemAdministrator | /job-function/ |
 ```
 {
@@ -12051,7 +12051,7 @@ Grants full access permissions necessary for resources required for application 
 ## AmazonEC2ContainerServiceEventsRole
 Policy to enable CloudWatch Events for EC2 Container Service
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AmazonEC2ContainerServiceEventsRole | /service-role/ |
 ```
 {
@@ -12091,7 +12091,7 @@ Policy to enable CloudWatch Events for EC2 Container Service
 ## AmazonRoute53ReadOnlyAccess
 Provides read only access to all Amazon Route 53 via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonRoute53ReadOnlyAccess | / |
 ```
 {
@@ -12121,7 +12121,7 @@ Provides read only access to all Amazon Route 53 via the AWS Management Console.
 ## AWSMigrationHubDiscoveryAccess
 Policy allows AWSMigrationHubService to call AWSApplicationDiscoveryService on behalf of the customer.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSMigrationHubDiscoveryAccess | /service-role/ |
 ```
 {
@@ -12185,7 +12185,7 @@ Policy allows AWSMigrationHubService to call AWSApplicationDiscoveryService on b
 ## AmazonEC2ContainerServiceAutoscaleRole
  Policy to enable Task Autoscaling for Amazon EC2 Container Service
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AmazonEC2ContainerServiceAutoscaleRole | /service-role/ |
 ```
 {
@@ -12224,7 +12224,7 @@ Policy allows AWSMigrationHubService to call AWSApplicationDiscoveryService on b
 ## AWSAppSyncSchemaAuthor
 Provides access to create, update, and query the schema.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSAppSyncSchemaAuthor | / |
 ```
 {
@@ -12268,7 +12268,7 @@ Provides access to create, update, and query the schema.
 ## AlexaForBusinessDeviceSetup
 Provide device setup access to AlexaForBusiness services
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AlexaForBusinessDeviceSetup | / |
 ```
 {
@@ -12307,7 +12307,7 @@ Provide device setup access to AlexaForBusiness services
 ## AWSBatchServiceRole
 Policy for AWS Batch service role which allows access to related services including EC2, Autoscaling, EC2 Container service and Cloudwatch Logs.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSBatchServiceRole | /service-role/ |
 ```
 {
@@ -12444,7 +12444,7 @@ Policy for AWS Batch service role which allows access to related services includ
 ## AWSElasticBeanstalkWebTier
 Provide the instances in your web server environment access to upload log files to Amazon S3. 
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSElasticBeanstalkWebTier | / |
 ```
 {
@@ -12512,7 +12512,7 @@ Provide the instances in your web server environment access to upload log files 
 ## AmazonSQSReadOnlyAccess
 Provides read only access to Amazon SQS via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonSQSReadOnlyAccess | / |
 ```
 {
@@ -12541,7 +12541,7 @@ Provides read only access to Amazon SQS via the AWS Management Console.
 ## AmazonChimeFullAccess
 Provides full access to Amazon Chime Admin Console via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonChimeFullAccess | / |
 ```
 {
@@ -12641,7 +12641,7 @@ Provides full access to Amazon Chime Admin Console via the AWS Management Consol
 ## AWSDeepRacerRoboMakerAccessPolicy
 Allows RoboMaker to create required resources and call AWS services on your behalf.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSDeepRacerRoboMakerAccessPolicy | / |
 ```
 {
@@ -12734,7 +12734,7 @@ Allows RoboMaker to create required resources and call AWS services on your beha
 ## AWSElasticLoadBalancingClassicServiceRolePolicy
 Service Linked Role Policy for AWS Elastic Load Balancing Control Plane - Classic
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSElasticLoadBalancingClassicServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -12780,7 +12780,7 @@ Service Linked Role Policy for AWS Elastic Load Balancing Control Plane - Classi
 ## AWSMigrationHubDMSAccess
 Policy for Database Migration Service to assume role in customer's account to call Migration Hub
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSMigrationHubDMSAccess | /service-role/ |
 ```
 {
@@ -12832,7 +12832,7 @@ Policy for Database Migration Service to assume role in customer's account to ca
 ## WellArchitectedConsoleReadOnlyAccess
 Provides read-only access to AWS Well-Architected Tool via the AWS Management Console
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/WellArchitectedConsoleReadOnlyAccess | / |
 ```
 {
@@ -12859,7 +12859,7 @@ Provides read-only access to AWS Well-Architected Tool via the AWS Management Co
 ## AmazonKinesisFullAccess
 Provides full access to all streams via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonKinesisFullAccess | / |
 ```
 {
@@ -12883,7 +12883,7 @@ Provides full access to all streams via the AWS Management Console.
 ## AmazonGuardDutyReadOnlyAccess
 Provides read only access to Amazon GuardDuty resources
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonGuardDutyReadOnlyAccess | / |
 ```
 {
@@ -12922,7 +12922,7 @@ Provides read only access to Amazon GuardDuty resources
 ## AmazonFSxServiceRolePolicy
 Allows Amazon FSx to manage AWS resources on your behalf
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AmazonFSxServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -12961,7 +12961,7 @@ Allows Amazon FSx to manage AWS resources on your behalf
 ## AmazonECSServiceRolePolicy
 Policy to enable Amazon ECS to manage your cluster.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AmazonECSServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -13101,7 +13101,7 @@ Policy to enable Amazon ECS to manage your cluster.
 ## AmazonConnectReadOnlyAccess
 Grants permission to view the Amazon Connect instances in your AWS account.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonConnectReadOnlyAccess | / |
 ```
 {
@@ -13135,7 +13135,7 @@ Grants permission to view the Amazon Connect instances in your AWS account.
 ## AmazonMachineLearningReadOnlyAccess
 Provides read only access to Amazon Machine Learning resources.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonMachineLearningReadOnlyAccess | / |
 ```
 {
@@ -13162,7 +13162,7 @@ Provides read only access to Amazon Machine Learning resources.
 ## AmazonRekognitionFullAccess
 Access to all Amazon Rekognition APIs
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonRekognitionFullAccess | / |
 ```
 {
@@ -13188,7 +13188,7 @@ Access to all Amazon Rekognition APIs
 ## RDSCloudHsmAuthorizationRole
 Default policy for the Amazon RDS service role.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/RDSCloudHsmAuthorizationRole | /service-role/ |
 ```
 {
@@ -13220,7 +13220,7 @@ Default policy for the Amazon RDS service role.
 ## AmazonMachineLearningFullAccess
 Provides full access to Amazon Machine Learning resources.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonMachineLearningFullAccess | / |
 ```
 {
@@ -13246,7 +13246,7 @@ Provides full access to Amazon Machine Learning resources.
 ## AdministratorAccess
 Provides full access to AWS services and resources.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AdministratorAccess | / |
 ```
 {
@@ -13270,7 +13270,7 @@ Provides full access to AWS services and resources.
 ## AmazonMachineLearningRealTimePredictionOnlyAccess
 Grants users permission to request Amazon Machine Learning real-time predictions.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonMachineLearningRealTimePredictionOnlyAccess | / |
 ```
 {
@@ -13296,7 +13296,7 @@ Grants users permission to request Amazon Machine Learning real-time predictions
 ## AWSAppSyncPushToCloudWatchLogs
 Allows AppSync to push logs to user's CloudWatch account.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSAppSyncPushToCloudWatchLogs | /service-role/ |
 ```
 {
@@ -13324,7 +13324,7 @@ Allows AppSync to push logs to user's CloudWatch account.
 ## AWSMigrationHubSMSAccess
 Policy for Server Migration Service to assume role in customer's account to call Migration Hub
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSMigrationHubSMSAccess | /service-role/ |
 ```
 {
@@ -13376,7 +13376,7 @@ Policy for Server Migration Service to assume role in customer's account to call
 ## AWSConfigUserAccess
 Provides access to use AWS Config, including searching by tags on resources, and reading all tags. This does not provide permission to configure AWS Config, which requires administrative privileges.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSConfigUserAccess | / |
 ```
 {
@@ -13411,7 +13411,7 @@ Provides access to use AWS Config, including searching by tags on resources, and
 ## AWSIoTConfigAccess
 This policy gives full access to the AWS IoT configuration actions
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSIoTConfigAccess | / |
 ```
 {
@@ -13587,7 +13587,7 @@ This policy gives full access to the AWS IoT configuration actions
 ## SecurityAudit
 The security audit template grants access to read security configuration metadata. It is useful for software that audits the configuration of an AWS account.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/SecurityAudit | / |
 ```
 {
@@ -14044,7 +14044,7 @@ The security audit template grants access to read security configuration metadat
 ## AWSDiscoveryContinuousExportFirehosePolicy
 Provides write access to AWS resources required for AWS Discovery Continuous Export
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSDiscoveryContinuousExportFirehosePolicy | / |
 ```
 {
@@ -14094,7 +14094,7 @@ Provides write access to AWS resources required for AWS Discovery Continuous Exp
 ## AmazonCognitoIdpEmailServiceRolePolicy
 Allows Amazon Cognito User Pools service to use your SES identities for email sending
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AmazonCognitoIdpEmailServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -14128,7 +14128,7 @@ Allows Amazon Cognito User Pools service to use your SES identities for email se
 ## AWSElementalMediaConvertFullAccess
 Provides full access to AWS Elemental MediaConvert via the AWS Management Console and SDK.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSElementalMediaConvertFullAccess | / |
 ```
 {
@@ -14170,7 +14170,7 @@ Provides full access to AWS Elemental MediaConvert via the AWS Management Consol
 ## AWSRoboMakerReadOnlyAccess
 Provides read only access to AWS RoboMaker via the AWS Management Console and SDK
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSRoboMakerReadOnlyAccess | / |
 ```
 {
@@ -14200,7 +14200,7 @@ Provides read only access to AWS RoboMaker via the AWS Management Console and SD
 ## AWSResourceGroupsReadOnlyAccess
 This is the read only policy for AWS Resource Groups
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSResourceGroupsReadOnlyAccess | / |
 ```
 {
@@ -14269,7 +14269,7 @@ This is the read only policy for AWS Resource Groups
 ## AWSCodeStarFullAccess
 Provides full access to AWS CodeStar via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCodeStarFullAccess | / |
 ```
 {
@@ -14312,7 +14312,7 @@ Provides full access to AWS CodeStar via the AWS Management Console.
 ## AmazonSSMServiceRolePolicy
 Provides access to AWS Resources managed or used by Amazon SSM
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AmazonSSMServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -14538,7 +14538,7 @@ Provides access to AWS Resources managed or used by Amazon SSM
 ## AWSDataPipeline_FullAccess
 Provides full access to Data Pipeline, list access for S3, DynamoDB, Redshift, RDS, SNS, and IAM roles, and passRole access for default Roles.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSDataPipeline_FullAccess | / |
 ```
 {
@@ -14586,7 +14586,7 @@ Provides full access to Data Pipeline, list access for S3, DynamoDB, Redshift, R
 ## NeptuneFullAccess
 Provides full access to Amazon Neptune. Note this policy also grants full access to publish on all SNS topics within the account and full access to Amazon RDS. For more information, see https://aws.amazon.com/neptune/faqs/.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/NeptuneFullAccess | / |
 ```
 {
@@ -14737,7 +14737,7 @@ Provides full access to Amazon Neptune. Note this policy also grants full access
 ## AmazonSSMManagedInstanceCore
 The policy for Amazon EC2 Role to enable AWS Systems Manager service core functionality.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonSSMManagedInstanceCore | / |
 ```
 {
@@ -14799,7 +14799,7 @@ The policy for Amazon EC2 Role to enable AWS Systems Manager service core functi
 ## AWSAutoScalingPlansEC2AutoScalingPolicy
 Policy granting permissions to AWS Auto Scaling to periodically forecast capacity and generate scheduled scaling actions for Auto Scaling groups in a scaling plan
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSAutoScalingPlansEC2AutoScalingPolicy | /aws-service-role/ |
 ```
 {
@@ -14829,7 +14829,7 @@ Policy granting permissions to AWS Auto Scaling to periodically forecast capacit
 ## AmazonDynamoDBReadOnlyAccess
 Provides read only access to Amazon DynamoDB via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonDynamoDBReadOnlyAccess | / |
 ```
 {
@@ -14906,7 +14906,7 @@ Provides read only access to Amazon DynamoDB via the AWS Management Console.
 ## AutoScalingConsoleFullAccess
 Provides full access to Auto Scaling via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AutoScalingConsoleFullAccess | / |
 ```
 {
@@ -14991,7 +14991,7 @@ Provides full access to Auto Scaling via the AWS Management Console.
 ## AWSElementalMediaPackageFullAccess
 Provides full access to AWS Elemental MediaPackage resources
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSElementalMediaPackageFullAccess | / |
 ```
 {
@@ -15013,7 +15013,7 @@ Provides full access to AWS Elemental MediaPackage resources
 ## AmazonKinesisVideoStreamsFullAccess
 Provides full access to Amazon Kinesis Video Streams via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonKinesisVideoStreamsFullAccess | / |
 ```
 {
@@ -15037,7 +15037,7 @@ Provides full access to Amazon Kinesis Video Streams via the AWS Management Cons
 ## AmazonSNSReadOnlyAccess
 Provides read only access to Amazon SNS via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonSNSReadOnlyAccess | / |
 ```
 {
@@ -15064,7 +15064,7 @@ Provides read only access to Amazon SNS via the AWS Management Console.
 ## AmazonRDSPreviewServiceRolePolicy
 Amazon RDS Preview Service Role Policy
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AmazonRDSPreviewServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -15157,7 +15157,7 @@ Amazon RDS Preview Service Role Policy
 ## AWSEC2SpotServiceRolePolicy
 Allows EC2 Spot to launch and manage spot instances
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSEC2SpotServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -15231,7 +15231,7 @@ Allows EC2 Spot to launch and manage spot instances
 ## AmazonElasticMapReduceFullAccess
 This policy is on a deprecation path. See documentation for guidance: https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-managed-iam-policies.html. Provides full access to Amazon Elastic MapReduce and underlying services that it requires such as EC2 and S3
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonElasticMapReduceFullAccess | / |
 ```
 {
@@ -15309,7 +15309,7 @@ This policy is on a deprecation path. See documentation for guidance: https://do
 ## AWSCloudMapFullAccess
 Provides full access to all AWS Cloud Map actions.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCloudMapFullAccess | / |
 ```
 {
@@ -15349,7 +15349,7 @@ Provides full access to all AWS Cloud Map actions.
 ## AWSDataLifecycleManagerServiceRole
 Provides appropriate permissions to AWS Data Lifecycle Manager to take actions on AWS resources
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSDataLifecycleManagerServiceRole | /service-role/ |
 ```
 {
@@ -15407,7 +15407,7 @@ Provides appropriate permissions to AWS Data Lifecycle Manager to take actions o
 ## AmazonS3ReadOnlyAccess
 Provides read only access to all buckets via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess | / |
 ```
 {
@@ -15434,7 +15434,7 @@ Provides read only access to all buckets via the AWS Management Console.
 ## AmazonWorkSpacesAdmin
 Provides access to Amazon WorkSpaces administrative actions via AWS SDK and CLI.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonWorkSpacesAdmin | / |
 ```
 {
@@ -15476,7 +15476,7 @@ Provides access to Amazon WorkSpaces administrative actions via AWS SDK and CLI.
 ## AWSCodeDeployRole
 Provides CodeDeploy service access to expand tags and interact with Auto Scaling on your behalf.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSCodeDeployRole | /service-role/ |
 ```
 {
@@ -15538,7 +15538,7 @@ Provides CodeDeploy service access to expand tags and interact with Auto Scaling
 ## AmazonSESFullAccess
 Provides full access to Amazon SES via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonSESFullAccess | / |
 ```
 {
@@ -15564,7 +15564,7 @@ Provides full access to Amazon SES via the AWS Management Console.
 ## CloudWatchLogsReadOnlyAccess
 Provides read only access to CloudWatch Logs
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/CloudWatchLogsReadOnlyAccess | / |
 ```
 {
@@ -15596,7 +15596,7 @@ Provides read only access to CloudWatch Logs
 ## AmazonRDSBetaServiceRolePolicy
 Allows Amazon RDS to manage AWS resources on your behalf.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AmazonRDSBetaServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -15686,7 +15686,7 @@ Allows Amazon RDS to manage AWS resources on your behalf.
 ## AmazonKinesisFirehoseReadOnlyAccess
 Provides read only access to all Amazon Kinesis Firehose Delivery Streams.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonKinesisFirehoseReadOnlyAccess | / |
 ```
 {
@@ -15713,7 +15713,7 @@ Provides read only access to all Amazon Kinesis Firehose Delivery Streams.
 ## GlobalAcceleratorFullAccess
 Allow GlobalAccelerator Users full Access to all APIs
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/GlobalAcceleratorFullAccess | / |
 ```
 {
@@ -15765,7 +15765,7 @@ Allow GlobalAccelerator Users full Access to all APIs
 ## AmazonDynamoDBFullAccesswithDataPipeline
 This policy is on a deprecation path. See documentation for guidance: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBPipeline.html. Provides full access to Amazon DynamoDB including Export/Import using AWS Data Pipeline via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonDynamoDBFullAccesswithDataPipeline | / |
 ```
 {
@@ -15864,7 +15864,7 @@ This policy is on a deprecation path. See documentation for guidance: https://do
 ## AWSIoTAnalyticsReadOnlyAccess
 Provides read only access to IoT Analytics.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSIoTAnalyticsReadOnlyAccess | / |
 ```
 {
@@ -15893,7 +15893,7 @@ Provides read only access to IoT Analytics.
 ## AmazonEC2RoleforDataPipelineRole
 Default policy for the Amazon EC2 Role for Data Pipeline service role.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AmazonEC2RoleforDataPipelineRole | /service-role/ |
 ```
 {
@@ -15935,7 +15935,7 @@ Default policy for the Amazon EC2 Role for Data Pipeline service role.
 ## CloudWatchLogsFullAccess
 Provides full access to CloudWatch Logs
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/CloudWatchLogsFullAccess | / |
 ```
 {
@@ -15961,7 +15961,7 @@ Provides full access to CloudWatch Logs
 ## AWSSecurityHubFullAccess
 Provides full access to use AWS Security Hub.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSSecurityHubFullAccess | / |
 ```
 {
@@ -15995,7 +15995,7 @@ Provides full access to use AWS Security Hub.
 ## AWSElementalMediaPackageReadOnly
 Provides read only access to AWS Elemental MediaPackage resources
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSElementalMediaPackageReadOnly | / |
 ```
 {
@@ -16020,7 +16020,7 @@ Provides read only access to AWS Elemental MediaPackage resources
 ## AWSElasticBeanstalkMulticontainerDocker
 Provide the instances in your multicontainer Docker environment access to use the Amazon EC2 Container Service to manage container deployment tasks. 
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSElasticBeanstalkMulticontainerDocker | / |
 ```
 {
@@ -16056,7 +16056,7 @@ Provide the instances in your multicontainer Docker environment access to use th
 ## AmazonPersonalizeFullAccess
 Provides full access to Amazon Personalize via the AWS Management Console and SDK. Also provides select access to related services (e.g., S3, CloudWatch).
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AmazonPersonalizeFullAccess | /service-role/ |
 ```
 {
@@ -16115,7 +16115,7 @@ Provides full access to Amazon Personalize via the AWS Management Console and SD
 ## AWSMigrationHubFullAccess
 Managed policy to provide the customer access to the Migration Hub Service
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSMigrationHubFullAccess | / |
 ```
 {
@@ -16181,7 +16181,7 @@ Managed policy to provide the customer access to the Migration Hub Service
 ## AmazonFSxReadOnlyAccess
 Provides read only access to Amazon FSx.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonFSxReadOnlyAccess | / |
 ```
 {
@@ -16208,7 +16208,7 @@ Provides read only access to Amazon FSx.
 ## IAMUserChangePassword
 Provides the ability for an IAM user to change their own password.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/IAMUserChangePassword | / |
 ```
 {
@@ -16243,7 +16243,7 @@ Provides the ability for an IAM user to change their own password.
 ## LightsailExportAccess
 AWS Lightsail service linked role policy which grants permissions to export resources
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/LightsailExportAccess | /aws-service-role/ |
 ```
 {
@@ -16280,7 +16280,7 @@ AWS Lightsail service linked role policy which grants permissions to export reso
 ## AmazonAPIGatewayAdministrator
 Provides full access to create/edit/delete APIs in Amazon API Gateway via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonAPIGatewayAdministrator | / |
 ```
 {
@@ -16306,7 +16306,7 @@ Provides full access to create/edit/delete APIs in Amazon API Gateway via the AW
 ## AmazonVPCCrossAccountNetworkInterfaceOperations
 Provides access to create network interfaces and attach them to cross-account resources
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonVPCCrossAccountNetworkInterfaceOperations | / |
 ```
 {
@@ -16367,7 +16367,7 @@ Provides access to create network interfaces and attach them to cross-account re
 ## AmazonMacieSetupRole
 Provides Macie with access to your AWS account.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AmazonMacieSetupRole | /service-role/ |
 ```
 {
@@ -16432,7 +16432,7 @@ Provides Macie with access to your AWS account.
 ## AmazonPollyReadOnlyAccess
 Grants read-only access to Amazon Polly resources.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonPollyReadOnlyAccess | / |
 ```
 {
@@ -16465,7 +16465,7 @@ Grants read-only access to Amazon Polly resources.
 ## AmazonRDSDataFullAccess
 Allows full access to use the RDS data APIs, secret store APIs for RDS database credentials, and DB console query management APIs to execute SQL statements on Aurora Serverless clusters in the AWS account.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonRDSDataFullAccess | / |
 ```
 {
@@ -16523,7 +16523,7 @@ Allows full access to use the RDS data APIs, secret store APIs for RDS database 
 ## AmazonMobileAnalyticsWriteOnlyAccess
 Provides write only access to put event data for all application resources. (Recommended for SDK integration)
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonMobileAnalyticsWriteOnlyAccess | / |
 ```
 {
@@ -16547,7 +16547,7 @@ Provides write only access to put event data for all application resources. (Rec
 ## AmazonEC2SpotFleetTaggingRole
 Allows EC2 Spot Fleet to request, terminate and tag Spot Instances on your behalf. 
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AmazonEC2SpotFleetTaggingRole | /service-role/ |
 ```
 {
@@ -16614,7 +16614,7 @@ Allows EC2 Spot Fleet to request, terminate and tag Spot Instances on your behal
 ## DataScientist
 Grants permissions to AWS data analytics services.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/job-function/DataScientist | /job-function/ |
 ```
 {
@@ -16785,7 +16785,7 @@ Grants permissions to AWS data analytics services.
 ## AWSMarketplaceMeteringFullAccess
 Provides full access to AWS Marketplace Metering.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSMarketplaceMeteringFullAccess | / |
 ```
 {
@@ -16811,7 +16811,7 @@ Provides full access to AWS Marketplace Metering.
 ## AWSOpsWorksCMServiceRole
 Service Role Policy to be used for Creating OpsWorks CM servers.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSOpsWorksCMServiceRole | /service-role/ |
 ```
 {
@@ -17001,7 +17001,7 @@ Service Role Policy to be used for Creating OpsWorks CM servers.
 ## FSxDeleteServiceLinkedRoleAccess
 Allows Amazon FSx to delete its Service Linked Roles for Amazon S3 access
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/FSxDeleteServiceLinkedRoleAccess | /aws-service-role/ |
 ```
 {
@@ -17029,7 +17029,7 @@ Allows Amazon FSx to delete its Service Linked Roles for Amazon S3 access
 ## WorkLinkServiceRolePolicy
 Enables access to AWS Services and Resources used or managed by Amazon WorkLink
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/WorkLinkServiceRolePolicy | / |
 ```
 {
@@ -17067,7 +17067,7 @@ Enables access to AWS Services and Resources used or managed by Amazon WorkLink
 ## AmazonConnectServiceLinkedRolePolicy
 Allows Amazon Connect to create and manage AWS resources on your behalf.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AmazonConnectServiceLinkedRolePolicy | /aws-service-role/ |
 ```
 {
@@ -17144,7 +17144,7 @@ Allows Amazon Connect to create and manage AWS resources on your behalf.
 ## AWSPrivateMarketplaceAdminFullAccess
 Provides full access to all administrative actions for an AWS Private Marketplace.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSPrivateMarketplaceAdminFullAccess | / |
 ```
 {
@@ -17198,7 +17198,7 @@ Provides full access to all administrative actions for an AWS Private Marketplac
 ## AWSConnector
 Enables broad read/write access to ALL EC2 objects, read/write access to S3 buckets starting with 'import-to-ec2-', and the ability to list all S3 buckets, for the AWS Connector to import VMs on your behalf.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSConnector | / |
 ```
 {
@@ -17291,7 +17291,7 @@ Enables broad read/write access to ALL EC2 objects, read/write access to S3 buck
 ## AWSCodeDeployRoleForECSLimited
  Provides CodeDeploy service limited access to perform an ECS blue/green deployment on your behalf. 
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCodeDeployRoleForECSLimited | / |
 ```
 {
@@ -17376,7 +17376,7 @@ Enables broad read/write access to ALL EC2 objects, read/write access to S3 buck
 ## AmazonElasticTranscoder_JobsSubmitter
 Grants users permission to change presets, submit jobs, and view Elastic Transcoder settings. This policy also grants some read-only access to some other services required to use the Elastic Transcode console, including S3, IAM, and SNS.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonElasticTranscoder_JobsSubmitter | / |
 ```
 {
@@ -17409,7 +17409,7 @@ Grants users permission to change presets, submit jobs, and view Elastic Transco
 ## AmazonMacieHandshakeRole
 Grants permission to create the service-linked role of Amazon Macie.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AmazonMacieHandshakeRole | /service-role/ |
 ```
 {
@@ -17438,7 +17438,7 @@ Grants permission to create the service-linked role of Amazon Macie.
 ## AWSIoTAnalyticsFullAccess
 Provides full access to IoT Analytics.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSIoTAnalyticsFullAccess | / |
 ```
 {
@@ -17464,7 +17464,7 @@ Provides full access to IoT Analytics.
 ## AWSBatchFullAccess
 Provides full access for AWS Batch resources.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSBatchFullAccess | / |
 ```
 {
@@ -17534,7 +17534,7 @@ Provides full access for AWS Batch resources.
 ## AmazonSSMDirectoryServiceAccess
 This policy allows SSM Agent to access Directory Service on behalf of the customer for domain-join the managed instance.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonSSMDirectoryServiceAccess | / |
 ```
 {
@@ -17561,7 +17561,7 @@ This policy allows SSM Agent to access Directory Service on behalf of the custom
 ## AmazonECS_FullAccess
 Provides administrative access to Amazon ECS resources and enables ECS features through access to other AWS service resources, including VPCs, Auto Scaling groups, and CloudFormation stacks.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonECS_FullAccess | / |
 ```
 {
@@ -17786,7 +17786,7 @@ Provides administrative access to Amazon ECS resources and enables ECS features 
 ## AWSSupportServiceRolePolicy
 Allows AWS Support to access AWS resources to provide billing, administrative, and support services.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSSupportServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -19641,7 +19641,7 @@ Allows AWS Support to access AWS resources to provide billing, administrative, a
 ## AWSApplicationAutoscalingRDSClusterPolicy
 Policy granting permissions to Application Auto Scaling to access RDS and CloudWatch.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingRDSClusterPolicy | /aws-service-role/ |
 ```
 {
@@ -19687,7 +19687,7 @@ Policy granting permissions to Application Auto Scaling to access RDS and CloudW
 ## AWSServiceRoleForEC2ScheduledInstances
 Allows EC2 Scheduled Instances to launch and manage spot instances.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForEC2ScheduledInstances | /aws-service-role/ |
 ```
 {
@@ -19734,7 +19734,7 @@ Allows EC2 Scheduled Instances to launch and manage spot instances.
 ## AWSCodeDeployRoleForLambda
 Provides CodeDeploy service access to perform a Lambda deployment on your behalf.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSCodeDeployRoleForLambda | /service-role/ |
 ```
 {
@@ -19792,7 +19792,7 @@ Provides CodeDeploy service access to perform a Lambda deployment on your behalf
 ## AWSFMAdminReadOnlyAccess
 Read only access for AWS FM Administrator that allows monitoring AWS FM operations
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSFMAdminReadOnlyAccess | / |
 ```
 {
@@ -19824,7 +19824,7 @@ Read only access for AWS FM Administrator that allows monitoring AWS FM operatio
 ## AmazonSSMFullAccess
 Provides full access to Amazon SSM.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonSSMFullAccess | / |
 ```
 {
@@ -19884,7 +19884,7 @@ Provides full access to Amazon SSM.
 ## AWSCodeCommitReadOnly
 Provides read only access to AWS CodeCommit via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCodeCommitReadOnly | / |
 ```
 {
@@ -20006,7 +20006,7 @@ Provides read only access to AWS CodeCommit via the AWS Management Console.
 ## AmazonFreeRTOSFullAccess
 Full Access Policy for Amazon FreeRTOS
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonFreeRTOSFullAccess | / |
 ```
 {
@@ -20032,7 +20032,7 @@ Full Access Policy for Amazon FreeRTOS
 ## AmazonTextractServiceRole
 Allows Textract to call AWS services on your behalf.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AmazonTextractServiceRole | /service-role/ |
 ```
 {
@@ -20058,7 +20058,7 @@ Allows Textract to call AWS services on your behalf.
 ## AmazonCognitoReadOnly
 Provides read only access to Amazon Cognito resources.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonCognitoReadOnly | / |
 ```
 {
@@ -20097,7 +20097,7 @@ Provides read only access to Amazon Cognito resources.
 ## AmazonDMSCloudWatchLogsRole
 Provides access to upload DMS replication logs to cloudwatch logs in customer account.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AmazonDMSCloudWatchLogsRole | /service-role/ |
 ```
 {
@@ -20166,7 +20166,7 @@ Provides access to upload DMS replication logs to cloudwatch logs in customer ac
 ## AWSApplicationDiscoveryServiceFullAccess
 Provides full access to view and tag Configuration Items maintained by the AWS Application Discovery Service 
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSApplicationDiscoveryServiceFullAccess | / |
 ```
 {
@@ -20232,7 +20232,7 @@ Provides full access to view and tag Configuration Items maintained by the AWS A
 ## AmazonRoute53AutoNamingReadOnlyAccess
 Provides read-only access to all Route 53 Auto Naming actions.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonRoute53AutoNamingReadOnlyAccess | / |
 ```
 {
@@ -20261,7 +20261,7 @@ Provides read-only access to all Route 53 Auto Naming actions.
 ## AWSSSOReadOnly
 Provides read only access to AWS SSO configurations.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSSSOReadOnly | / |
 ```
 {
@@ -20303,7 +20303,7 @@ Provides read only access to AWS SSO configurations.
 ## AmazonVPCFullAccess
 Provides full access to Amazon VPC via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonVPCFullAccess | / |
 ```
 {
@@ -20469,7 +20469,7 @@ Provides full access to Amazon VPC via the AWS Management Console.
 ## AWSCertificateManagerPrivateCAUser
 Provides certificate user access to AWS Certificate Manager Private Certificate Authority
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCertificateManagerPrivateCAUser | / |
 ```
 {
@@ -20532,7 +20532,7 @@ Provides certificate user access to AWS Certificate Manager Private Certificate 
 ## AWSAppSyncAdministrator
 Provides administrative access to the AppSync service, though not enough to access via the console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSAppSyncAdministrator | / |
 ```
 {
@@ -20590,7 +20590,7 @@ Provides administrative access to the AppSync service, though not enough to acce
 ## AWSEC2FleetServiceRolePolicy
 Allows EC2 Fleet to launch and manage instances.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSEC2FleetServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -20688,7 +20688,7 @@ Allows EC2 Fleet to launch and manage instances.
 ## AmazonRoute53AutoNamingFullAccess
 Provides full access to all Route 53 Auto Naming actions.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonRoute53AutoNamingFullAccess | / |
 ```
 {
@@ -20727,7 +20727,7 @@ Provides full access to all Route 53 Auto Naming actions.
 ## AWSImportExportFullAccess
 Provides read and write access to the jobs created under the AWS account.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSImportExportFullAccess | / |
 ```
 {
@@ -20753,7 +20753,7 @@ Provides read and write access to the jobs created under the AWS account.
 ## DynamoDBReplicationServiceRolePolicy
 Permissions required by DynamoDB for cross-region data replication
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/DynamoDBReplicationServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -20809,7 +20809,7 @@ Permissions required by DynamoDB for cross-region data replication
 ## AmazonMechanicalTurkFullAccess
 Provides full access to all APIs in Amazon Mechanical Turk.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonMechanicalTurkFullAccess | / |
 ```
 {
@@ -20837,7 +20837,7 @@ Provides full access to all APIs in Amazon Mechanical Turk.
 ## AmazonEC2ContainerRegistryPowerUser
 Provides full access to Amazon EC2 Container Registry repositories, but does not allow repository deletion or policy changes.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryPowerUser | / |
 ```
 {
@@ -20878,7 +20878,7 @@ Provides full access to Amazon EC2 Container Registry repositories, but does not
 ## AWSSSODirectoryReadOnly
 ReadOnly access for SSO Directory
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSSSODirectoryReadOnly | / |
 ```
 {
@@ -20908,7 +20908,7 @@ ReadOnly access for SSO Directory
 ## AmazonMachineLearningCreateOnlyAccess
 Provides create access for non-prediction Amazon Machine Learning resources.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonMachineLearningCreateOnlyAccess | / |
 ```
 {
@@ -20938,7 +20938,7 @@ Provides create access for non-prediction Amazon Machine Learning resources.
 ## AmazonKinesisVideoStreamsReadOnlyAccess
 Provides read only access to AWS Kinesis Video Streams via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonKinesisVideoStreamsReadOnlyAccess | / |
 ```
 {
@@ -20966,7 +20966,7 @@ Provides read only access to AWS Kinesis Video Streams via the AWS Management Co
 ## AWSCloudTrailReadOnlyAccess
 Provides read only access to AWS CloudTrail.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCloudTrailReadOnlyAccess | / |
 ```
 {
@@ -21011,7 +21011,7 @@ Provides read only access to AWS CloudTrail.
 ## WAFRegionalLoggingServiceRolePolicy
 Creating SLR to write customer's logs to a firehose stream
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/WAFRegionalLoggingServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -21040,7 +21040,7 @@ Creating SLR to write customer's logs to a firehose stream
 ## AWSLambdaExecute
 Provides Put, Get access to S3 and full access to CloudWatch Logs.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSLambdaExecute | / |
 ```
 {
@@ -21074,7 +21074,7 @@ Provides Put, Get access to S3 and full access to CloudWatch Logs.
 ## AWSGlueConsoleSageMakerNotebookFullAccess
 Provides full access to AWS Glue via the AWS Management Console and access to sagemaker notebook instances.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSGlueConsoleSageMakerNotebookFullAccess | / |
 ```
 {
@@ -21307,7 +21307,7 @@ Provides full access to AWS Glue via the AWS Management Console and access to sa
 ## AmazonMSKFullAccess
 Provide full access to Amazon MSK and other required permissions for its dependencies.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonMSKFullAccess | / |
 ```
 {
@@ -21376,7 +21376,7 @@ Provide full access to Amazon MSK and other required permissions for its depende
 ## AWSIoTRuleActions
 Allows access to all AWS services supported in AWS IoT Rule Actions
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSIoTRuleActions | /service-role/ |
 ```
 {
@@ -21409,7 +21409,7 @@ Allows access to all AWS services supported in AWS IoT Rule Actions
 ## AmazonEKSServicePolicy
 This policy allows Amazon Elastic Container Service for Kubernetes to create and manage the necessary resources to operate EKS Clusters.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonEKSServicePolicy | / |
 ```
 {
@@ -21490,7 +21490,7 @@ This policy allows Amazon Elastic Container Service for Kubernetes to create and
 ## AWSQuickSightDescribeRedshift
 Allow QuickSight to describe Redshift resources
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSQuickSightDescribeRedshift | /service-role/ |
 ```
 {
@@ -21516,7 +21516,7 @@ Allow QuickSight to describe Redshift resources
 ## AmazonElasticsearchServiceRolePolicy
 Allow Amazon Elasticsearch Service to access other AWS services such as EC2 Networking APIs on your behalf.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AmazonElasticsearchServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -21551,7 +21551,7 @@ Allow Amazon Elasticsearch Service to access other AWS services such as EC2 Netw
 ## AmazonMQReadOnlyAccess
 Provides read only access to AmazonMQ via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonMQReadOnlyAccess | / |
 ```
 {
@@ -21582,7 +21582,7 @@ Provides read only access to AmazonMQ via the AWS Management Console.
 ## VMImportExportRoleForAWSConnector
 Default policy for the VM Import/Export service role, for customers using the AWS Connector. The VM Import/Export service assumes a role with this policy to fulfill virtual machine migration requests from the AWS Connector virtual appliance. (Note that the AWS Connector uses the "AWSConnector" managed policy to issue requests on the customer's behalf to the VM Import/Export service.) Provides the ability to create AMIs and EBS snapshots, modify EBS snapshot attributes, make "Describe*" calls on EC2 objects, and read from S3 buckets starting with 'import-to-ec2-'.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/VMImportExportRoleForAWSConnector | /service-role/ |
 ```
 {
@@ -21622,7 +21622,7 @@ Default policy for the VM Import/Export service role, for customers using the AW
 ## AWSCodePipelineCustomActionAccess
 Provides access for custom actions to poll for jobs details (including temporary credentials) and report status updates to AWS CodePipeline.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCodePipelineCustomActionAccess | / |
 ```
 {
@@ -21652,7 +21652,7 @@ Provides access for custom actions to poll for jobs details (including temporary
 ## AWSLambdaSQSQueueExecutionRole
 Provides receive message, delete message, and read attribute access to SQS queues, and write permissions to CloudWatch logs.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSLambdaSQSQueueExecutionRole | /service-role/ |
 ```
 {
@@ -21683,7 +21683,7 @@ Provides receive message, delete message, and read attribute access to SQS queue
 ## AWSCloud9ServiceRolePolicy
 Service Linked Role Policy for AWS Cloud9
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSCloud9ServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -21787,7 +21787,7 @@ Service Linked Role Policy for AWS Cloud9
 ## AWSApplicationAutoscalingECSServicePolicy
 Policy granting permissions to Application Auto Scaling to access EC2 Container Service and CloudWatch.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingECSServicePolicy | /aws-service-role/ |
 ```
 {
@@ -21819,7 +21819,7 @@ Policy granting permissions to Application Auto Scaling to access EC2 Container 
 ## AWSOpsWorksInstanceRegistration
 Provides access for an Amazon EC2 instance to register with an AWS OpsWorks stack.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSOpsWorksInstanceRegistration | / |
 ```
 {
@@ -21849,7 +21849,7 @@ Provides access for an Amazon EC2 instance to register with an AWS OpsWorks stac
 ## AmazonCloudDirectoryFullAccess
 Provides full access to Amazon Cloud Directory Service. 
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonCloudDirectoryFullAccess | / |
 ```
 {
@@ -21877,7 +21877,7 @@ Provides full access to Amazon Cloud Directory Service.
 ## AmazonECSTaskExecutionRolePolicy
 Provides access to other AWS service resources that are required to run Amazon ECS tasks
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AmazonECSTaskExecutionRolePolicy | /service-role/ |
 ```
 {
@@ -21908,7 +21908,7 @@ Provides access to other AWS service resources that are required to run Amazon E
 ## AWSStorageGatewayFullAccess
 Provides full access to AWS Storage Gateway via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSStorageGatewayFullAccess | / |
 ```
 {
@@ -21942,7 +21942,7 @@ Provides full access to AWS Storage Gateway via the AWS Management Console.
 ## AWSIoTEventsFullAccess
 Provides full access to IoT Events. 
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSIoTEventsFullAccess | / |
 ```
 {
@@ -21968,7 +21968,7 @@ Provides full access to IoT Events.
 ## AmazonLexReadOnly
 Provides read-only access to Amazon Lex.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonLexReadOnly | / |
 ```
 {
@@ -22010,7 +22010,7 @@ Provides read-only access to Amazon Lex.
 ## AmazonChimeUserManagement
 Provides user management access to Amazon Chime Admin Console via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonChimeUserManagement | / |
 ```
 {
@@ -22073,7 +22073,7 @@ Provides user management access to Amazon Chime Admin Console via the AWS Manage
 ## AmazonMSKReadOnlyAccess
 Provide readonly access to Amazon MSK
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonMSKReadOnlyAccess | / |
 ```
 {
@@ -22106,7 +22106,7 @@ Provide readonly access to Amazon MSK
 ## AWSDataSyncFullAccess
 Provides full access to AWS DataSync and minimal access to its dependencies
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSDataSyncFullAccess | / |
 ```
 {
@@ -22163,7 +22163,7 @@ Provides full access to AWS DataSync and minimal access to its dependencies
 ## AWSServiceRoleForIoTSiteWise
 Allows AWS IoT SiteWise to provision and manage gateways as well as query data. The policy includes required AWS Greengrass permissions for deploying to groups, AWS Lambda permissions for creating and updating service-prefixed functions, and AWS IoT Analytics permissions for querying data from datastores.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForIoTSiteWise | /aws-service-role/ |
 ```
 {
@@ -22210,7 +22210,7 @@ Allows AWS IoT SiteWise to provision and manage gateways as well as query data. 
 ## CloudwatchApplicationInsightsServiceLinkedRolePolicy
 Cloudwatch Application Insights Service Linked Role Policy
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/CloudwatchApplicationInsightsServiceLinkedRolePolicy | /aws-service-role/ |
 ```
 {
@@ -22533,7 +22533,7 @@ Cloudwatch Application Insights Service Linked Role Policy
 ## AWSTrustedAdvisorServiceRolePolicy
 Access for the AWS Trusted Advisor Service to help reduce cost, increase performance, and improve security of your AWS environment.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSTrustedAdvisorServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -22637,7 +22637,7 @@ Access for the AWS Trusted Advisor Service to help reduce cost, increase perform
 ## AWSIoTConfigReadOnlyAccess
 This policy gives read only access to the AWS IoT configuration actions
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSIoTConfigReadOnlyAccess | / |
 ```
 {
@@ -22732,7 +22732,7 @@ This policy gives read only access to the AWS IoT configuration actions
 ## AmazonWorkMailReadOnlyAccess
 Provides read only access to WorkMail and SES.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonWorkMailReadOnlyAccess | / |
 ```
 {
@@ -22767,7 +22767,7 @@ Provides read only access to WorkMail and SES.
 ## AmazonDMSVPCManagementRole
 Provides access to manage VPC settings for AWS managed customer configurations
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AmazonDMSVPCManagementRole | /service-role/ |
 ```
 {
@@ -22800,7 +22800,7 @@ Provides access to manage VPC settings for AWS managed customer configurations
 ## AWSLambdaKinesisExecutionRole
 Provides list and read access to Kinesis streams and write permissions to CloudWatch logs.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSLambdaKinesisExecutionRole | /service-role/ |
 ```
 {
@@ -22835,7 +22835,7 @@ Provides list and read access to Kinesis streams and write permissions to CloudW
 ## ComprehendDataAccessRolePolicy
 Policy for AWS Comprehend service role which allows access to S3 resources for data access
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/ComprehendDataAccessRolePolicy | /service-role/ |
 ```
 {
@@ -22864,7 +22864,7 @@ Policy for AWS Comprehend service role which allows access to S3 resources for d
 ## AmazonDocDBConsoleFullAccess
 Provides full access to manage Amazon DocumentDB with MongoDB compatibility using the AWS Management Console. Note this policy also grants full access to publish on all SNS topics within the account, permissions to create and edit Amazon EC2 instances and VPC configurations, permissions to view and list keys on Amazon KMS, and full access to Amazon RDS and Amazon Neptune.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonDocDBConsoleFullAccess | / |
 ```
 {
@@ -23026,7 +23026,7 @@ Provides full access to manage Amazon DocumentDB with MongoDB compatibility usin
 ## ResourceGroupsandTagEditorReadOnlyAccess
 Provides access to use Resource Groups and Tag Editor, but does not allow editing of tags via the Tag Editor.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/ResourceGroupsandTagEditorReadOnlyAccess | / |
 ```
 {
@@ -23059,7 +23059,7 @@ Provides access to use Resource Groups and Tag Editor, but does not allow editin
 ## AmazonRekognitionServiceRole
 Allows Rekognition to call AWS services on your behalf.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AmazonRekognitionServiceRole | /service-role/ |
 ```
 {
@@ -23101,7 +23101,7 @@ Allows Rekognition to call AWS services on your behalf.
 ## AmazonSSMAutomationRole
 Provides permissions for EC2 Automation service to execute activities defined within Automation documents
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AmazonSSMAutomationRole | /service-role/ |
 ```
 {
@@ -23173,7 +23173,7 @@ Provides permissions for EC2 Automation service to execute activities defined wi
 ## CloudHSMServiceRolePolicy
 Enables access to AWS resources used or managed by CloudHSM
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/CloudHSMServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -23204,7 +23204,7 @@ Enables access to AWS resources used or managed by CloudHSM
 ## ComprehendReadOnly
 Provides read-only access to Amazon Comprehend.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/ComprehendReadOnly | / |
 ```
 {
@@ -23263,7 +23263,7 @@ Provides read-only access to Amazon Comprehend.
 ## AWSStepFunctionsConsoleFullAccess
 An access policy for providing a user/role/etc access to the AWS StepFunctions console. For a full console experience, in addition to this policy, a user may need iam:PassRole permission on other IAM roles that can be assumed by the service.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSStepFunctionsConsoleFullAccess | / |
 ```
 {
@@ -23302,7 +23302,7 @@ An access policy for providing a user/role/etc access to the AWS StepFunctions c
 ## AWSQuickSightIoTAnalyticsAccess
 Give QuickSight read-only access to IoT Analytics datasets
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSQuickSightIoTAnalyticsAccess | / |
 ```
 {
@@ -23330,7 +23330,7 @@ Give QuickSight read-only access to IoT Analytics datasets
 ## AWSCodeBuildReadOnlyAccess
 Provides read only access to AWS CodeBuild via the AWS Management Console. Also attach AmazonS3ReadOnlyAccess to provide access to download build artifacts.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCodeBuildReadOnlyAccess | / |
 ```
 {
@@ -23400,7 +23400,7 @@ Provides read only access to AWS CodeBuild via the AWS Management Console. Also 
 ## LexBotPolicy
 Policy for AWS Lex Bot use case
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/LexBotPolicy | /aws-service-role/ |
 ```
 {
@@ -23437,7 +23437,7 @@ Policy for AWS Lex Bot use case
 ## AmazonMacieFullAccess
 Provides full access to Amazon Macie.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonMacieFullAccess | / |
 ```
 {
@@ -23474,7 +23474,7 @@ Provides full access to Amazon Macie.
 ## AmazonMachineLearningManageRealTimeEndpointOnlyAccess
 Grants users permission to create and delete the real-time endpoint for Amazon Machine Learning models.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonMachineLearningManageRealTimeEndpointOnlyAccess | / |
 ```
 {
@@ -23501,7 +23501,7 @@ Grants users permission to create and delete the real-time endpoint for Amazon M
 ## CloudWatchEventsInvocationAccess
 Allows Amazon CloudWatch Events to relay events to the streams in AWS Kinesis Streams in your account.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/CloudWatchEventsInvocationAccess | /service-role/ |
 ```
 {
@@ -23528,7 +23528,7 @@ Allows Amazon CloudWatch Events to relay events to the streams in AWS Kinesis St
 ## CloudFrontReadOnlyAccess
 Provides access to CloudFront distribution configuration information and list distributions via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/CloudFrontReadOnlyAccess | / |
 ```
 {
@@ -23562,7 +23562,7 @@ Provides access to CloudFront distribution configuration information and list di
 ## AWSDeepLensServiceRolePolicy
 Grants AWS DeepLens access to AWS Services, resources and roles needed by DeepLens and its dependencies including IoT, S3, GreenGrass and AWS Lambda.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSDeepLensServiceRolePolicy | /service-role/ |
 ```
 {
@@ -23881,7 +23881,7 @@ Grants AWS DeepLens access to AWS Services, resources and roles needed by DeepLe
 ## AmazonSNSRole
 Default policy for Amazon SNS service role.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AmazonSNSRole | /service-role/ |
 ```
 {
@@ -23913,7 +23913,7 @@ Default policy for Amazon SNS service role.
 ## AmazonInspectorServiceRolePolicy
 Grants Amazon Inspector access to AWS Services needed to perform security assessments
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AmazonInspectorServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -23980,7 +23980,7 @@ Grants Amazon Inspector access to AWS Services needed to perform security assess
 ## AmazonMobileAnalyticsFinancialReportAccess
 Provides read only access to all reports including financial data for all application resources.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonMobileAnalyticsFinancialReportAccess | / |
 ```
 {
@@ -24007,7 +24007,7 @@ Provides read only access to all reports including financial data for all applic
 ## AWSElasticBeanstalkService
 This policy is on a deprecation path. See documentation for guidance: https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/iam-servicerole.html. AWS Elastic Beanstalk Service role policy which grants permissions to create & manage resources (i.e.: AutoScaling, EC2, S3, CloudFormation, ELB, etc.) on your behalf.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkService | /service-role/ |
 ```
 {
@@ -24171,7 +24171,7 @@ This policy is on a deprecation path. See documentation for guidance: https://do
 ## IAMReadOnlyAccess
 Provides read only access to IAM via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/IAMReadOnlyAccess | / |
 ```
 {
@@ -24202,7 +24202,7 @@ Provides read only access to IAM via the AWS Management Console.
 ## AmazonRDSReadOnlyAccess
 Provides read only access to Amazon RDS via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonRDSReadOnlyAccess | / |
 ```
 {
@@ -24245,7 +24245,7 @@ Provides read only access to Amazon RDS via the AWS Management Console.
 ## AWSIoTDeviceDefenderAudit
 Provides read access for IoT and related resources
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderAudit | /service-role/ |
 ```
 {
@@ -24292,7 +24292,7 @@ Provides read access for IoT and related resources
 ## AmazonCognitoPowerUser
 Provides administrative access to existing Amazon Cognito resources. You will need AWS account admin privileges to create new Cognito resources.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonCognitoPowerUser | / |
 ```
 {
@@ -24358,7 +24358,7 @@ Provides administrative access to existing Amazon Cognito resources. You will ne
 ## AmazonRoute53AutoNamingRegistrantAccess
 Provides registrant level access to Route 53 Auto Naming actions.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonRoute53AutoNamingRegistrantAccess | / |
 ```
 {
@@ -24396,7 +24396,7 @@ Provides registrant level access to Route 53 Auto Naming actions.
 ## AmazonElasticFileSystemFullAccess
 Provides full access to Amazon EFS via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonElasticFileSystemFullAccess | / |
 ```
 {
@@ -24476,7 +24476,7 @@ Provides full access to Amazon EFS via the AWS Management Console.
 ## LexChannelPolicy
 Policy for AWS Lex Channel use case
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/LexChannelPolicy | /aws-service-role/ |
 ```
 {
@@ -24502,7 +24502,7 @@ Policy for AWS Lex Channel use case
 ## ServerMigrationConnector
 Permissions to allow the AWS Server Migration Connector to migrate VMs to EC2. Allows communication with the AWS Server Migration Service, read/write access to S3 buckets starting with 'sms-b-' and 'import-to-ec2-' as well as the buckets used for AWS Server Migration Connector upgrade, AWS Server Migration Connector registration with AWS, and metrics upload to AWS.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/ServerMigrationConnector | / |
 ```
 {
@@ -24575,7 +24575,7 @@ Permissions to allow the AWS Server Migration Connector to migrate VMs to EC2. A
 ## AmazonESCognitoAccess
 Provides limited access to the Amazon Cognito configuration service.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonESCognitoAccess | / |
 ```
 {
@@ -24621,7 +24621,7 @@ Provides limited access to the Amazon Cognito configuration service.
 ## AWSFMAdminFullAccess
 Full access for AWS FM Administrator
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSFMAdminFullAccess | / |
 ```
 {
@@ -24651,7 +24651,7 @@ Full access for AWS FM Administrator
 ## AmazonChimeReadOnly
 Provides read only access to Amazon Chime Admin Console via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonChimeReadOnly | / |
 ```
 {
@@ -24680,7 +24680,7 @@ Provides read only access to Amazon Chime Admin Console via the AWS Management C
 ## AmazonZocaloFullAccess
 Provides full access to Amazon Zocalo.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonZocaloFullAccess | / |
 ```
 {
@@ -24722,7 +24722,7 @@ Provides full access to Amazon Zocalo.
 ## AWSIoTSiteWiseReadOnlyAccess
 Provides read only access to IoT SiteWise.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSIoTSiteWiseReadOnlyAccess | / |
 ```
 {
@@ -24750,7 +24750,7 @@ Provides read only access to IoT SiteWise.
 ## AWSAccountUsageReportAccess
 Allows users to access the Account Usage Report page.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSAccountUsageReportAccess | / |
 ```
 {
@@ -24776,7 +24776,7 @@ Allows users to access the Account Usage Report page.
 ## AWSIoTOTAUpdate
 Allows access to create AWS IoT Job and describe the AWS code signer job
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSIoTOTAUpdate | /service-role/ |
 ```
 {
@@ -24801,7 +24801,7 @@ Allows access to create AWS IoT Job and describe the AWS code signer job
 ## AmazonMQFullAccess
 Provides full access to AmazonMQ via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonMQFullAccess | / |
 ```
 {
@@ -24861,7 +24861,7 @@ Provides full access to AmazonMQ via the AWS Management Console.
 ## AWSMarketplaceGetEntitlements
 Provides read access to AWS Marketplace Entitlements
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSMarketplaceGetEntitlements | / |
 ```
 {
@@ -24887,7 +24887,7 @@ Provides read access to AWS Marketplace Entitlements
 ## AWSGreengrassReadOnlyAccess
 This policy gives read only access to the AWS Greengrass configuration, management and deployment actions
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSGreengrassReadOnlyAccess | / |
 ```
 {
@@ -24914,7 +24914,7 @@ This policy gives read only access to the AWS Greengrass configuration, manageme
 ## AmazonEC2ContainerServiceforEC2Role
 Default policy for the Amazon EC2 Role for Amazon EC2 Container Service.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AmazonEC2ContainerServiceforEC2Role | /service-role/ |
 ```
 {
@@ -24954,7 +24954,7 @@ Default policy for the Amazon EC2 Role for Amazon EC2 Container Service.
 ## AmazonAppStreamFullAccess
 Provides full access to Amazon AppStream via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonAppStreamFullAccess | / |
 ```
 {
@@ -25040,7 +25040,7 @@ Provides full access to Amazon AppStream via the AWS Management Console.
 ## AWSIoTDataAccess
 This policy gives full access to the AWS IoT messaging actions
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSIoTDataAccess | / |
 ```
 {
@@ -25072,7 +25072,7 @@ This policy gives full access to the AWS IoT messaging actions
 ## AmazonWorkLinkFullAccess
 Grants full access to Amazon WorkLink resources
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonWorkLinkFullAccess | / |
 ```
 {
@@ -25098,7 +25098,7 @@ Grants full access to Amazon WorkLink resources
 ## AmazonTranscribeReadOnlyAccess
 Provides access to read only operation for Amazon Transcribe
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonTranscribeReadOnlyAccess | / |
 ```
 {
@@ -25125,7 +25125,7 @@ Provides access to read only operation for Amazon Transcribe
 ## AmazonESFullAccess
 Provides full access to the Amazon ES configuration service.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonESFullAccess | / |
 ```
 {
@@ -25151,7 +25151,7 @@ Provides full access to the Amazon ES configuration service.
 ## ApplicationDiscoveryServiceContinuousExportServiceRolePolicy
 Enables access to AWS Services and Resources used or managed by Application Discovery Service Continuous Export feature
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/ApplicationDiscoveryServiceContinuousExportServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -25242,7 +25242,7 @@ Enables access to AWS Services and Resources used or managed by Application Disc
 ## AmazonSumerianFullAccess
 Provides full access to Amazon Sumerian.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonSumerianFullAccess | / |
 ```
 {
@@ -25268,7 +25268,7 @@ Provides full access to Amazon Sumerian.
 ## AWSWAFFullAccess
 Provides full access to AWS WAF actions.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSWAFFullAccess | / |
 ```
 {
@@ -25299,7 +25299,7 @@ Provides full access to AWS WAF actions.
 ## ElasticLoadBalancingReadOnly
 Provides read only access to Amazon ElasticLoadBalancing and dependent services
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/ElasticLoadBalancingReadOnly | / |
 ```
 {
@@ -25332,7 +25332,7 @@ Provides read only access to Amazon ElasticLoadBalancing and dependent services
 ## AWSArtifactAccountSync
 Allows AWS Artifact read-only access to operations in AWS Organizations.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSArtifactAccountSync | /service-role/ |
 ```
 {
@@ -25359,7 +25359,7 @@ Allows AWS Artifact read-only access to operations in AWS Organizations.
 ## AmazonKinesisFirehoseFullAccess
 Provides full access to all Amazon Kinesis Firehose Delivery Streams.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonKinesisFirehoseFullAccess | / |
 ```
 {
@@ -25385,7 +25385,7 @@ Provides full access to all Amazon Kinesis Firehose Delivery Streams.
 ## CloudWatchReadOnlyAccess
 Provides read only access to CloudWatch.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/CloudWatchReadOnlyAccess | / |
 ```
 {
@@ -25423,7 +25423,7 @@ Provides read only access to CloudWatch.
 ## AWSLambdaBasicExecutionRole
 Provides write permissions to CloudWatch Logs.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole | /service-role/ |
 ```
 {
@@ -25451,7 +25451,7 @@ Provides write permissions to CloudWatch Logs.
 ## ResourceGroupsandTagEditorFullAccess
 Provides full access to Resource Groups and Tag Editor.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/ResourceGroupsandTagEditorFullAccess | / |
 ```
 {
@@ -25484,7 +25484,7 @@ Provides full access to Resource Groups and Tag Editor.
 ## AWSKeyManagementServicePowerUser
 Provides access to AWS Key Management Service (KMS).
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSKeyManagementServicePowerUser | / |
 ```
 {
@@ -25521,7 +25521,7 @@ Provides access to AWS Key Management Service (KMS).
 ## AWSApplicationAutoscalingEC2SpotFleetRequestPolicy
 Policy granting permissions to Application Auto Scaling to access EC2 Spot Fleet and CloudWatch.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingEC2SpotFleetRequestPolicy | /aws-service-role/ |
 ```
 {
@@ -25553,7 +25553,7 @@ Policy granting permissions to Application Auto Scaling to access EC2 Spot Fleet
 ## AWSImportExportReadOnlyAccess
 Provides read only access to the jobs created under the AWS account.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSImportExportReadOnlyAccess | / |
 ```
 {
@@ -25580,7 +25580,7 @@ Provides read only access to the jobs created under the AWS account.
 ## CloudWatchEventsServiceRolePolicy
 Allow AWS CloudWatch to execute actions on your behalf configured through alarms and events.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/CloudWatchEventsServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -25615,7 +25615,7 @@ Allow AWS CloudWatch to execute actions on your behalf configured through alarms
 ## AmazonElasticTranscoderRole
 Default policy for the Amazon Elastic Transcoder service role.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AmazonElasticTranscoderRole | /service-role/ |
 ```
 {
@@ -25658,7 +25658,7 @@ Default policy for the Amazon Elastic Transcoder service role.
 ## AWSGlueConsoleFullAccess
 Provides full access to AWS Glue via the AWS Management Console
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSGlueConsoleFullAccess | / |
 ```
 {
@@ -25843,7 +25843,7 @@ Provides full access to AWS Glue via the AWS Management Console
 ## AmazonEC2ContainerServiceRole
 Default policy for Amazon ECS service role.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AmazonEC2ContainerServiceRole | /service-role/ |
 ```
 {
@@ -25875,7 +25875,7 @@ Default policy for Amazon ECS service role.
 ## AWSDeviceFarmFullAccess
 Provides full access to all AWS Device Farm operations.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSDeviceFarmFullAccess | / |
 ```
 {
@@ -25901,7 +25901,7 @@ Provides full access to all AWS Device Farm operations.
 ## AmazonSSMReadOnlyAccess
 Provides read only access to Amazon SSM.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonSSMReadOnlyAccess | / |
 ```
 {
@@ -25929,7 +25929,7 @@ Provides read only access to Amazon SSM.
 ## AWSStepFunctionsReadOnlyAccess
 An access policy for providing a user/role/etc read only access to the AWS StepFunctions service.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSStepFunctionsReadOnlyAccess | / |
 ```
 {
@@ -25962,7 +25962,7 @@ An access policy for providing a user/role/etc read only access to the AWS StepF
 ## AWSMarketplaceRead-only
 Provides the ability to review AWS Marketplace subscriptions
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSMarketplaceRead-only | / |
 ```
 {
@@ -26016,7 +26016,7 @@ Provides the ability to review AWS Marketplace subscriptions
 ## AWSApplicationAutoscalingDynamoDBTablePolicy
 Policy granting permissions to Application Auto Scaling to access DynamoDB and CloudWatch.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingDynamoDBTablePolicy | /aws-service-role/ |
 ```
 {
@@ -26046,7 +26046,7 @@ Policy granting permissions to Application Auto Scaling to access DynamoDB and C
 ## AWSCodePipelineFullAccess
 Provides full access to AWS CodePipeline via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCodePipelineFullAccess | / |
 ```
 {
@@ -26216,7 +26216,7 @@ Provides full access to AWS CodePipeline via the AWS Management Console.
 ## AWSCloud9User
 Provides permission to create AWS Cloud9 development environments and to manage owned environments.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCloud9User | / |
 ```
 {
@@ -26322,7 +26322,7 @@ Provides permission to create AWS Cloud9 development environments and to manage 
 ## AWSGreengrassResourceAccessRolePolicy
 Policy for AWS Greengrass service role which allows access to related services including AWS Lambda and AWS IoT thing shadows.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSGreengrassResourceAccessRolePolicy | /service-role/ |
 ```
 {
@@ -26430,7 +26430,7 @@ Policy for AWS Greengrass service role which allows access to related services i
 ## AmazonMacieServiceRolePolicy
 Service linked role for Amazon Macie
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AmazonMacieServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -26532,7 +26532,7 @@ Service linked role for Amazon Macie
 ## NetworkAdministrator
 Grants full access permissions to AWS services and actions required to set up and configure AWS network resources.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/job-function/NetworkAdministrator | /job-function/ |
 ```
 {
@@ -26805,7 +26805,7 @@ Grants full access permissions to AWS services and actions required to set up an
 ## AWSIoT1ClickFullAccess
 Provides full access to AWS IoT 1-Click.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSIoT1ClickFullAccess | / |
 ```
 {
@@ -26831,7 +26831,7 @@ Provides full access to AWS IoT 1-Click.
 ## AmazonWorkSpacesApplicationManagerAdminAccess
 Provides administrator access for packaging an application in Amazon WorkSpaces Application Manager.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonWorkSpacesApplicationManagerAdminAccess | / |
 ```
 {
@@ -26855,7 +26855,7 @@ Provides administrator access for packaging an application in Amazon WorkSpaces 
 ## AmazonDRSVPCManagement
 Provides access to manage VPC settings for Amazon managed customer configurations
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonDRSVPCManagement | / |
 ```
 {
@@ -26893,7 +26893,7 @@ Provides access to manage VPC settings for Amazon managed customer configuration
 ## AmazonRedshiftServiceLinkedRolePolicy
 Allows Amazon Redshift to call AWS services on your behalf
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AmazonRedshiftServiceLinkedRolePolicy | /aws-service-role/ |
 ```
 {
@@ -26931,7 +26931,7 @@ Allows Amazon Redshift to call AWS services on your behalf
 ## AWSCertificateManagerPrivateCAReadOnly
 Provides read only access to AWS Certificate Manager Private Certificate Authority
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCertificateManagerPrivateCAReadOnly | / |
 ```
 {
@@ -26963,7 +26963,7 @@ Provides read only access to AWS Certificate Manager Private Certificate Authori
 ## AWSXrayFullAccess
 AWS X-Ray full access managed policy
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSXrayFullAccess | / |
 ```
 {
@@ -26991,7 +26991,7 @@ AWS X-Ray full access managed policy
 ## AWSElasticBeanstalkWorkerTier
 Provide the instances in your worker environment access to upload log files to Amazon S3, to use Amazon SQS to monitor your application's job queue, to use Amazon DynamoDB to perform leader election, and to Amazon CloudWatch to publish metrics for health monitoring. 
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSElasticBeanstalkWorkerTier | / |
 ```
 {
@@ -27093,7 +27093,7 @@ Provide the instances in your worker environment access to upload log files to A
 ## AWSDirectConnectFullAccess
 Provides full access to AWS Direct Connect via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSDirectConnectFullAccess | / |
 ```
 {
@@ -27121,7 +27121,7 @@ Provides full access to AWS Direct Connect via the AWS Management Console.
 ## AWSCodeBuildAdminAccess
 Provides full access to AWS CodeBuild via the AWS Management Console. Also attach AmazonS3ReadOnlyAccess to provide access to download build artifacts, and attach IAMFullAccess to create and manage the service role for CodeBuild.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCodeBuildAdminAccess | / |
 ```
 {
@@ -27268,7 +27268,7 @@ Provides full access to AWS CodeBuild via the AWS Management Console. Also attac
 ## AmazonKinesisAnalyticsFullAccess
 Provides full access to Amazon Kinesis Analytics via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonKinesisAnalyticsFullAccess | / |
 ```
 {
@@ -27338,7 +27338,7 @@ Provides full access to Amazon Kinesis Analytics via the AWS Management Console.
 ## AWSSecurityHubServiceRolePolicy
 A service-linked role required for AWS Security Hub to access your resources.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSSecurityHubServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -27390,7 +27390,7 @@ A service-linked role required for AWS Security Hub to access your resources.
 ## AWSElasticBeanstalkMaintenance
 AWS Elastic Beanstalk Service Role policy that grants limited permissions to update your resources on your behalf for maintenance purposes.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSElasticBeanstalkMaintenance | /aws-service-role/ |
 ```
 {
@@ -27431,7 +27431,7 @@ AWS Elastic Beanstalk Service Role policy that grants limited permissions to upd
 ## APIGatewayServiceRolePolicy
 Allows API Gateway to manage associated AWS Resources on behalf of the customer. 
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/APIGatewayServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -27537,7 +27537,7 @@ Allows API Gateway to manage associated AWS Resources on behalf of the customer.
 ## AWSAccountActivityAccess
 Allows users to access the Account Activity page.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSAccountActivityAccess | / |
 ```
 {
@@ -27563,7 +27563,7 @@ Allows users to access the Account Activity page.
 ## AmazonGlacierFullAccess
 Provides full access to Amazon Glacier via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonGlacierFullAccess | / |
 ```
 {
@@ -27587,7 +27587,7 @@ Provides full access to Amazon Glacier via the AWS Management Console.
 ## AmazonFSxConsoleReadOnlyAccess
 Provides read only access to Amazon FSx and access to related AWS services via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonFSxConsoleReadOnlyAccess | / |
 ```
 {
@@ -27621,7 +27621,7 @@ Provides read only access to Amazon FSx and access to related AWS services via t
 ## AmazonWorkMailFullAccess
 Provides full access to WorkMail, Directory Service, SES, EC2 and read access to KMS metadata.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonWorkMailFullAccess | / |
 ```
 {
@@ -27716,7 +27716,7 @@ Provides full access to WorkMail, Directory Service, SES, EC2 and read access to
 ## DAXServiceRolePolicy
 This policy allows DAX to create and manage Network interface, Security group, Subnet and Vpc on behalf of customer
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/DAXServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -27753,7 +27753,7 @@ This policy allows DAX to create and manage Network interface, Security group, S
 ## ComprehendMedicalFullAccess
 Provides full access to Amazon Comprehend Medical
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/ComprehendMedicalFullAccess | / |
 ```
 {
@@ -27779,7 +27779,7 @@ Provides full access to Amazon Comprehend Medical
 ## AWSMarketplaceManageSubscriptions
 Provides the ability to subscribe and unsubscribe to AWS Marketplace software
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSMarketplaceManageSubscriptions | / |
 ```
 {
@@ -27816,7 +27816,7 @@ Provides the ability to subscribe and unsubscribe to AWS Marketplace software
 ## AWSElasticBeanstalkCustomPlatformforEC2Role
 Provide the instance in your custom platform builder environment permission to launch EC2 instance, create EBS snapshot and AMI, stream logs to Amazon CloudWatch Logs, and store artifacts in Amazon S3.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSElasticBeanstalkCustomPlatformforEC2Role | / |
 ```
 {
@@ -27898,7 +27898,7 @@ Provide the instance in your custom platform builder environment permission to l
 ## AWSDataSyncReadOnlyAccess
 Provides read-only access to AWS DataSync
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSDataSyncReadOnlyAccess | / |
 ```
 {
@@ -27936,7 +27936,7 @@ Provides read-only access to AWS DataSync
 ## AWSVPCTransitGatewayServiceRolePolicy
 Allow VPC Transit Gateway to create and manage necessary resources for your Transit Gateway VPC Attachments.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSVPCTransitGatewayServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -27969,7 +27969,7 @@ Allow VPC Transit Gateway to create and manage necessary resources for your Tran
 ## NeptuneReadOnlyAccess
 Provides read only access to Amazon Neptune. Note that this policy also grants access to Amazon RDS resources. For more information, see https://aws.amazon.com/neptune/faqs/.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/NeptuneReadOnlyAccess | / |
 ```
 {
@@ -28056,7 +28056,7 @@ Provides read only access to Amazon Neptune. Note that this policy also grants a
 ## AWSSupportAccess
 Allows users to access the AWS Support Center.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSSupportAccess | / |
 ```
 {
@@ -28082,7 +28082,7 @@ Allows users to access the AWS Support Center.
 ## AmazonElasticMapReduceforAutoScalingRole
 Amazon Elastic MapReduce for Auto Scaling. Role to allow Auto Scaling to add and remove instances from your EMR cluster.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AmazonElasticMapReduceforAutoScalingRole | /service-role/ |
 ```
 {
@@ -28110,7 +28110,7 @@ Amazon Elastic MapReduce for Auto Scaling. Role to allow Auto Scaling to add and
 ## AWSElementalMediaConvertReadOnly
 Provides read only access to AWS Elemental MediaConvert via the AWS Management Console and SDK.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSElementalMediaConvertReadOnly | / |
 ```
 {
@@ -28140,7 +28140,7 @@ Provides read only access to AWS Elemental MediaConvert via the AWS Management C
 ## AWSLambdaInvocation-DynamoDB
 Provides read access to DynamoDB Streams.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSLambdaInvocation-DynamoDB | / |
 ```
 {
@@ -28176,7 +28176,7 @@ Provides read access to DynamoDB Streams.
 ## AWSServiceCatalogEndUserFullAccess
 Provides full access to service catalog enduser capabilities
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSServiceCatalogEndUserFullAccess | / |
 ```
 {
@@ -28276,7 +28276,7 @@ Provides full access to service catalog enduser capabilities
 ## IAMUserSSHKeys
 Provides the ability for an IAM user to manage their own SSH keys.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/IAMUserSSHKeys | / |
 ```
 {
@@ -28306,7 +28306,7 @@ Provides the ability for an IAM user to manage their own SSH keys.
 ## AWSDeepRacerServiceRolePolicy
 Allows DeepRacer to create required resources and call AWS services on your behalf.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSDeepRacerServiceRolePolicy | /service-role/ |
 ```
 {
@@ -28451,7 +28451,7 @@ Allows DeepRacer to create required resources and call AWS services on your beha
 ## AmazonSageMakerReadOnly
 Provides read only access to Amazon SageMaker via the AWS Management Console and SDK.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonSageMakerReadOnly | / |
 ```
 {
@@ -28505,7 +28505,7 @@ Provides read only access to Amazon SageMaker via the AWS Management Console and
 ## AWSIoTFullAccess
 This policy gives full access to the AWS IoT configuration and messaging actions
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSIoTFullAccess | / |
 ```
 {
@@ -28531,7 +28531,7 @@ This policy gives full access to the AWS IoT configuration and messaging actions
 ## AWSQuickSightDescribeRDS
 Allow QuickSight to describe the RDS resources
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSQuickSightDescribeRDS | /service-role/ |
 ```
 {
@@ -28557,7 +28557,7 @@ Allow QuickSight to describe the RDS resources
 ## AWSResourceAccessManagerServiceRolePolicy
 Policy containing Read-only AWS Resource Access Manager access to customers' Organizations structure. It also contains IAM permissions to self-delete the role.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSResourceAccessManagerServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -28601,7 +28601,7 @@ Policy containing Read-only AWS Resource Access Manager access to customers' Org
 ## AWSConfigRulesExecutionRole
 Allows an AWS Lambda function to access the AWS Config API and the configuration snapshots that AWS Config delivers periodically to Amazon S3. This access is required by functions that evaluate configuration changes for custom Config rules.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSConfigRulesExecutionRole | /service-role/ |
 ```
 {
@@ -28639,7 +28639,7 @@ Allows an AWS Lambda function to access the AWS Config API and the configuration
 ## AWSConfigServiceRolePolicy
 Allows Config to call AWS services and collect resource configurations on your behalf.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSConfigServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -28882,7 +28882,7 @@ Allows Config to call AWS services and collect resource configurations on your b
 ## AmazonESReadOnlyAccess
 Provides read-only access to the Amazon ES configuration service.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonESReadOnlyAccess | / |
 ```
 {
@@ -28910,7 +28910,7 @@ Provides read-only access to the Amazon ES configuration service.
 ## AWSCodeDeployDeployerAccess
 Provides access to register and deploy a revision.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCodeDeployDeployerAccess | / |
 ```
 {
@@ -28984,7 +28984,7 @@ Provides access to register and deploy a revision.
 ## KafkaServiceRolePolicy
 IAM service linked role policy for Kafka.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/KafkaServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -29032,7 +29032,7 @@ IAM service linked role policy for Kafka.
 ## AmazonPollyFullAccess
 Grants full access to Amazon Polly service and resources.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonPollyFullAccess | / |
 ```
 {
@@ -29060,7 +29060,7 @@ Grants full access to Amazon Polly service and resources.
 ## AmazonSSMMaintenanceWindowRole
  Service Role to be used for EC2 Maintenance Window
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AmazonSSMMaintenanceWindowRole | /service-role/ |
 ```
 {
@@ -29132,7 +29132,7 @@ Grants full access to Amazon Polly service and resources.
 ## AmazonRDSEnhancedMonitoringRole
 Provides access to Cloudwatch for RDS Enhanced Monitoring
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AmazonRDSEnhancedMonitoringRole | /service-role/ |
 ```
 {
@@ -29175,7 +29175,7 @@ Provides access to Cloudwatch for RDS Enhanced Monitoring
 ## AmazonLexFullAccess
 Provides full access to Amazon Lex via the AWS Management Console. Also provides access to create Lex Service Linked Roles and grant Lex permissions to invoke a limited set of Lambda functions.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonLexFullAccess | / |
 ```
 {
@@ -29333,7 +29333,7 @@ Provides full access to Amazon Lex via the AWS Management Console. Also provides
 ## AWSLambdaVPCAccessExecutionRole
 Provides minimum permissions for a Lambda function to execute while accessing a resource within a VPC - create, describe, delete network interfaces and write permissions to CloudWatch Logs. 
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSLambdaVPCAccessExecutionRole | /service-role/ |
 ```
 {
@@ -29366,7 +29366,7 @@ Provides minimum permissions for a Lambda function to execute while accessing a 
 ## AmazonMacieServiceRole
 Grants Macie read-only access to resource dependencies in your account in order to enable data analysis.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AmazonMacieServiceRole | /service-role/ |
 ```
 {
@@ -29393,7 +29393,7 @@ Grants Macie read-only access to resource dependencies in your account in order 
 ## AmazonLexRunBotsOnly
 Provides access to Amazon Lex conversational APIs.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonLexRunBotsOnly | / |
 ```
 {
@@ -29423,7 +29423,7 @@ Provides access to Amazon Lex conversational APIs.
 ## AWSCertificateManagerPrivateCAAuditor
 Provides auditor access to AWS Certificate Manager Private Certificate Authority
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCertificateManagerPrivateCAAuditor | / |
 ```
 {
@@ -29464,7 +29464,7 @@ Provides auditor access to AWS Certificate Manager Private Certificate Authority
 ## AmazonSNSFullAccess
 Provides full access to Amazon SNS via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonSNSFullAccess | / |
 ```
 {
@@ -29490,7 +29490,7 @@ Provides full access to Amazon SNS via the AWS Management Console.
 ## AmazonEKS_CNI_Policy
 This policy provides the Amazon VPC CNI Plugin (amazon-vpc-cni-k8s) the permissions it requires to modify the IP address configuration on your EKS worker nodes. This permission set allows the CNI to list, describe, and modify Elastic Network Interfaces on your behalf. More information on the AWS VPC CNI Plugin is available here: https://github.com/aws/amazon-vpc-cni-k8s
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonEKS_CNI_Policy | / |
 ```
 {
@@ -29535,7 +29535,7 @@ This policy provides the Amazon VPC CNI Plugin (amazon-vpc-cni-k8s) the permissi
 ## AWSServiceCatalogAdminFullAccess
 Provides full access to service catalog admin capabilities
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSServiceCatalogAdminFullAccess | / |
 ```
 {
@@ -29622,7 +29622,7 @@ Provides full access to service catalog admin capabilities
 ## AWSShieldDRTAccessPolicy
 Provides the AWS DDoS Response Team with limited access to your AWS account to assist with DDoS attack mitigation during a high-severity event.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSShieldDRTAccessPolicy | /service-role/ |
 ```
 {
@@ -29673,7 +29673,7 @@ Provides the AWS DDoS Response Team with limited access to your AWS account to a
 ## CloudSearchReadOnlyAccess
 Provides read only access to the Amazon CloudSearch configuration service.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/CloudSearchReadOnlyAccess | / |
 ```
 {
@@ -29700,7 +29700,7 @@ Provides read only access to the Amazon CloudSearch configuration service.
 ## AWSGreengrassFullAccess
 This policy gives full access to the AWS Greengrass configuration, management and deployment actions
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSGreengrassFullAccess | / |
 ```
 {
@@ -29726,7 +29726,7 @@ This policy gives full access to the AWS Greengrass configuration, management an
 ## NeptuneConsoleFullAccess
 Provides full access to manage Amazon Neptune using the AWS Console. Note this policy also grants full access to publish on all SNS topics within the account, permissions to create and edit Amazon EC2 instances and VPC configurations, permissions to view and list keys on Amazon KMS, and full access to Amazon RDS. For more information, see https://aws.amazon.com/neptune/faqs/.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/NeptuneConsoleFullAccess | / |
 ```
 {
@@ -29919,7 +29919,7 @@ Provides full access to manage Amazon Neptune using the AWS Console. Note this p
 ## AWSCloudFormationReadOnlyAccess
 Provides access to AWS CloudFormation via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCloudFormationReadOnlyAccess | / |
 ```
 {
@@ -29950,7 +29950,7 @@ Provides access to AWS CloudFormation via the AWS Management Console.
 ## AmazonRoute53FullAccess
 Provides full access to all Amazon Route 53 via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonRoute53FullAccess | / |
 ```
 {
@@ -29995,7 +29995,7 @@ Provides full access to all Amazon Route 53 via the AWS Management Console.
 ## AWSLambdaRole
 Default policy for AWS Lambda service role.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSLambdaRole | /service-role/ |
 ```
 {
@@ -30023,7 +30023,7 @@ Default policy for AWS Lambda service role.
 ## AWSLambdaENIManagementAccess
 Provides minimum permissions for a Lambda function to manage ENIs (create, describe, delete) used by a VPC-enabled Lambda Function.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSLambdaENIManagementAccess | /service-role/ |
 ```
 {
@@ -30053,7 +30053,7 @@ Provides minimum permissions for a Lambda function to manage ENIs (create, descr
 ## AWSOpsWorksCloudWatchLogs
 Enables OpsWorks instances with the CWLogs integration enabled to ship logs and create required log groups
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSOpsWorksCloudWatchLogs | / |
 ```
 {
@@ -30084,7 +30084,7 @@ Enables OpsWorks instances with the CWLogs integration enabled to ship logs and 
 ## AmazonAppStreamReadOnlyAccess
 Provides read only access to Amazon AppStream via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonAppStreamReadOnlyAccess | / |
 ```
 {
@@ -30112,7 +30112,7 @@ Provides read only access to Amazon AppStream via the AWS Management Console.
 ## AWSStepFunctionsFullAccess
 An access policy for providing a user/role/etc access to the AWS StepFunctions API. For full access, in addition to this policy, a user MUST have iam:PassRole permission on at least one IAM role that can be assumed by the service.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSStepFunctionsFullAccess | / |
 ```
 {
@@ -30136,7 +30136,7 @@ An access policy for providing a user/role/etc access to the AWS StepFunctions A
 ## CloudTrailServiceRolePolicy
 Permission policy for CloudTrail ServiceLinkedRole
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/CloudTrailServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -30176,7 +30176,7 @@ Permission policy for CloudTrail ServiceLinkedRole
 ## AmazonInspectorReadOnlyAccess
 Provides read only access to Amazon Inspector.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonInspectorReadOnlyAccess | / |
 ```
 {
@@ -30210,7 +30210,7 @@ Provides read only access to Amazon Inspector.
 ## AWSOrganizationsReadOnlyAccess
 Provides read-only access to AWS Organizations.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSOrganizationsReadOnlyAccess | / |
 ```
 {
@@ -30237,7 +30237,7 @@ Provides read-only access to AWS Organizations.
 ## TranslateReadOnly
 Provides read-only access to Amazon Translate.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/TranslateReadOnly | / |
 ```
 {
@@ -30272,7 +30272,7 @@ Provides read-only access to Amazon Translate.
 ## AWSCertificateManagerFullAccess
 Provides full access to AWS Certificate Manager (ACM)
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCertificateManagerFullAccess | / |
 ```
 {
@@ -30317,7 +30317,7 @@ Provides full access to AWS Certificate Manager (ACM)
 ## AWSDeepRacerCloudFormationAccessPolicy
 Allows CloudFormation to create and manage AWS stacks and resources on your behalf.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSDeepRacerCloudFormationAccessPolicy | / |
 ```
 {
@@ -30452,7 +30452,7 @@ Allows CloudFormation to create and manage AWS stacks and resources on your beha
 ## AWSIoTEventsReadOnlyAccess
 Provides read only access to IoT Events.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSIoTEventsReadOnlyAccess | / |
 ```
 {
@@ -30479,7 +30479,7 @@ Provides read only access to IoT Events.
 ## AWSRoboMakerServicePolicy
 RoboMaker service policy
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSRoboMakerServicePolicy | /aws-service-role/ |
 ```
 {
@@ -30561,7 +30561,7 @@ RoboMaker service policy
 ## PowerUserAccess
 Provides full access to AWS services and resources, but does not allow management of Users and groups.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/PowerUserAccess | / |
 ```
 {
@@ -30600,7 +30600,7 @@ Provides full access to AWS services and resources, but does not allow managemen
 ## AWSApplicationAutoScalingCustomResourcePolicy
 Policy granting permissions to Application Auto Scaling to access APIGateway and CloudWatch for custom resource scaling
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoScalingCustomResourcePolicy | /aws-service-role/ |
 ```
 {
@@ -30631,7 +30631,7 @@ Policy granting permissions to Application Auto Scaling to access APIGateway and
 ## GlobalAcceleratorReadOnlyAccess
 Allow GlobalAccelerator Users Access to Read Only APIs
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/GlobalAcceleratorReadOnlyAccess | / |
 ```
 {
@@ -30658,7 +30658,7 @@ Allow GlobalAccelerator Users Access to Read Only APIs
 ## AmazonSageMakerFullAccess
 Provides full access to Amazon SageMaker via the AWS Management Console and SDK. Also provides select access to related services (e.g., S3, ECR, CloudWatch Logs).
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonSageMakerFullAccess | / |
 ```
 {
@@ -31133,7 +31133,7 @@ Provides full access to Amazon SageMaker via the AWS Management Console and SDK.
 ## WAFLoggingServiceRolePolicy
 Creating SLR to write customer's logs to a firehose stream
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/WAFLoggingServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -31162,7 +31162,7 @@ Creating SLR to write customer's logs to a firehose stream
 ## AWSBackupServiceRolePolicyForRestores
 Provides AWS Backup permission to perform restores on your behalf across AWS services. This policy includes permissions to create and delete AWS resources, such as EBS volumes, RDS instances, and EFS file systems, which are part of the restore process.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSBackupServiceRolePolicyForRestores | /service-role/ |
 ```
 {
@@ -31365,7 +31365,7 @@ Provides AWS Backup permission to perform restores on your behalf across AWS ser
 ## AWSElementalMediaStoreFullAccess
 Provides full read and write access to all MediaStore APIs
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSElementalMediaStoreFullAccess | / |
 ```
 {
@@ -31396,7 +31396,7 @@ Provides full read and write access to all MediaStore APIs
 ## CloudWatchEventsFullAccess
 Provides full access to Amazon CloudWatch Events.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/CloudWatchEventsFullAccess | / |
 ```
 {
@@ -31427,7 +31427,7 @@ Provides full access to Amazon CloudWatch Events.
 ## AWSLicenseManagerMemberAccountRolePolicy
 AWS License Manager service member account role policy
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSLicenseManagerMemberAccountRolePolicy | /aws-service-role/ |
 ```
 {
@@ -31484,7 +31484,7 @@ AWS License Manager service member account role policy
 ## AWSOrganizationsFullAccess
 Provides full access to AWS Organizations.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSOrganizationsFullAccess | / |
 ```
 {
@@ -31508,7 +31508,7 @@ Provides full access to AWS Organizations.
 ## AWSCodePipeline_FullAccess
 Provides full access to AWS CodePipeline via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCodePipeline_FullAccess | / |
 ```
 {
@@ -31673,7 +31673,7 @@ Provides full access to AWS CodePipeline via the AWS Management Console.
 ## DynamoDBKinesisReplicationServiceRolePolicy
 Provide AWS DynamoDB access to KinesisDataStreams
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/DynamoDBKinesisReplicationServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -31711,7 +31711,7 @@ Provide AWS DynamoDB access to KinesisDataStreams
 ## AmazonAugmentedAIIntegratedAPIAccess
 Provides access to perform all operations Amazon Augmented AI resources, including FlowDefinitions, HumanTaskUis and HumanLoops. Also provides access to those operations of services that are integrated with Amazon Augmented AI. 
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonAugmentedAIIntegratedAPIAccess | / |
 ```
 {
@@ -31778,7 +31778,7 @@ Provides access to perform all operations Amazon Augmented AI resources, includi
 ## AmazonFraudDetectorFullAccessPolicy
 Gives access to all actions for Amazon Fraud Detector
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonFraudDetectorFullAccessPolicy | / |
 ```
 {
@@ -31839,7 +31839,7 @@ Gives access to all actions for Amazon Fraud Detector
 ## AmazonLaunchWizard_Fullaccess
 Full access to AWS Launch wizard and other required services.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonLaunchWizard_Fullaccess | / |
 ```
 {
@@ -32371,7 +32371,7 @@ Full access to AWS Launch wizard and other required services.
 ## AmazonChimeSDK
 Provides access to Amazon Chime SDK operations
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonChimeSDK | / |
 ```
 {
@@ -32415,7 +32415,7 @@ Provides access to Amazon Chime SDK operations
 ## AwsGlueDataBrewFullAccessPolicy
 Provides full access to AWS Glue DataBrew via the AWS Management Console. Also provides select access to related services (e.g., S3, KMS, Glue).
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AwsGlueDataBrewFullAccessPolicy | / |
 ```
 {
@@ -32528,7 +32528,7 @@ Provides full access to AWS Glue DataBrew via the AWS Management Console. Also p
 ## AmazonElasticContainerRegistryPublicReadOnly
 Provides read-only access to Amazon ECR Public repositories.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonElasticContainerRegistryPublicReadOnly | / |
 ```
 {
@@ -32563,7 +32563,7 @@ Provides read-only access to Amazon ECR Public repositories.
 ## AWSIoTDeviceTesterForFreeRTOSFullAccess
 Allows AWS IoT Device Tester to run the FreeRTOS qualification suite by allowing access to services including IoT, S3, and IAM
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSIoTDeviceTesterForFreeRTOSFullAccess | / |
 ```
 {
@@ -32840,7 +32840,7 @@ Allows AWS IoT Device Tester to run the FreeRTOS qualification suite by allowing
 ## Route53ResolverServiceRolePolicy
 Enables access to AWS Services and Resources used or managed by Route53 Resolver
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/Route53ResolverServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -32873,7 +32873,7 @@ Enables access to AWS Services and Resources used or managed by Route53 Resolver
 ## WAFV2LoggingServiceRolePolicy
 This policy creates a service-linked role that allows AWS WAF to write logs to Amazon Kinesis Data Firehose.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/WAFV2LoggingServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -32907,7 +32907,7 @@ This policy creates a service-linked role that allows AWS WAF to write logs to A
 ## AWSBudgetsActionsWithAWSResourceControlAccess
 Provides full access to AWS Budgets Actions including using Budgets Actions to control states of running AWS resources via AWS Management Console
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSBudgetsActionsWithAWSResourceControlAccess | / |
 ```
 {
@@ -32970,7 +32970,7 @@ Provides full access to AWS Budgets Actions including using Budgets Actions to c
 ## AWSElasticBeanstalkManagedUpdatesCustomerRolePolicy
 This policy is for the AWS Elastic Beanstalk service role used to perform managed updates of Elastic Beanstalk environments. This policy should not be attached to other users or roles. The policy grants broad permissions to create and manage resources across a number of AWS services including AutoScaling, EC2, ECS, Elastic Load Balancing and CloudFormation. This policy also allows passing of any IAM role usable with those services.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSElasticBeanstalkManagedUpdatesCustomerRolePolicy | / |
 ```
 {
@@ -33251,7 +33251,7 @@ This policy is for the AWS Elastic Beanstalk service role used to perform manage
 ## AdministratorAccess-Amplify
 Grants account administrative permissions while explicitly allowing direct access to resources needed by Amplify applications.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AdministratorAccess-Amplify | / |
 ```
 {
@@ -33514,7 +33514,7 @@ Grants account administrative permissions while explicitly allowing direct acces
 ## AWSNetworkManagerFullAccess
 Provides full access to Amazon NetworkManager via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSNetworkManagerFullAccess | / |
 ```
 {
@@ -33550,7 +33550,7 @@ Provides full access to Amazon NetworkManager via the AWS Management Console.
 ## AWSMarketplaceAmiIngestion
 Allows AWS Marketplace to copy your Amazon Machine Images (AMIs) in order to list them on AWS Marketplace
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSMarketplaceAmiIngestion | / |
 ```
 {
@@ -33586,7 +33586,7 @@ Allows AWS Marketplace to copy your Amazon Machine Images (AMIs) in order to lis
 ## AWSPrivateMarketplaceRequests
 Provides access to creating requests in an AWS Private Marketplace.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSPrivateMarketplaceRequests | / |
 ```
 {
@@ -33614,7 +33614,7 @@ Provides access to creating requests in an AWS Private Marketplace.
 ## CloudWatchApplicationInsightsReadOnlyAccess
 Provides read only access to CloudWatch Application Insights. 
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/CloudWatchApplicationInsightsReadOnlyAccess | / |
 ```
 {
@@ -33641,7 +33641,7 @@ Provides read only access to CloudWatch Application Insights.
 ## AdministratorAccess-AWSElasticBeanstalk
 Grants account administrative permissions. Explicitly allows developers and administrators to gain direct access to resources they need to manage AWS Elastic Beanstalk applications
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AdministratorAccess-AWSElasticBeanstalk | / |
 ```
 {
@@ -33989,7 +33989,7 @@ Grants account administrative permissions. Explicitly allows developers and admi
 ## AmazonSageMakerMechanicalTurkAccess
 Provides access to create Amazon Augmented AI FlowDefinition resources against any Workteam.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonSageMakerMechanicalTurkAccess | / |
 ```
 {
@@ -34016,7 +34016,7 @@ Provides access to create Amazon Augmented AI FlowDefinition resources against a
 ## AmazonTimestreamConsoleFullAccess
 Provides full access to manage Amazon Timestream using the AWS Management Console. Note that this policy also grants permissions for certain KMS operations, and operations to manage your saved queries. If using Customer managed CMK, please refer to documentation for additional permissions needed.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonTimestreamConsoleFullAccess | / |
 ```
 {
@@ -34084,7 +34084,7 @@ Provides full access to manage Amazon Timestream using the AWS Management Consol
 ## AWSWAFConsoleFullAccess
 Provides full access to AWS WAF via the AWS Management Console. Note that this policy also grants permissions to list and update Amazon CloudFront distributions, permissions to view load balancers on AWS Elastic Load Balancing, permissions to view Amazon API Gateway REST APIs and stages, permissions to list and view Amazon CloudWatch metrics, and permissions to view regions enabled within the account.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSWAFConsoleFullAccess | / |
 ```
 {
@@ -34125,7 +34125,7 @@ Provides full access to AWS WAF via the AWS Management Console. Note that this p
 ## AWSGlueSchemaRegistryReadonlyAccess
 Provides readonly access to the AWS Glue Schema Registry Service
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSGlueSchemaRegistryReadonlyAccess | / |
 ```
 {
@@ -34164,7 +34164,7 @@ Provides readonly access to the AWS Glue Schema Registry Service
 ## AWSNetworkManagerServiceRolePolicy
 Allow NetworkManager to access resources associated with your Global Networks
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSNetworkManagerServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -34173,7 +34173,9 @@ Allow NetworkManager to access resources associated with your Global Networks
       "Version": "2012-10-17",
       "Statement": [
         {
+          "Effect": "Allow",
           "Action": [
+            "directconnect:DescribeDirectConnectGateways",
             "directconnect:DescribeConnections",
             "directconnect:DescribeDirectConnectGatewayAttachments",
             "directconnect:DescribeLocations",
@@ -34183,27 +34185,27 @@ Allow NetworkManager to access resources associated with your Global Networks
             "ec2:DescribeTransitGatewayRouteTables",
             "ec2:DescribeTransitGateways",
             "ec2:DescribeVpnConnections",
+            "ec2:DescribeVpcs",
             "ec2:GetTransitGatewayRouteTableAssociations",
             "ec2:SearchTransitGatewayRoutes",
             "ec2:DescribeTransitGatewayPeeringAttachments",
             "ec2:DescribeTransitGatewayConnects",
             "ec2:DescribeTransitGatewayConnectPeers"
           ],
-          "Effect": "Allow",
           "Resource": "*"
         }
       ]
     },
-    "VersionId": "v3",
+    "VersionId": "v4",
     "IsDefaultVersion": true,
-    "CreateDate": "2020-12-10T12:06:22+00:00"
+    "CreateDate": "2021-06-07T16:18:24+00:00"
   }
 }
 ```
 ## AWSAppMeshServiceRolePolicy
 Enables access to AWS Services and Resources used or managed by AWS AppMesh
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSAppMeshServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -34238,7 +34240,7 @@ Enables access to AWS Services and Resources used or managed by AWS AppMesh
 ## AWSConfigRemediationServiceRolePolicy
 Allows AWS Config to remediate noncompliant resources on your behalf.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSConfigRemediationServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -34276,7 +34278,7 @@ Allows AWS Config to remediate noncompliant resources on your behalf.
 ## ConfigConformsServiceRolePolicy
 Policy needed for AWSConfig to create conformance packs
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/ConfigConformsServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -34383,7 +34385,7 @@ Policy needed for AWSConfig to create conformance packs
 ## AmazonEventBridgeReadOnlyAccess
 Provides read only access to Amazon EventBridge.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonEventBridgeReadOnlyAccess | / |
 ```
 {
@@ -34425,7 +34427,7 @@ Provides read only access to Amazon EventBridge.
 ## AWSCodeStarNotificationsServiceRolePolicy
 Allows AWS CodeStar Notifications to access Amazon CloudWatch Events on your behalf
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSCodeStarNotificationsServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -34484,7 +34486,7 @@ Allows AWS CodeStar Notifications to access Amazon CloudWatch Events on your beh
 ## AmazonKendraFullAccess
 Provides full access to Amazon Kendra via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonKendraFullAccess | / |
 ```
 {
@@ -34573,7 +34575,7 @@ Provides full access to Amazon Kendra via the AWS Management Console.
 ## AmazonEMRFullAccessPolicy_v2
 Provides full access to Amazon EMR
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonEMRFullAccessPolicy_v2 | / |
 ```
 {
@@ -34725,7 +34727,7 @@ Provides full access to Amazon EMR
 ## AmazonS3OutpostsFullAccess
 Provides full access to Amazon S3 on Outposts via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonS3OutpostsFullAccess | / |
 ```
 {
@@ -34777,7 +34779,7 @@ Provides full access to Amazon S3 on Outposts via the AWS Management Console.
 ## AWSQuickSightElasticsearchPolicy
 Provides access to Amazon Elasticsearch resources from Amazon QuickSight
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSQuickSightElasticsearchPolicy | /service-role/ |
 ```
 {
@@ -34831,7 +34833,7 @@ Provides access to Amazon Elasticsearch resources from Amazon QuickSight
 ## AWSApplicationAutoscalingCassandraTablePolicy
 Policy granting permissions to Application Auto Scaling to access Cassandra and CloudWatch.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingCassandraTablePolicy | /aws-service-role/ |
 ```
 {
@@ -34869,7 +34871,7 @@ Policy granting permissions to Application Auto Scaling to access Cassandra and 
 ## AWSSystemsManagerAccountDiscoveryServicePolicy
 Grants AWS Systems Manager (SSM) permission to discover AWS account information.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSSystemsManagerAccountDiscoveryServicePolicy | /aws-service-role/ |
 ```
 {
@@ -34902,7 +34904,7 @@ Grants AWS Systems Manager (SSM) permission to discover AWS account information.
 ## AmazonDevOpsGuruFullAccess
 Provides full access to Amazon DevOps Guru.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonDevOpsGuruFullAccess | / |
 ```
 {
@@ -34985,7 +34987,7 @@ Provides full access to Amazon DevOps Guru.
 ## AWSResourceAccessManagerReadOnlyAccess
 Provides read only access to AWS Resource Access Manager.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSResourceAccessManagerReadOnlyAccess | / |
 ```
 {
@@ -35012,7 +35014,7 @@ Provides read only access to AWS Resource Access Manager.
 ## AmazonEventBridgeFullAccess
 Provides full access to Amazon EventBridge.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonEventBridgeFullAccess | / |
 ```
 {
@@ -35067,7 +35069,7 @@ Provides full access to Amazon EventBridge.
 ## AWSThinkboxAWSPortalAdminPolicy
 This policy grants AWS Thinkbox's Deadline software full access to multiple AWS services as required for AWS Portal administration. This includes access to create arbitrary tags on several EC2 resource types.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSThinkboxAWSPortalAdminPolicy | / |
 ```
 {
@@ -35457,7 +35459,7 @@ This policy grants AWS Thinkbox's Deadline software full access to multiple AWS 
 ## AWSElasticBeanstalkReadOnly
 Grants read-only permissions. Explicitly allows operators to gain direct access to retrieve information about resources related to AWS Elastic Beanstalk applications.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSElasticBeanstalkReadOnly | / |
 ```
 {
@@ -35557,7 +35559,7 @@ Grants read-only permissions. Explicitly allows operators to gain direct access 
 ## EC2InstanceProfileForImageBuilderECRContainerBuilds
 EC2 Instance profile for building container images with EC2 Image Builder. This policy grants the user broad permissions to upload ECR images.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/EC2InstanceProfileForImageBuilderECRContainerBuilds | / |
 ```
 {
@@ -35623,7 +35625,7 @@ EC2 Instance profile for building container images with EC2 Image Builder. This 
 ## AWSCodeDeployRoleForLambdaLimited
 Provides CodeDeploy service limited access to perform a Lambda deployment on your behalf.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSCodeDeployRoleForLambdaLimited | /service-role/ |
 ```
 {
@@ -35680,7 +35682,7 @@ Provides CodeDeploy service limited access to perform a Lambda deployment on you
 ## AWSAuditManagerServiceRolePolicy
 Enables access to AWS Services and Resources used or managed by AWS Audit Manager
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSAuditManagerServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -35878,7 +35880,7 @@ Enables access to AWS Services and Resources used or managed by AWS Audit Manage
 ## CloudWatchSyntheticsReadOnlyAccess
 Provides read only access to CloudWatch Synthetics.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/CloudWatchSyntheticsReadOnlyAccess | / |
 ```
 {
@@ -35906,7 +35908,7 @@ Provides read only access to CloudWatch Synthetics.
 ## AmazonNimbleStudio-StudioUser
 This policy grants access to Amazon Nimble Studio resources associated with the studio user and related studio resources in other services. Attach this policy to the User role associated with your studio.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonNimbleStudio-StudioUser | / |
 ```
 {
@@ -35998,7 +36000,7 @@ This policy grants access to Amazon Nimble Studio resources associated with the 
 ## AWSCloudTrail_FullAccess
 Provides full access to AWS CloudTrail.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCloudTrail_FullAccess | / |
 ```
 {
@@ -36116,7 +36118,7 @@ Provides full access to AWS CloudTrail.
 ## AccessAnalyzerServiceRolePolicy
 Allow Access Analyzer to analyze resource metadata
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AccessAnalyzerServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -36188,7 +36190,7 @@ Allow Access Analyzer to analyze resource metadata
 ## AmazonRoute53ResolverReadOnlyAccess
 Read only policy for Route 53 Resolver
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonRoute53ResolverReadOnlyAccess | / |
 ```
 {
@@ -36221,7 +36223,7 @@ Read only policy for Route 53 Resolver
 ## AmazonEC2RolePolicyForLaunchWizard
 Managed policy for the Amazon LaunchWizard service role for EC2
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonEC2RolePolicyForLaunchWizard | / |
 ```
 {
@@ -36399,7 +36401,7 @@ Managed policy for the Amazon LaunchWizard service role for EC2
 ## AmazonAppFlowReadOnlyAccess
 Provides read only access to Amazon Appflow flows
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonAppFlowReadOnlyAccess | / |
 ```
 {
@@ -36431,7 +36433,7 @@ Provides read only access to Amazon Appflow flows
 ## AmazonLookoutVisionConsoleReadOnlyAccess
 Provides read only access to Amazon Lookout for Vision and scoped access to required service and console dependencies.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonLookoutVisionConsoleReadOnlyAccess | / |
 ```
 {
@@ -36492,7 +36494,7 @@ Provides read only access to Amazon Lookout for Vision and scoped access to requ
 ## AWSQuickSightTimestreamPolicy
 AWS QuickSight access to AWS Timestream APIs. Customers can attach this policy to AWS QuickSight role to allow retrieval of data and metadata.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSQuickSightTimestreamPolicy | /service-role/ |
 ```
 {
@@ -36526,7 +36528,7 @@ AWS QuickSight access to AWS Timestream APIs. Customers can attach this policy t
 ## AmazonManagedBlockchainFullAccess
 Provides full access to Amazon Managed Blockchain.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonManagedBlockchainFullAccess | / |
 ```
 {
@@ -36554,7 +36556,7 @@ Provides full access to Amazon Managed Blockchain.
 ## ServiceQuotasFullAccess
 Provides full access to Service Quotas
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/ServiceQuotasFullAccess | / |
 ```
 {
@@ -36636,7 +36638,7 @@ Provides full access to Service Quotas
 ## AmazonTimestreamFullAccess
 Provides full access to Amazon Timestream. Note that this policy also grants certain KMS operation access. If using Customer managed CMK, please refer to documentation for additional permissions needed.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonTimestreamFullAccess | / |
 ```
 {
@@ -36687,7 +36689,7 @@ Provides full access to Amazon Timestream. Note that this policy also grants cer
 ## ElementalAppliancesSoftwareReadOnlyAccess
 Read-only access to view Elemental Appliances and Software quotes and orders
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/ElementalAppliancesSoftwareReadOnlyAccess | / |
 ```
 {
@@ -36714,7 +36716,7 @@ Read-only access to view Elemental Appliances and Software quotes and orders
 ## AmazonLookoutVisionFullAccess
 Provides full access to Amazon Lookout for Vision and scoped access to required dependencies.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonLookoutVisionFullAccess | / |
 ```
 {
@@ -36741,7 +36743,7 @@ Provides full access to Amazon Lookout for Vision and scoped access to required 
 ## AWSCodeDeployRoleForCloudFormation
 Provides CodeDeploy service access to invoke Lambda function on your behalf to perform blue/green deployment through CloudFormation.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSCodeDeployRoleForCloudFormation | /service-role/ |
 ```
 {
@@ -36767,7 +36769,7 @@ Provides CodeDeploy service access to invoke Lambda function on your behalf to p
 ## BatchServiceRolePolicy
 Provides access for the AWS Batch service to manage the required resources, including Amazon EC2 and Amazon ECS resources.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/BatchServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -37018,7 +37020,7 @@ Provides access for the AWS Batch service to manage the required resources, incl
 ## AmazonHoneycodeServiceRolePolicy
 A service-linked role required for Amazon Honeycode to access your resources.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AmazonHoneycodeServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -37044,7 +37046,7 @@ A service-linked role required for Amazon Honeycode to access your resources.
 ## AmazonSageMakerEdgeDeviceFleetPolicy
 Provides permissions necessary for SageMaker Edge to create and manage a device fleet for the customer using the default cloud connection.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AmazonSageMakerEdgeDeviceFleetPolicy | /service-role/ |
 ```
 {
@@ -37131,7 +37133,7 @@ Provides permissions necessary for SageMaker Edge to create and manage a device 
 ## AWSIoTSiteWiseMonitorServiceRolePolicy
 This role grants AWS IoT SiteWise monitor permissions to access your AWS IoT SiteWise assets & asset properties, and create AWS IoT Sitewise projects, dashboards & access policies through AWS IoT SiteWise portals.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSIoTSiteWiseMonitorServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -37182,7 +37184,7 @@ This role grants AWS IoT SiteWise monitor permissions to access your AWS IoT Sit
 ## AmazonHoneycodeReadOnlyAccess
 Provides read only access to Honeycode via the AWS Management Console and the SDK.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonHoneycodeReadOnlyAccess | / |
 ```
 {
@@ -37211,7 +37213,7 @@ Provides read only access to Honeycode via the AWS Management Console and the SD
 ## AWSCloudFormationFullAccess
 Provides full access to AWS CloudFormation.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCloudFormationFullAccess | / |
 ```
 {
@@ -37237,7 +37239,7 @@ Provides full access to AWS CloudFormation.
 ## AWSPanoramaApplianceRolePolicy
 Allows AWS IoT software on an AWS Panorama Appliance to upload logs to Amazon CloudWatch.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSPanoramaApplianceRolePolicy | /service-role/ |
 ```
 {
@@ -37272,7 +37274,7 @@ Allows AWS IoT software on an AWS Panorama Appliance to upload logs to Amazon Cl
 ## AmazonLookoutMetricsFullAccess
 Gives access to all actions for Amazon Lookout for Metrics
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonLookoutMetricsFullAccess | / |
 ```
 {
@@ -37310,7 +37312,7 @@ Gives access to all actions for Amazon Lookout for Metrics
 ## AWSApplicationMigrationAgentPolicy
 This policy allows installing and using the AWS Replication Agent, which is used with AWS Application Migration Service (MGN) to migrate external servers to AWS. Attach this policy to your IAM users or roles whose credentials you provide when installing the AWS Replication Agent.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSApplicationMigrationAgentPolicy | / |
 ```
 {
@@ -37359,7 +37361,7 @@ This policy allows installing and using the AWS Replication Agent, which is used
 ## AWSOpsWorks_FullAccess
 Provides full access to AWS OpsWorks.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSOpsWorks_FullAccess | / |
 ```
 {
@@ -37413,7 +37415,7 @@ Provides full access to AWS OpsWorks.
 ## AWSNetworkFirewallServiceRolePolicy
 Allow AWSNetworkFirewall to create and manage necessary resources for your Firewalls.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSNetworkFirewallServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -37467,7 +37469,7 @@ Allow AWSNetworkFirewall to create and manage necessary resources for your Firew
 ## ElementalAppliancesSoftwareFullAccess
 Full access to view and take action on Elemental Appliances and Software quotes and orders
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/ElementalAppliancesSoftwareFullAccess | / |
 ```
 {
@@ -37494,7 +37496,7 @@ Full access to view and take action on Elemental Appliances and Software quotes 
 ## AmazonMachineLearningRoleforRedshiftDataSourceV3
 Allows Machine Learning to configure and use your Redshift Clusters and S3 Staging Locations for Redshift Data Source.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AmazonMachineLearningRoleforRedshiftDataSourceV3 | /service-role/ |
 ```
 {
@@ -37541,7 +37543,7 @@ Allows Machine Learning to configure and use your Redshift Clusters and S3 Stagi
 ## AmazonAugmentedAIHumanLoopFullAccess
 Provides access to perform all operations on HumanLoops.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonAugmentedAIHumanLoopFullAccess | / |
 ```
 {
@@ -37568,7 +37570,7 @@ Provides access to perform all operations on HumanLoops.
 ## AmazonLookoutEquipmentReadOnlyAccess
 Provides read only access to Amazon Lookout for Equipments
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonLookoutEquipmentReadOnlyAccess | / |
 ```
 {
@@ -37603,7 +37605,7 @@ Provides read only access to Amazon Lookout for Equipments
 ## AWSDataExchangeReadOnly
 Grants read-only access to AWS Data Exchange and AWS Marketplace actions using the AWS Management Console and SDK.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSDataExchangeReadOnly | / |
 ```
 {
@@ -37647,7 +37649,7 @@ Grants read-only access to AWS Data Exchange and AWS Marketplace actions using t
 ## AWSMarketplaceSellerProductsFullAccess
 Provides sellers full access to AWS Marketplace Management Products page and other AWS services such as AMI management.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSMarketplaceSellerProductsFullAccess | / |
 ```
 {
@@ -37699,7 +37701,7 @@ Provides sellers full access to AWS Marketplace Management Products page and oth
 ## AWSMarketplaceLicenseManagementServiceRolePolicy
 Enables access to AWS Services and Resources used or managed by AWS Marketplace for license management.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSMarketplaceLicenseManagementServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -37735,7 +37737,7 @@ Enables access to AWS Services and Resources used or managed by AWS Marketplace 
 ## AWSProtonReadOnlyAccess
 Provides read only access to the AWS Proton APIs and Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSProtonReadOnlyAccess | / |
 ```
 {
@@ -37760,7 +37762,7 @@ Provides read only access to the AWS Proton APIs and Management Console.
 ## AmazonLexV2BotPolicy
 Provides Lex V2 bots access to call other AWS services on your behalf.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AmazonLexV2BotPolicy | /aws-service-role/ |
 ```
 {
@@ -37788,7 +37790,7 @@ Provides Lex V2 bots access to call other AWS services on your behalf.
 ## AWSIQContractServiceRolePolicy
 Used by AWS IQ to execute payment requests on behalf of a customer
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSIQContractServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -37814,7 +37816,7 @@ Used by AWS IQ to execute payment requests on behalf of a customer
 ## AWSStorageGatewayServiceRolePolicy
 Service-linked role used by AWS Storage Gateway to enable integration of other AWS services with Storage Gateway.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSStorageGatewayServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -37840,7 +37842,7 @@ Service-linked role used by AWS Storage Gateway to enable integration of other A
 ## AWSBackupOrganizationAdminAccess
 This policy is for backup administators who use cross-account backup management to manage backups for the organization.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSBackupOrganizationAdminAccess | / |
 ```
 {
@@ -37915,7 +37917,7 @@ This policy is for backup administators who use cross-account backup management 
 ## AWSIoTSiteWiseMonitorPortalAccess
 This policy grants permissions to access AWS IoT SiteWise assets and asset data, create AWS IoT SiteWise Monitor resources, and list AWS SSO users.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSIoTSiteWiseMonitorPortalAccess | /service-role/ |
 ```
 {
@@ -37966,7 +37968,7 @@ This policy grants permissions to access AWS IoT SiteWise assets and asset data,
 ## AWSAuditManagerAdministratorAccess
 Provides administrative access to enable or disable AWS Audit Manager, update settings, and manage assessments, controls, and frameworks
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSAuditManagerAdministratorAccess | / |
 ```
 {
@@ -38133,7 +38135,7 @@ Provides administrative access to enable or disable AWS Audit Manager, update se
 ## ElementalSupportCenterFullAccess
 Full access to view and take action on Elemental Appliance and Software support cases and product support content
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/ElementalSupportCenterFullAccess | / |
 ```
 {
@@ -38161,7 +38163,7 @@ Full access to view and take action on Elemental Appliance and Software support 
 ## AmazonHoneycodeFullAccess
 Provides full access to Honeycode via the AWS Management Console and the SDK.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonHoneycodeFullAccess | / |
 ```
 {
@@ -38187,7 +38189,7 @@ Provides full access to Honeycode via the AWS Management Console and the SDK.
 ## AmazonWorkDocsReadOnlyAccess
 Provides read only access to Amazon WorkDocs via the AWS Management Console
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonWorkDocsReadOnlyAccess | / |
 ```
 {
@@ -38216,7 +38218,7 @@ Provides read only access to Amazon WorkDocs via the AWS Management Console
 ## CloudWatchLambdaInsightsExecutionRolePolicy
 Policy required for the Lambda Insights Extension
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/CloudWatchLambdaInsightsExecutionRolePolicy | / |
 ```
 {
@@ -38248,7 +38250,7 @@ Policy required for the Lambda Insights Extension
 ## AWSGlobalAcceleratorSLRPolicy
 Policy granting permissions to AWS Global Accelerator to manage EC2 Elastic Network Interfaces and Security Groups. 
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSGlobalAcceleratorSLRPolicy | /aws-service-role/ |
 ```
 {
@@ -38312,7 +38314,7 @@ Policy granting permissions to AWS Global Accelerator to manage EC2 Elastic Netw
 ## EC2InstanceProfileForImageBuilder
 EC2 Instance profile for Image Builder service.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/EC2InstanceProfileForImageBuilder | / |
 ```
 {
@@ -38369,7 +38371,7 @@ EC2 Instance profile for Image Builder service.
 ## AWSServiceRoleForLogDeliveryPolicy
 Allows Log Delivery service to deliver logs by calling log destination on your behalf.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForLogDeliveryPolicy | /aws-service-role/ |
 ```
 {
@@ -38402,7 +38404,7 @@ Allows Log Delivery service to deliver logs by calling log destination on your b
 ## AmazonCodeGuruReviewerFullAccess
 Grants full access to Amazon CodeGuru Reviewer and scoped access to required dependencies.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonCodeGuruReviewerFullAccess | / |
 ```
 {
@@ -38521,7 +38523,7 @@ Grants full access to Amazon CodeGuru Reviewer and scoped access to required dep
 ## AWSVPCS2SVpnServiceRolePolicy
 Allow Site-to-Site VPN to create and manage resources related to your VPN Connections.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSVPCS2SVpnServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -38551,7 +38553,7 @@ Allow Site-to-Site VPN to create and manage resources related to your VPN Connec
 ## AWSImageBuilderFullAccess
 Provides full access to all AWS Image Builder actions and resource scoped access to related AWS services.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSImageBuilderFullAccess | / |
 ```
 {
@@ -38675,7 +38677,7 @@ Provides full access to all AWS Image Builder actions and resource scoped access
 ## AWSIncidentManagerResolverAccess
 This policy grants permissions to start, view, and update incidents with full access to custom timeline events & related items. Assign this policy to users who will create and resolve incidents.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSIncidentManagerResolverAccess | / |
 ```
 {
@@ -38728,7 +38730,7 @@ This policy grants permissions to start, view, and update incidents with full ac
 ## AWSCertificateManagerPrivateCAPrivilegedUser
 Provides privileged certificate user access to AWS Certificate Manager Private Certificate Authority
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCertificateManagerPrivateCAPrivilegedUser | / |
 ```
 {
@@ -38791,7 +38793,7 @@ Provides privileged certificate user access to AWS Certificate Manager Private C
 ## AmazonSSMPatchAssociation
 Provide access to child instances for patch association operation.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonSSMPatchAssociation | / |
 ```
 {
@@ -38830,7 +38832,7 @@ Provide access to child instances for patch association operation.
 ## AWSBudgetsReadOnlyAccess
 Provides read only access to AWS Budgets Console via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSBudgetsReadOnlyAccess | / |
 ```
 {
@@ -38858,7 +38860,7 @@ Provides read only access to AWS Budgets Console via the AWS Management Console.
 ## AWSOpsWorksRegisterCLI_OnPremises
 Policy to enable registration of On-Premises instances via the OpsWorks CLI
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSOpsWorksRegisterCLI_OnPremises | / |
 ```
 {
@@ -38935,7 +38937,7 @@ Policy to enable registration of On-Premises instances via the OpsWorks CLI
 ## Health_OrganizationsServiceRolePolicy
 AWS Health policy to enable Organizational View feature
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/Health_OrganizationsServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -38965,7 +38967,7 @@ AWS Health policy to enable Organizational View feature
 ## AmazonElasticContainerRegistryPublicFullAccess
 Provides administrative access to Amazon ECR Public resources
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonElasticContainerRegistryPublicFullAccess | / |
 ```
 {
@@ -38992,7 +38994,7 @@ Provides administrative access to Amazon ECR Public resources
 ## AmazonMCSReadOnlyAccess
 Provide read only access to Amazon Managed Apache Cassandra Service
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonMCSReadOnlyAccess | / |
 ```
 {
@@ -39029,7 +39031,7 @@ Provide read only access to Amazon Managed Apache Cassandra Service
 ## AWSRoboMaker_FullAccess
 Provides full access to AWS RoboMaker via the AWS Management Console and SDK. Also provides select access to related services (e.g., S3, IAM).
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSRoboMaker_FullAccess | / |
 ```
 {
@@ -39073,7 +39075,7 @@ Provides full access to AWS RoboMaker via the AWS Management Console and SDK. Al
 ## AWSAppMeshPreviewServiceRolePolicy
 Enables access to AWS Services and Resources used or managed by AWS App Mesh
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSAppMeshPreviewServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -39108,7 +39110,7 @@ Enables access to AWS Services and Resources used or managed by AWS App Mesh
 ## ServiceQuotasServiceRolePolicy
 Allows Service Quotas to create support cases on your behalf
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/ServiceQuotasServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -39134,7 +39136,7 @@ Allows Service Quotas to create support cases on your behalf
 ## AWSLambdaMSKExecutionRole
 Provides permissions required to access MSK Cluster within a VPC, manage ENIs (create, describe, delete) in the VPC and write permissions to CloudWatch Logs.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSLambdaMSKExecutionRole | /service-role/ |
 ```
 {
@@ -39170,7 +39172,7 @@ Provides permissions required to access MSK Cluster within a VPC, manage ENIs (c
 ## ComputeOptimizerReadOnlyAccess
 Provides read only access to ComputeOptimizer.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/ComputeOptimizerReadOnlyAccess | / |
 ```
 {
@@ -39212,7 +39214,7 @@ Provides read only access to ComputeOptimizer.
 ## AlexaForBusinessPolyDelegatedAccessPolicy
 Provide access to Poly AVS devices
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AlexaForBusinessPolyDelegatedAccessPolicy | / |
 ```
 {
@@ -39298,7 +39300,7 @@ Provide access to Poly AVS devices
 ## AWSMarketplaceProcurementSystemAdminFullAccess
 Provides full access to all administrative actions for an AWS Marketplace eProcurement integration.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSMarketplaceProcurementSystemAdminFullAccess | / |
 ```
 {
@@ -39329,7 +39331,7 @@ Provides full access to all administrative actions for an AWS Marketplace eProcu
 ## AmazonEKSFargatePodExecutionRolePolicy
 Provides access to other AWS service resources that are required to run Amazon EKS pods on AWS Fargate
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonEKSFargatePodExecutionRolePolicy | / |
 ```
 {
@@ -39358,7 +39360,7 @@ Provides access to other AWS service resources that are required to run Amazon E
 ## AWSIoTWirelessReadOnlyAccess
 Allows the associated identity read only access to AWS IoT wireless.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSIoTWirelessReadOnlyAccess | / |
 ```
 {
@@ -39385,7 +39387,7 @@ Allows the associated identity read only access to AWS IoT wireless.
 ## AppRunnerServiceRolePolicy
 Allows AWS AppRunner to manage related AWS resources on your behalf.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AppRunnerServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -39436,7 +39438,7 @@ Allows AWS AppRunner to manage related AWS resources on your behalf.
 ## AWSThinkboxDeadlineResourceTrackerAdminPolicy
 Grants permissions required to create, destroy, and administer AWS Thinkbox's Deadline Resource Tracker.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSThinkboxDeadlineResourceTrackerAdminPolicy | / |
 ```
 {
@@ -39675,7 +39677,7 @@ Grants permissions required to create, destroy, and administer AWS Thinkbox's De
 ## IAMAccessAdvisorReadOnly
 This policy grants access to read all access information provided by IAM access advisor such as service last accessed information.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/IAMAccessAdvisorReadOnly | / |
 ```
 {
@@ -39723,7 +39725,7 @@ This policy grants access to read all access information provided by IAM access 
 ## AmazonSageMakerFeatureStoreAccess
 Provides permissions required to enable the offline store for an Amazon SageMaker FeatureStore feature group.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonSageMakerFeatureStoreAccess | / |
 ```
 {
@@ -39755,7 +39757,7 @@ Provides permissions required to enable the offline store for an Amazon SageMake
 ## AmazonCodeGuruReviewerReadOnlyAccess
 Provides read only access to Amazon CodeGuru Reviewer.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonCodeGuruReviewerReadOnlyAccess | / |
 ```
 {
@@ -39785,7 +39787,7 @@ Provides read only access to Amazon CodeGuru Reviewer.
 ## AWSThinkboxAWSPortalGatewayPolicy
 This policy grants the AWS Portal Gateway machine the necessary permissions required for normal operation.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSThinkboxAWSPortalGatewayPolicy | / |
 ```
 {
@@ -39871,7 +39873,7 @@ This policy grants the AWS Portal Gateway machine the necessary permissions requ
 ## AWSApplicationAutoscalingKafkaClusterPolicy
 Policy granting permissions to Application Auto Scaling to access Managed Streaming for Apache Kafka and CloudWatch.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingKafkaClusterPolicy | /aws-service-role/ |
 ```
 {
@@ -39904,7 +39906,7 @@ Policy granting permissions to Application Auto Scaling to access Managed Stream
 ## AWSSystemsManagerOpsDataSyncServiceRolePolicy
 IAM role for SSM Explorer to manage OpsData related operations
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSSystemsManagerOpsDataSyncServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -39990,7 +39992,7 @@ IAM role for SSM Explorer to manage OpsData related operations
 ## AmazonCodeGuruProfilerFullAccess
 Provides full access to Amazon CodeGuru Profiler.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonCodeGuruProfilerFullAccess | / |
 ```
 {
@@ -40032,7 +40034,7 @@ Provides full access to Amazon CodeGuru Profiler.
 ## AWSProtonDeveloperAccess
 Provides access to the AWS Proton APIs and Management Console, but does not allow administration of Proton templates or environments.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSProtonDeveloperAccess | / |
 ```
 {
@@ -40087,7 +40089,7 @@ Provides access to the AWS Proton APIs and Management Console, but does not allo
 ## AmazonElasticFileSystemServiceRolePolicy
 Allows Amazon Elastic File System to manage AWS resources on your behalf
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AmazonElasticFileSystemServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -40175,7 +40177,7 @@ Allows Amazon Elastic File System to manage AWS resources on your behalf
 ## AmazonSageMakerGroundTruthExecution
 Provides access to AWS services that are required to run SageMaker GroundTruth Labeling job
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonSageMakerGroundTruthExecution | / |
 ```
 {
@@ -40319,7 +40321,7 @@ Provides access to AWS services that are required to run SageMaker GroundTruth L
 ## AWSResourceAccessManagerFullAccess
 Provides full access to AWS Resource Access Manager
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSResourceAccessManagerFullAccess | / |
 ```
 {
@@ -40345,7 +40347,7 @@ Provides full access to AWS Resource Access Manager
 ## CertificateManagerServiceRolePolicy
 Amazon Certificate Manager Service Role Policy
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/CertificateManagerServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -40372,7 +40374,7 @@ Amazon Certificate Manager Service Role Policy
 ## AWSIoTDeviceDefenderEnableIoTLoggingMitigationAction
 Provides access for enabling IoT logging for execution of ENABLE_IOT_LOGGING mitigation action
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderEnableIoTLoggingMitigationAction | /service-role/ |
 ```
 {
@@ -40416,7 +40418,7 @@ Provides access for enabling IoT logging for execution of ENABLE_IOT_LOGGING mit
 ## AWSGrafanaWorkspacePermissionManagement
 Provides only the ability to update user and group permissions for AWS Grafana workspaces.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSGrafanaWorkspacePermissionManagement | / |
 ```
 {
@@ -40446,7 +40448,7 @@ Provides only the ability to update user and group permissions for AWS Grafana w
 ## AmazonNimbleStudio-LaunchProfileWorker
 This policy grants access to resources needed by Nimble Studio Launch Profile workers. Attach this policy to EC2 instances created by Nimble Studio Builder.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonNimbleStudio-LaunchProfileWorker | / |
 ```
 {
@@ -40483,7 +40485,7 @@ This policy grants access to resources needed by Nimble Studio Launch Profile wo
 ## AWSElasticBeanstalkRoleCWL
 (Elastic Beanstalk operations role) Allows an environment to manage Amazon CloudWatch Logs log groups.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleCWL | /service-role/ |
 ```
 {
@@ -40512,7 +40514,7 @@ This policy grants access to resources needed by Nimble Studio Launch Profile wo
 ## DynamoDBCloudWatchContributorInsightsServiceRolePolicy
 Permissions required to support Amazon CloudWatch Contributor Insights for Amazon DynamoDB.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/DynamoDBCloudWatchContributorInsightsServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -40546,7 +40548,7 @@ Permissions required to support Amazon CloudWatch Contributor Insights for Amazo
 ## AWSElasticBeanstalkRoleRDS
 (Elastic Beanstalk operations role) Allows an environment to integrate an Amazon RDS instance.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleRDS | /service-role/ |
 ```
 {
@@ -40581,7 +40583,7 @@ Permissions required to support Amazon CloudWatch Contributor Insights for Amazo
 ## AWSPanoramaServiceRolePolicy
 Allows AWS Panorama to manage resources in Amazon S3, AWS IoT, AWS IoT GreenGrass, AWS Lambda, Amazon SageMaker, and Amazon CloudWatch Logs, and to pass service roles to AWS IoT, AWS IoT GreenGrass, and Amazon SageMaker.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSPanoramaServiceRolePolicy | /service-role/ |
 ```
 {
@@ -40894,7 +40896,7 @@ Allows AWS Panorama to manage resources in Amazon S3, AWS IoT, AWS IoT GreenGras
 ## AmazonEMRReadOnlyAccessPolicy_v2
 Provides read only access to Amazon EMR and the associated CloudWatch Metrics.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonEMRReadOnlyAccessPolicy_v2 | / |
 ```
 {
@@ -40944,7 +40946,7 @@ Provides read only access to Amazon EMR and the associated CloudWatch Metrics.
 ## AmazonEventBridgeApiDestinationsServiceRolePolicy
 Allows EventBridge to access Secret Manager resources on your behalf.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AmazonEventBridgeApiDestinationsServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -40975,7 +40977,7 @@ Allows EventBridge to access Secret Manager resources on your behalf.
 ## AWSServiceRoleForCodeGuru-Profiler
 A service-linked role required for Amazon CodeGuru Profiler to send notifications on your behalf.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForCodeGuru-Profiler | /aws-service-role/ |
 ```
 {
@@ -41002,7 +41004,7 @@ A service-linked role required for Amazon CodeGuru Profiler to send notification
 ## AmazonChimeVoiceConnectorServiceLinkedRolePolicy
 Managed policy for Service Linked Role for Amazon Chime VoiceConnector
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AmazonChimeVoiceConnectorServiceLinkedRolePolicy | /aws-service-role/ |
 ```
 {
@@ -41030,7 +41032,7 @@ Managed policy for Service Linked Role for Amazon Chime VoiceConnector
 ## AmazonPrometheusQueryAccess
 Grants access to run queries against AWS Managed Prometheus resources
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonPrometheusQueryAccess | / |
 ```
 {
@@ -41059,7 +41061,7 @@ Grants access to run queries against AWS Managed Prometheus resources
 ## AmazonWorkDocsFullAccess
 Provides full access to Amazon WorkDocs via the AWS Management Console
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonWorkDocsFullAccess | / |
 ```
 {
@@ -41088,7 +41090,7 @@ Provides full access to Amazon WorkDocs via the AWS Management Console
 ## AmazonHoneycodeWorkbookReadOnlyAccess
 Provides read only access to Honeycode Workbook via the AWS Management Console and the SDK.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonHoneycodeWorkbookReadOnlyAccess | / |
 ```
 {
@@ -41119,7 +41121,7 @@ Provides read only access to Honeycode Workbook via the AWS Management Console a
 ## MediaPackageServiceRolePolicy
 Allows MediaPackage to publish logs to CloudWatch
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/MediaPackageServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -41153,7 +41155,7 @@ Allows MediaPackage to publish logs to CloudWatch
 ## IAMAccessAnalyzerReadOnlyAccess
 Provides read only access to IAM Access Analyzer resources
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/IAMAccessAnalyzerReadOnlyAccess | / |
 ```
 {
@@ -41181,7 +41183,7 @@ Provides read only access to IAM Access Analyzer resources
 ## AmazonEventBridgeSchemasServiceRolePolicy
 Grants permissions to Managed Rules created by Amazon EventBridge schemas.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AmazonEventBridgeSchemasServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -41215,7 +41217,7 @@ Grants permissions to Managed Rules created by Amazon EventBridge schemas.
 ## AWSIoTDeviceDefenderPublishFindingsToSNSMitigationAction
 Provides messages publish access to SNS topic for execution of PUBLISH_FINDING_TO_SNS mitigation action
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderPublishFindingsToSNSMitigationAction | /service-role/ |
 ```
 {
@@ -41243,7 +41245,7 @@ Provides messages publish access to SNS topic for execution of PUBLISH_FINDING_T
 ## AmazonQLDBConsoleFullAccess
 Provides full access to Amazon QLDB via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonQLDBConsoleFullAccess | / |
 ```
 {
@@ -41317,7 +41319,7 @@ Provides full access to Amazon QLDB via the AWS Management Console.
 ## AWSGlueSchemaRegistryFullAccess
 Provides full access to the AWS Glue Schema Registry Service
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSGlueSchemaRegistryFullAccess | / |
 ```
 {
@@ -41378,7 +41380,7 @@ Provides full access to the AWS Glue Schema Registry Service
 ## AWSServiceCatalogAppRegistryServiceRolePolicy
 Allows Service Catalog AppRegistry to manage Resource Groups on your behalf
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSServiceCatalogAppRegistryServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -41429,7 +41431,7 @@ Allows Service Catalog AppRegistry to manage Resource Groups on your behalf
 ## AWSIoTFleetHubFederationAccess
 Federation access for IoT Fleet Hub applications
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSIoTFleetHubFederationAccess | /service-role/ |
 ```
 {
@@ -41503,7 +41505,7 @@ Federation access for IoT Fleet Hub applications
 ## AmazonElasticFileSystemClientReadWriteAccess
 Provides read and write client access to an Amazon EFS file system
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess | / |
 ```
 {
@@ -41531,7 +41533,7 @@ Provides read and write client access to an Amazon EFS file system
 ## AWSApplicationAutoscalingComprehendEndpointPolicy
 Policy granting permissions to Application Auto Scaling to access Comprehend and CloudWatch. 
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingComprehendEndpointPolicy | /aws-service-role/ |
 ```
 {
@@ -41563,7 +41565,7 @@ Policy granting permissions to Application Auto Scaling to access Comprehend and
 ## AWSCloudShellFullAccess
 Grants using AWS CloudShell with all features
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCloudShellFullAccess | / |
 ```
 {
@@ -41589,7 +41591,7 @@ Grants using AWS CloudShell with all features
 ## AWSIoTDeviceDefenderAddThingsToThingGroupMitigationAction
 Provides write access to IoT thing groups and read access to IoT Certificates for execution of ADD_THINGS_TO_THING_GROUP mitigation action
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderAddThingsToThingGroupMitigationAction | /service-role/ |
 ```
 {
@@ -41618,7 +41620,7 @@ Provides write access to IoT thing groups and read access to IoT Certificates fo
 ## AWSIoTWirelessDataAccess
 Allows the associated identity data access to AWS IoT Wireless devices.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSIoTWirelessDataAccess | / |
 ```
 {
@@ -41644,7 +41646,7 @@ Allows the associated identity data access to AWS IoT Wireless devices.
 ## AmazonQLDBFullAccess
 Provides full access to Amazon QLDB via the service API.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonQLDBFullAccess | / |
 ```
 {
@@ -41700,7 +41702,7 @@ Provides full access to Amazon QLDB via the service API.
 ## AmazonAugmentedAIFullAccess
 Provides access to perform all operations Amazon Augmented AI resources, including FlowDefinitions, HumanTaskUis and HumanLoops. Does not allow access for creating FlowDefinitions against the public-crowd Workteam.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonAugmentedAIFullAccess | / |
 ```
 {
@@ -41753,7 +41755,7 @@ Provides access to perform all operations Amazon Augmented AI resources, includi
 ## AmazonKeyspacesFullAccess
 Provide full access to Amazon Keyspaces
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonKeyspacesFullAccess | / |
 ```
 {
@@ -41816,7 +41818,7 @@ Provide full access to Amazon Keyspaces
 ## AWSIoTDeviceDefenderReplaceDefaultPolicyMitigationAction
 Provides write access to IoT policies for execution of REPLACE_DEFAULT_POLICY_VERSION mitigation action
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderReplaceDefaultPolicyMitigationAction | /service-role/ |
 ```
 {
@@ -41844,7 +41846,7 @@ Provides write access to IoT policies for execution of REPLACE_DEFAULT_POLICY_VE
 ## AWSAppMeshReadOnly
 Provides read-only access to the AWS App Mesh APIs and Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSAppMeshReadOnly | / |
 ```
 {
@@ -41897,7 +41899,7 @@ Provides read-only access to the AWS App Mesh APIs and Management Console.
 ## ComputeOptimizerServiceRolePolicy
 Allows ComputeOptimizer to call AWS services and collect workload details on your behalf.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/ComputeOptimizerServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -41944,7 +41946,7 @@ Allows ComputeOptimizer to call AWS services and collect workload details on you
 ## AWSApplicationMigrationFullAccess
 This policy provides permissions to all public APIs of AWS Application Migration Service (MGN), as well as permissions to read KMS key information. Attach this policy to your IAM users or roles.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSApplicationMigrationFullAccess | / |
 ```
 {
@@ -42000,7 +42002,7 @@ This policy provides permissions to all public APIs of AWS Application Migration
 ## AWSLakeFormationCrossAccountManager
 Provides cross account access to Glue resources via Lake Formation. Also grants read access to other required services such as organizations and resource access manager
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSLakeFormationCrossAccountManager | / |
 ```
 {
@@ -42071,7 +42073,7 @@ Provides cross account access to Glue resources via Lake Formation. Also grants 
 ## AWSGlueDataBrewServiceRole
 This policy grants permission to glue to perform action on user's glue data catalog, this policy also provides permission to ec2 actions to allow glue to create ENI to connect to resources in the VPC, also allow glue to access registered data in lakeformation and permission to access user's cloudwatch 
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSGlueDataBrewServiceRole | /service-role/ |
 ```
 {
@@ -42176,7 +42178,7 @@ This policy grants permission to glue to perform action on user's glue data cata
 ## AmazonBraketFullAccess
 Provides full access to Amazon Braket via the AWS Management Console and SDK. Also provides access to related services (e.g., S3, logs).
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonBraketFullAccess | / |
 ```
 {
@@ -42291,7 +42293,7 @@ Provides full access to Amazon Braket via the AWS Management Console and SDK. Al
 ## AWSElasticBeanstalkManagedUpdatesServiceRolePolicy
 AWS Elastic Beanstalk Service Role policy that grants limited permissions to managed updates.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSElasticBeanstalkManagedUpdatesServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -42490,7 +42492,7 @@ AWS Elastic Beanstalk Service Role policy that grants limited permissions to man
 ## AmazonLexChannelsAccess
 This policy allows customers to call Lex runtime from channels
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AmazonLexChannelsAccess | /aws-service-role/ |
 ```
 {
@@ -42516,7 +42518,7 @@ This policy allows customers to call Lex runtime from channels
 ## AlexaForBusinessLifesizeDelegatedAccessPolicy
 Provide access to Lifesize AVS devices
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AlexaForBusinessLifesizeDelegatedAccessPolicy | / |
 ```
 {
@@ -42623,7 +42625,7 @@ Provide access to Lifesize AVS devices
 ## AmazonTimestreamReadOnlyAccess
 Provides read only access to Amazon Timestream. Policy also provides permission to cancel any running query. If using Customer managed CMK, please refer to documentation for additional permissions needed.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonTimestreamReadOnlyAccess | / |
 ```
 {
@@ -42658,7 +42660,7 @@ Provides read only access to Amazon Timestream. Policy also provides permission 
 ## AWSPanoramaFullAccess
 Provides full access to AWS Panorama
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSPanoramaFullAccess | / |
 ```
 {
@@ -42684,7 +42686,7 @@ Provides full access to AWS Panorama
 ## AmazonQLDBReadOnly
 Provides read only access to Amazon QLDB.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonQLDBReadOnly | / |
 ```
 {
@@ -42721,7 +42723,7 @@ Provides read only access to Amazon QLDB.
 ## AWSChatbotServiceLinkedRolePolicy
 The Service Linked Role used by AWS Chatbot.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSChatbotServiceLinkedRolePolicy | /aws-service-role/ |
 ```
 {
@@ -42762,7 +42764,7 @@ The Service Linked Role used by AWS Chatbot.
 ## AWSLambda_ReadOnlyAccess
 Grants read-only access to AWS Lambda service, AWS Lambda console features, and other related AWS services.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSLambda_ReadOnlyAccess | / |
 ```
 {
@@ -42819,7 +42821,7 @@ Grants read-only access to AWS Lambda service, AWS Lambda console features, and 
 ## AWSCodePipeline_ReadOnlyAccess
 Provides read only access to AWS CodePipeline via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCodePipeline_ReadOnlyAccess | / |
 ```
 {
@@ -42878,7 +42880,7 @@ Provides read only access to AWS CodePipeline via the AWS Management Console.
 ## S3StorageLensServiceRolePolicy
 Enables access to AWS Services and Resources used or managed by S3 Storage Lens
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/S3StorageLensServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -42910,7 +42912,7 @@ Enables access to AWS Services and Resources used or managed by S3 Storage Lens
 ## ServerMigrationServiceConsoleFullAccess
 Required permissions to use all features of the Server Migration Service Console
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/ServerMigrationServiceConsoleFullAccess | / |
 ```
 {
@@ -42989,7 +42991,7 @@ Required permissions to use all features of the Server Migration Service Console
 ## AWSAppSyncServiceRolePolicy
 Enables access to AWS services and resources used or managed by AppSync
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSAppSyncServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -43021,7 +43023,7 @@ Enables access to AWS services and resources used or managed by AppSync
 ## AWSAppMeshFullAccess
 Provides full access to the AWS App Mesh APIs and Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSAppMeshFullAccess | / |
 ```
 {
@@ -43090,7 +43092,7 @@ Provides full access to the AWS App Mesh APIs and Management Console.
 ## AWSIncidentManagerServiceRolePolicy
 This policy grants Incident Manager permission to manage incident records and related resources on your behalf.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSIncidentManagerServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -43133,7 +43135,7 @@ This policy grants Incident Manager permission to manage incident records and re
 ## AWSProtonFullAccess
 Provides full access to the AWS Proton APIs and Management Console. In addition to these permissions, access to Amazon S3 is also needed to register template bundles from your S3 buckets, as well as access to Amazon IAM to create and manage the service roles for Proton.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSProtonFullAccess | / |
 ```
 {
@@ -43198,7 +43200,7 @@ Provides full access to the AWS Proton APIs and Management Console. In addition 
 ## AWSCloud9SSMInstanceProfile
 This policy will be used to attach a role on a InstanceProfile which will allow Cloud9 to use the SSM Session Manager to connect to the instance
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCloud9SSMInstanceProfile | / |
 ```
 {
@@ -43228,7 +43230,7 @@ This policy will be used to attach a role on a InstanceProfile which will allow 
 ## ElementalActivationsDownloadSoftwareAccess
 Access to view purchased assets and download related software and kickstart files
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/ElementalActivationsDownloadSoftwareAccess | / |
 ```
 {
@@ -43255,7 +43257,7 @@ Access to view purchased assets and download related software and kickstart file
 ## AWSPanoramaGreengrassGroupRolePolicy
 Allows an AWS Lambda function on an AWS Panorama Appliance to manage resources in Panorama, upload logs and metrics to Amazon CloudWatch, and to manage objects in buckets created for use with Panorama.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSPanoramaGreengrassGroupRolePolicy | /service-role/ |
 ```
 {
@@ -43322,7 +43324,7 @@ Allows an AWS Lambda function on an AWS Panorama Appliance to manage resources i
 ## AmazonDetectiveFullAccess
  Provides full access to Amazon Detective service and scoped access to the console UI dependencies
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonDetectiveFullAccess | / |
 ```
 {
@@ -43364,7 +43366,7 @@ Allows an AWS Lambda function on an AWS Panorama Appliance to manage resources i
 ## AWSTransferReadOnlyAccess
 Provide readonly access to AWS Transfer services.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSTransferReadOnlyAccess | / |
 ```
 {
@@ -43395,7 +43397,7 @@ Provide readonly access to AWS Transfer services.
 ## ServiceQuotasReadOnlyAccess
 Provides read only access to Service Quotas
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/ServiceQuotasReadOnlyAccess | / |
 ```
 {
@@ -43449,7 +43451,7 @@ Provides read only access to Service Quotas
 ## EC2FleetTimeShiftableServiceRolePolicy
 Policy granting permissions to EC2 Fleet to launch instances in the future.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/EC2FleetTimeShiftableServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -43520,7 +43522,7 @@ Policy granting permissions to EC2 Fleet to launch instances in the future.
 ## MigrationHubDMSAccessServiceRolePolicy
 Policy for Database Migration Service to assume role in customer's account to call Migration Hub
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/MigrationHubDMSAccessServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -43570,7 +43572,7 @@ Policy for Database Migration Service to assume role in customer's account to ca
 ## AWSServiceCatalogEndUserReadOnlyAccess
 Provides read-only access to Service Catalog end-user capabilities 
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSServiceCatalogEndUserReadOnlyAccess | / |
 ```
 {
@@ -43648,7 +43650,7 @@ Provides read-only access to Service Catalog end-user capabilities
 ## ElementalActivationsFullAccess
 Full access to view and take action on Elemental Appliances and Software purchased assets
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/ElementalActivationsFullAccess | / |
 ```
 {
@@ -43674,7 +43676,7 @@ Full access to view and take action on Elemental Appliances and Software purchas
 ## AWSIQPermissionServiceRolePolicy
 Allows AWS IQ to manage the role assumed by AWS IQ experts.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSIQPermissionServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -43720,7 +43722,7 @@ Allows AWS IQ to manage the role assumed by AWS IQ experts.
 ## AmazonEKSForFargateServiceRolePolicy
 This policy grants necessary permissions to Amazon EKS to run fargate tasks
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AmazonEKSForFargateServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -43754,7 +43756,7 @@ This policy grants necessary permissions to Amazon EKS to run fargate tasks
 ## ElementalActivationsReadOnlyAccess
 Read-only access to the detailed list of purchased assets associated to the AWS account of the user
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/ElementalActivationsReadOnlyAccess | / |
 ```
 {
@@ -43780,7 +43782,7 @@ Read-only access to the detailed list of purchased assets associated to the AWS 
 ## MigrationHubSMSAccessServiceRolePolicy
 Policy for Server Migration Service to assume role in customer's account to call Migration Hub
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/MigrationHubSMSAccessServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -43830,7 +43832,7 @@ Policy for Server Migration Service to assume role in customer's account to call
 ## CloudFormationStackSetsOrgAdminServiceRolePolicy
 Service Role for CloudFormation StackSets (Organization Master Account)
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/CloudFormationStackSetsOrgAdminServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -43864,7 +43866,7 @@ Service Role for CloudFormation StackSets (Organization Master Account)
 ## AmazonEventBridgeSchemasFullAccess
 Provides full access to Amazon EventBridge Schemas.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonEventBridgeSchemasFullAccess | / |
 ```
 {
@@ -43911,7 +43913,7 @@ Provides full access to Amazon EventBridge Schemas.
 ## AWSMarketplaceSellerFullAccess
 Provides full access to all seller operations on the AWS Marketplace and other AWS services such as AMI management.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSMarketplaceSellerFullAccess | / |
 ```
 {
@@ -43987,7 +43989,7 @@ Provides full access to all seller operations on the AWS Marketplace and other A
 ## CloudWatchAutomaticDashboardsAccess
 Provides access to the non-CloudWatch APIs used to display CloudWatch Automatic Dashboards, including the contents of objects such as Lambda functions
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/CloudWatchAutomaticDashboardsAccess | / |
 ```
 {
@@ -44055,7 +44057,7 @@ Provides access to the non-CloudWatch APIs used to display CloudWatch Automatic 
 ## AWSDeepRacerFullAccess
 Provides full access to AWS DeepRacer. Also provides select access to related services (e.g., S3).
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSDeepRacerFullAccess | / |
 ```
 {
@@ -44106,7 +44108,7 @@ Provides full access to AWS DeepRacer. Also provides select access to related se
 ## AmazonWorkMailEventsServiceRolePolicy
 Enables access to AWS Services and Resources used or managed by Amazon WorkMail Events
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AmazonWorkMailEventsServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -44134,7 +44136,7 @@ Enables access to AWS Services and Resources used or managed by Amazon WorkMail 
 ## AmazonHoneycodeTeamAssociationFullAccess
 Provides full access to Honeycode Team Association via the AWS Management Console and the SDK. 
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonHoneycodeTeamAssociationFullAccess | / |
 ```
 {
@@ -44162,7 +44164,7 @@ Provides full access to Honeycode Team Association via the AWS Management Consol
 ## AmazonPrometheusRemoteWriteAccess
 Grants write only access to AWS Managed Prometheus workspaces
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonPrometheusRemoteWriteAccess | / |
 ```
 {
@@ -44188,7 +44190,7 @@ Grants write only access to AWS Managed Prometheus workspaces
 ## AmazonDevOpsGuruReadOnlyAccess
 Provides read only access to Amazon DevOps Guru Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonDevOpsGuruReadOnlyAccess | / |
 ```
 {
@@ -44246,7 +44248,7 @@ Provides read only access to Amazon DevOps Guru Console.
 ## AmazonEventBridgeSchemasReadOnlyAccess
 Provides read only access to Amazon EventBridge Schemas.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonEventBridgeSchemasReadOnlyAccess | / |
 ```
 {
@@ -44285,7 +44287,7 @@ Provides read only access to Amazon EventBridge Schemas.
 ## AmazonFISServiceRolePolicy
 Policy to enable AWS FIS to manage monitoring and resource selection for experiments.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AmazonFISServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -44353,7 +44355,7 @@ Policy to enable AWS FIS to manage monitoring and resource selection for experim
 ## AWSThinkboxDeadlineSpotEventPluginWorkerPolicy
 Grant permissions required for an EC2 instance running AWS Thinkbox Deadline Spot Event Plugin Worker software.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSThinkboxDeadlineSpotEventPluginWorkerPolicy | / |
 ```
 {
@@ -44420,7 +44422,7 @@ Grant permissions required for an EC2 instance running AWS Thinkbox Deadline Spo
 ## AWSCloudWatchAlarms_ActionSSMIncidentsServiceRolePolicy
 This policy is used by the service-linked role named AWSServiceRoleForCloudWatchAlarms_ActionSSMIncidents. CloudWatch uses this service-linked role to perform AWS System Manager Incident Manager actions when a CloudWatch alarm goes in to ALARM state. This policy grants permission to start incidents on your behalf.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSCloudWatchAlarms_ActionSSMIncidentsServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -44445,7 +44447,7 @@ This policy is used by the service-linked role named AWSServiceRoleForCloudWatch
 ## AWSIoTWirelessFullPublishAccess
 Provides IoT Wireless full access to publish to IoT Rules Engine on your behalf.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSIoTWirelessFullPublishAccess | / |
 ```
 {
@@ -44472,7 +44474,7 @@ Provides IoT Wireless full access to publish to IoT Rules Engine on your behalf.
 ## GameLiftGameServerGroupPolicy
 Policy to allow Gamelift GameServerGroups to manage customer resources
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/GameLiftGameServerGroupPolicy | / |
 ```
 {
@@ -44550,7 +44552,7 @@ Policy to allow Gamelift GameServerGroups to manage customer resources
 ## AmazonMWAAServiceRolePolicy
 The Service Linked Role used by Amazon Managed Workflows for Apache Airflow.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AmazonMWAAServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -44644,7 +44646,7 @@ The Service Linked Role used by Amazon Managed Workflows for Apache Airflow.
 ## AmazonConnect_FullAccess
 The purpose of this policy is to grant permissions to AWS Connect users required to use Connect resources. This policy provides full access to AWS Connect resources via the Connect Console and public APIs
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonConnect_FullAccess | / |
 ```
 {
@@ -44718,7 +44720,7 @@ The purpose of this policy is to grant permissions to AWS Connect users required
 ## AWSElementalMediaLiveFullAccess
 Provides full access to AWS Elemental MediaLive resources
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSElementalMediaLiveFullAccess | / |
 ```
 {
@@ -44740,7 +44742,7 @@ Provides full access to AWS Elemental MediaLive resources
 ## AWSMarketplaceSellerProductsReadOnly
 Provide sellers read-only access to AWS Marketplace Management Products page.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSMarketplaceSellerProductsReadOnly | / |
 ```
 {
@@ -44773,7 +44775,7 @@ Provide sellers read-only access to AWS Marketplace Management Products page.
 ## AmazonMCSFullAccess
 Provide full access to Amazon Managed Apache Cassandra Service
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonMCSFullAccess | / |
 ```
 {
@@ -44834,7 +44836,7 @@ Provide full access to Amazon Managed Apache Cassandra Service
 ## AWSIoTSiteWiseConsoleFullAccess
 Provides full access to manage AWS IoT SiteWise using the AWS Management Console. Note this policy also grants access to create and list data stores used with AWS IoT SiteWise (e.g. AWS IoT Analytics), access to list and view AWS IoT Greengrass resources, list and modify AWS Secrets Manager secrets, retrieve AWS IoT thing shadows, list resources with specific tags, and create and use a service-linked role for AWS IoT SiteWise.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSIoTSiteWiseConsoleFullAccess | / |
 ```
 {
@@ -44931,7 +44933,7 @@ Provides full access to manage AWS IoT SiteWise using the AWS Management Console
 ## AmazonElasticFileSystemClientFullAccess
 Provides root client access to an Amazon EFS file system
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonElasticFileSystemClientFullAccess | / |
 ```
 {
@@ -44960,7 +44962,7 @@ Provides root client access to an Amazon EFS file system
 ## AWSIoTDeviceDefenderUpdateDeviceCertMitigationAction
 Provides write access to IoT certificates for execution of UPDATE_DEVICE_CERTIFICATE mitigation action
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderUpdateDeviceCertMitigationAction | /service-role/ |
 ```
 {
@@ -44988,7 +44990,7 @@ Provides write access to IoT certificates for execution of UPDATE_DEVICE_CERTIFI
 ## AWSThinkboxAssetServerPolicy
 This policy grants the AWS Portal Asset Server the necessary permissions required for normal operation.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSThinkboxAssetServerPolicy | / |
 ```
 {
@@ -45029,7 +45031,7 @@ This policy grants the AWS Portal Asset Server the necessary permissions require
 ## AWSForWordPressPluginPolicy
 Managed policy for AWS For Wordpress Plugin
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSForWordPressPluginPolicy | / |
 ```
 {
@@ -45116,7 +45118,7 @@ Managed policy for AWS For Wordpress Plugin
 ## AWSTransferFullAccess
 Provides full access to AWS Transfer Service.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSTransferFullAccess | / |
 ```
 {
@@ -45159,7 +45161,7 @@ Provides full access to AWS Transfer Service.
 ## AWSServiceRoleForAmazonEKSNodegroup
 Permissions required for managing nodegroups in the customer's account. These policies related to management of the following resources: AutoscalingGroups, SecurityGroups, LaunchTemplates and InstanceProfiles.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForAmazonEKSNodegroup | /aws-service-role/ |
 ```
 {
@@ -45345,7 +45347,7 @@ Permissions required for managing nodegroups in the customer's account. These po
 ## AWSGrafanaAccountAdministrator
 Provides access within Amazon Grafana to create and manage workspaces for the entire organization.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSGrafanaAccountAdministrator | / |
 ```
 {
@@ -45410,7 +45412,7 @@ Provides access within Amazon Grafana to create and manage workspaces for the en
 ## AWSBackupOperatorAccess
 This policy grants users permissions to assign AWS resources to backup plans, create on-demand backups, and restore backups. This policy does not allow the user to create or edit backup plans or to delete scheduled backups after they are created.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSBackupOperatorAccess | / |
 ```
 {
@@ -45585,7 +45587,7 @@ This policy grants users permissions to assign AWS resources to backup plans, cr
 ## AWSApplicationAutoscalingLambdaConcurrencyPolicy
 Policy granting permissions to Application Auto Scaling to access Lambda and CloudWatch.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSApplicationAutoscalingLambdaConcurrencyPolicy | /aws-service-role/ |
 ```
 {
@@ -45618,7 +45620,7 @@ Policy granting permissions to Application Auto Scaling to access Lambda and Clo
 ## AWSBudgetsActionsRolePolicyForResourceAdministrationWithSSM
 This policy gives AWS Budgets broad permission to control AWS resources. For example, to start and stop EC2 or RDS instances by executing AWS Systems Manager (SSM) scripts.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSBudgetsActionsRolePolicyForResourceAdministrationWithSSM | / |
 ```
 {
@@ -45663,7 +45665,7 @@ This policy gives AWS Budgets broad permission to control AWS resources. For exa
 ## AWSIoTDeviceDefenderUpdateCACertMitigationAction
 Provides write access to IoT CA certificates for execution of UPDATE_CA_CERTIFICATE mitigation action
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSIoTDeviceDefenderUpdateCACertMitigationAction | /service-role/ |
 ```
 {
@@ -45691,7 +45693,7 @@ Provides write access to IoT CA certificates for execution of UPDATE_CA_CERTIFIC
 ## AWSBackupServiceLinkedRolePolicyForBackupTest
 Provides AWS Backup permission to create backups on your behalf across AWS services
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSBackupServiceLinkedRolePolicyForBackupTest | /aws-service-role/ |
 ```
 {
@@ -45730,7 +45732,7 @@ Provides AWS Backup permission to create backups on your behalf across AWS servi
 ## AWSApplicationMigrationMGHAccess
 This policy allows AWS Application Migration Service (MGN) to send meta-data about the progress of servers being migrated using MGN to AWS Migration Hub (MGH). MGN automatically creates an IAM role with this policy attached, and assumes this role. We do not recommend that you attach this policy to your IAM users or roles.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSApplicationMigrationMGHAccess | /service-role/ |
 ```
 {
@@ -45762,7 +45764,7 @@ This policy allows AWS Application Migration Service (MGN) to send meta-data abo
 ## AWSDeviceFarmTestGridServiceRolePolicy
 Grant permissions to AWS Device Farm to call EC2 APIs on your behalf.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSDeviceFarmTestGridServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -45862,7 +45864,7 @@ Grant permissions to AWS Device Farm to call EC2 APIs on your behalf.
 ## AmazonLookoutEquipmentFullAccess
 Provides full access to Amazon Lookout for Equipment operations
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonLookoutEquipmentFullAccess | / |
 ```
 {
@@ -45923,7 +45925,7 @@ Provides full access to Amazon Lookout for Equipment operations
 ## AWSPurchaseOrdersServiceRolePolicy
 Grants permissions to view and modify purchase orders on billing console
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSPurchaseOrdersServiceRolePolicy | / |
 ```
 {
@@ -45951,7 +45953,7 @@ Grants permissions to view and modify purchase orders on billing console
 ## AmazonHoneycodeTeamAssociationReadOnlyAccess
 Provides read only access to Honeycode Team Association via the AWS Management Console and the SDK.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonHoneycodeTeamAssociationReadOnlyAccess | / |
 ```
 {
@@ -45977,7 +45979,7 @@ Provides read only access to Honeycode Team Association via the AWS Management C
 ## AmazonWorkSpacesServiceAccess
 Provides customer account access to AWS WorkSpaces service for launching a Workspace.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonWorkSpacesServiceAccess | / |
 ```
 {
@@ -46005,7 +46007,7 @@ Provides customer account access to AWS WorkSpaces service for launching a Works
 ## AWSSecurityHubOrganizationsAccess
 Grants permission to enable and manage AWS Security Hub within an organization. Includes enabling the service across the organization, and determining the delegated administrator account for the service.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSSecurityHubOrganizationsAccess | / |
 ```
 {
@@ -46055,7 +46057,7 @@ Grants permission to enable and manage AWS Security Hub within an organization. 
 ## AmazonElasticFileSystemsUtils
 Allows customers to use AWS Systems Manager to automatically manage Amazon EFS utilities (amazon-efs-utils) package on their EC2 instances, and use CloudWatchLog to get EFS file system mount success/failure notifications.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonElasticFileSystemsUtils | / |
 ```
 {
@@ -46143,7 +46145,7 @@ Allows customers to use AWS Systems Manager to automatically manage Amazon EFS u
 ## AWSTransferConsoleFullAccess
 Provides full access to AWS Transfer via the AWS Management Console
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSTransferConsoleFullAccess | / |
 ```
 {
@@ -46193,7 +46195,7 @@ Provides full access to AWS Transfer via the AWS Management Console
 ## AmazonEKSServiceRolePolicy
 A Service-Linked Role required for Amazon EKS to call AWS services on your behalf.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AmazonEKSServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -46303,7 +46305,7 @@ A Service-Linked Role required for Amazon EKS to call AWS services on your behal
 ## AWSIoTWirelessLogging
 Allows the associated identity to create Amazon CloudWatch Logs groups and stream logs to the groups.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSIoTWirelessLogging | / |
 ```
 {
@@ -46333,7 +46335,7 @@ Allows the associated identity to create Amazon CloudWatch Logs groups and strea
 ## AWSConfigMultiAccountSetupPolicy
 Allows Config to call AWS services and deploy config resources across organization
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSConfigMultiAccountSetupPolicy | /aws-service-role/ |
 ```
 {
@@ -46415,7 +46417,7 @@ Allows Config to call AWS services and deploy config resources across organizati
 ## AWSIoTWirelessFullAccess
 Allows the associated identity full access to all AWS IoT Wireless operations.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSIoTWirelessFullAccess | / |
 ```
 {
@@ -46441,7 +46443,7 @@ Allows the associated identity full access to all AWS IoT Wireless operations.
 ## AWSElementalMediaLiveReadOnly
 Provides read only access to AWS Elemental MediaLive resources
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSElementalMediaLiveReadOnly | / |
 ```
 {
@@ -46466,7 +46468,7 @@ Provides read only access to AWS Elemental MediaLive resources
 ## AmazonElasticFileSystemClientReadOnlyAccess
 Provides read only client access to an Amazon EFS file system
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadOnlyAccess | / |
 ```
 {
@@ -46493,7 +46495,7 @@ Provides read only client access to an Amazon EFS file system
 ## AmazonElasticMapReducePlacementGroupPolicy
 Policy to allow EMR to create, describe and delete EC2 placement groups.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonElasticMapReducePlacementGroupPolicy | / |
 ```
 {
@@ -46527,7 +46529,7 @@ Policy to allow EMR to create, describe and delete EC2 placement groups.
 ## AmazonCognitoIdpServiceRolePolicy
 Enables access to AWS Services and Resources used or managed by Amazon Cognito User Pools
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AmazonCognitoIdpServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -46553,7 +46555,7 @@ Enables access to AWS Services and Resources used or managed by Amazon Cognito U
 ## AmazonMQServiceRolePolicy
 Service Linked Role Policy for AWS Amazon MQ
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AmazonMQServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -46641,7 +46643,7 @@ Service Linked Role Policy for AWS Amazon MQ
 ## AWSApplicationMigrationServiceRolePolicy
 Allows AWS application Migration Service to create and manage AWS resources on your behalf.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSApplicationMigrationServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -46942,7 +46944,7 @@ Allows AWS application Migration Service to create and manage AWS resources on y
 ## AmazonKeyspacesReadOnlyAccess
 Provide read only access to Amazon Keyspaces
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonKeyspacesReadOnlyAccess | / |
 ```
 {
@@ -46981,7 +46983,7 @@ Provide read only access to Amazon Keyspaces
 ## CloudFormationStackSetsOrgMemberServiceRolePolicy
 Service Role for CloudFormation StackSets (Organization Member Account)
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/CloudFormationStackSetsOrgMemberServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -47026,7 +47028,7 @@ Service Role for CloudFormation StackSets (Organization Member Account)
 ## AWSResourceAccessManagerResourceShareParticipantAccess
 Provides access to AWS Resource Access Manager APIs needed by a resource share participant.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSResourceAccessManagerResourceShareParticipantAccess | / |
 ```
 {
@@ -47059,7 +47061,7 @@ Provides access to AWS Resource Access Manager APIs needed by a resource share p
 ## AWSBillingReadOnlyAccess
 Allows users to view bills on the Billing Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSBillingReadOnlyAccess | / |
 ```
 {
@@ -47085,7 +47087,7 @@ Allows users to view bills on the Billing Console.
 ## ServerMigrationServiceRoleForInstanceValidation
 Permissions to allow the AWS SMS to run used data validation script and send script success/failure back to SMS
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/ServerMigrationServiceRoleForInstanceValidation | /service-role/ |
 ```
 {
@@ -47114,7 +47116,7 @@ Permissions to allow the AWS SMS to run used data validation script and send scr
 ## AWSBackupFullAccess
 This policy is for backup administrators, granting full access to AWS Backup operations, including creating or editing backup plans, assigning AWS resources to backup plans, deleting backups, and restoring backups.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSBackupFullAccess | / |
 ```
 {
@@ -47367,7 +47369,7 @@ This policy is for backup administrators, granting full access to AWS Backup ope
 ## AmazonDevOpsGuruServiceRolePolicy
 A service-linked role required for Amazon DevOpsGuru to access your resources.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AmazonDevOpsGuruServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -47451,7 +47453,7 @@ A service-linked role required for Amazon DevOpsGuru to access your resources.
 ## AWSElasticBeanstalkRoleWorkerTier
 (Elastic Beanstalk operations role) Allows a worker environment tier to create an Amazon DynamoDB table and an Amazon SQS queue.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleWorkerTier | /service-role/ |
 ```
 {
@@ -47492,7 +47494,7 @@ A service-linked role required for Amazon DevOpsGuru to access your resources.
 ## AmazonCodeGuruProfilerReadOnlyAccess
 Provides read only access to Amazon CodeGuru Profiler.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonCodeGuruProfilerReadOnlyAccess | / |
 ```
 {
@@ -47524,7 +47526,7 @@ Provides read only access to Amazon CodeGuru Profiler.
 ## ElementalActivationsGenerateLicenses
 Access to view purchased assets and generate software licenses for pending activations
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/ElementalActivationsGenerateLicenses | / |
 ```
 {
@@ -47553,7 +47555,7 @@ Access to view purchased assets and generate software licenses for pending activ
 ## AWSAppRunnerServicePolicyForECRAccess
 AWS App Runner service policy that grants read permissions to Amazon ECR resources in the customer's account. Use it in a role that is passed to App Runner when creating or updating an App Runner service.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSAppRunnerServicePolicyForECRAccess | /service-role/ |
 ```
 {
@@ -47583,7 +47585,7 @@ AWS App Runner service policy that grants read permissions to Amazon ECR resourc
 ## AWSNetworkManagerReadOnlyAccess
 Provides read only access to Amazon NetworkManager via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSNetworkManagerReadOnlyAccess | / |
 ```
 {
@@ -47611,7 +47613,7 @@ Provides read only access to Amazon NetworkManager via the AWS Management Consol
 ## AmazonEMRServicePolicy_v2
 This policy is used for the Amazon EMR Service Role and should NOT be used for any other IAM users or roles in your account. The policy grants permissions to create and manage resources associated with EMR and related services necessary for the operation of your EMR cluster.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AmazonEMRServicePolicy_v2 | /service-role/ |
 ```
 {
@@ -47950,7 +47952,7 @@ This policy is used for the Amazon EMR Service Role and should NOT be used for a
 ## AWSApplicationMigrationReadOnlyAccess
 This policy provides permissions to all read-only public APIs of Application Migration Service (MGN), as well as some read-only APIs of other AWS services that are required in order to make full read-only use of the MGN console. Attach this policy to your IAM users or roles.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSApplicationMigrationReadOnlyAccess | / |
 ```
 {
@@ -47991,7 +47993,7 @@ This policy provides permissions to all read-only public APIs of Application Mig
 ## AWSServiceCatalogAppRegistryReadOnlyAccess
 Provides read-only access to Service Catalog App Registry capabilites
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSServiceCatalogAppRegistryReadOnlyAccess | / |
 ```
 {
@@ -48022,7 +48024,7 @@ Provides read-only access to Service Catalog App Registry capabilites
 ## AWSServiceRoleForCloudWatchAlarmsActionSSMServiceRolePolicy
 Provides access to Systems Manager resources used by CloudWatch Alarms
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForCloudWatchAlarmsActionSSMServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -48048,7 +48050,7 @@ Provides access to Systems Manager resources used by CloudWatch Alarms
 ## IVSRecordToS3
 Service Linked Role to perform S3 PutObject to recording IVS live streams
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/IVSRecordToS3 | /aws-service-role/ |
 ```
 {
@@ -48076,7 +48078,7 @@ Service Linked Role to perform S3 PutObject to recording IVS live streams
 ## AmazonWorkMailMessageFlowReadOnlyAccess
 Read only access to WorkMail messages for the GetRawMessageContent API
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonWorkMailMessageFlowReadOnlyAccess | / |
 ```
 {
@@ -48102,7 +48104,7 @@ Read only access to WorkMail messages for the GetRawMessageContent API
 ## CloudWatchSyntheticsFullAccess
 Provides full access to CloudWatch Synthetics.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/CloudWatchSyntheticsFullAccess | / |
 ```
 {
@@ -48273,7 +48275,7 @@ Provides full access to CloudWatch Synthetics.
 ## AWSDataExchangeSubscriberFullAccess
 Grants data subscriber access to AWS Data Exchange and AWS Marketplace actions using the AWS Management Console and SDK. It also provides select access to related services needed to take full advantage of AWS Data Exchange.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSDataExchangeSubscriberFullAccess | / |
 ```
 {
@@ -48360,7 +48362,7 @@ Grants data subscriber access to AWS Data Exchange and AWS Marketplace actions u
 ## IAMAccessAnalyzerFullAccess
 Provides full access to IAM Access Analyzer
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/IAMAccessAnalyzerFullAccess | / |
 ```
 {
@@ -48413,7 +48415,7 @@ Provides full access to IAM Access Analyzer
 ## AWSCodeArtifactAdminAccess
 Provides full access to AWS CodeArtifact via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCodeArtifactAdminAccess | / |
 ```
 {
@@ -48449,7 +48451,7 @@ Provides full access to AWS CodeArtifact via the AWS Management Console.
 ## AWSServiceCatalogAdminReadOnlyAccess
 Provides read-only access to Service Catalog admin capabilities 
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSServiceCatalogAdminReadOnlyAccess | / |
 ```
 {
@@ -48514,7 +48516,7 @@ Provides read-only access to Service Catalog admin capabilities
 ## AWSQuickSightSageMakerPolicy
 Provides access to Amazon SageMaker resources from Amazon QuickSight
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSQuickSightSageMakerPolicy | /service-role/ |
 ```
 {
@@ -48552,7 +48554,7 @@ Provides access to Amazon SageMaker resources from Amazon QuickSight
 ## AWSDataLifecycleManagerServiceRoleForAMIManagement
 Provides appropriate permissions to AWS Data Lifecycle Manager to take actions on AWS resources for AMI Management 
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSDataLifecycleManagerServiceRoleForAMIManagement | /service-role/ |
 ```
 {
@@ -48606,7 +48608,7 @@ Provides appropriate permissions to AWS Data Lifecycle Manager to take actions o
 ## AmazonMonitronFullAccess
 Provides full access to manage Amazon Monitron
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonMonitronFullAccess | / |
 ```
 {
@@ -48677,7 +48679,7 @@ Provides full access to manage Amazon Monitron
 ## AmazonHealthLakeReadOnlyAccess
 Provides read only access to Amazon HealthLake service.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonHealthLakeReadOnlyAccess | / |
 ```
 {
@@ -48710,7 +48712,7 @@ Provides read only access to Amazon HealthLake service.
 ## AmazonWorkSpacesSelfServiceAccess
 Provides access to Amazon WorkSpaces backend service to perform Workspace Self Service actions
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonWorkSpacesSelfServiceAccess | / |
 ```
 {
@@ -48738,7 +48740,7 @@ Provides access to Amazon WorkSpaces backend service to perform Workspace Self S
 ## AmazonManagedBlockchainServiceRolePolicy
 Enables access to AWS Services and Resources used or managed by Amazon Managed Blockchain
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AmazonManagedBlockchainServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -48775,7 +48777,7 @@ Enables access to AWS Services and Resources used or managed by Amazon Managed B
 ## AmazonSageMakerCoreServiceRolePolicy
 Managed policy for Service Linked Role for Amazon SageMaker Core Services
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AmazonSageMakerCoreServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -48826,7 +48828,7 @@ Managed policy for Service Linked Role for Amazon SageMaker Core Services
 ## AWSThinkboxDeadlineSpotEventPluginAdminPolicy
 Grants permissions required for AWS Thinkbox's Deadline Spot Event Plugin. This includes permission to request, modify, and cancel a spot fleet, as well as limited PassRole permission.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSThinkboxDeadlineSpotEventPluginAdminPolicy | / |
 ```
 {
@@ -48955,7 +48957,7 @@ Grants permissions required for AWS Thinkbox's Deadline Spot Event Plugin. This 
 ## AmazonLookoutMetricsReadOnlyAccess
 Gives access to all read-only actions for Amazon Lookout for Metrics
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonLookoutMetricsReadOnlyAccess | / |
 ```
 {
@@ -48994,7 +48996,7 @@ Gives access to all read-only actions for Amazon Lookout for Metrics
 ## AWSDataExchangeFullAccess
 Grants full access to AWS Data Exchange and AWS Marketplace actions using the AWS Management Console and SDK. It also provides select access to related services needed to take full advantage of AWS Data Exchange.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSDataExchangeFullAccess | / |
 ```
 {
@@ -49111,7 +49113,7 @@ Grants full access to AWS Data Exchange and AWS Marketplace actions using the AW
 ## AWSDataExchangeProviderFullAccess
 Grants data provider access to AWS Data Exchange and AWS Marketplace actions using the AWS Management Console and SDK. It also provides select access to related services needed to take full advantage of AWS Data Exchange. 
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSDataExchangeProviderFullAccess | / |
 ```
 {
@@ -49246,7 +49248,7 @@ Grants data provider access to AWS Data Exchange and AWS Marketplace actions usi
 ## CloudWatchApplicationInsightsFullAccess
 Provides full access to CloudWatch Application Insights and required dependencies. 
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/CloudWatchApplicationInsightsFullAccess | / |
 ```
 {
@@ -49284,7 +49286,7 @@ Provides full access to CloudWatch Application Insights and required dependencie
 ## AWSControlTowerServiceRolePolicy
 Provides access to AWS Resources managed or used by AWS Control Tower 
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSControlTowerServiceRolePolicy | /service-role/ |
 ```
 {
@@ -49461,7 +49463,7 @@ Provides access to AWS Resources managed or used by AWS Control Tower
 ## AmazonSageMakerNotebooksServiceRolePolicy
 Managed policy for Service Linked Role for Amazon SageMaker Notebooks
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AmazonSageMakerNotebooksServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -49570,7 +49572,7 @@ Managed policy for Service Linked Role for Amazon SageMaker Notebooks
 ## AmazonRoute53ResolverFullAccess
 Full access policy for Route 53 Resolver
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonRoute53ResolverFullAccess | / |
 ```
 {
@@ -49607,7 +49609,7 @@ Full access policy for Route 53 Resolver
 ## AWSSystemsManagerChangeManagementServicePolicy
 Provides access to AWS resources managed or used by the AWS Systems Manager change management framework.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSSystemsManagerChangeManagementServicePolicy | /aws-service-role/ |
 ```
 {
@@ -49689,7 +49691,7 @@ Provides access to AWS resources managed or used by the AWS Systems Manager chan
 ## AWSServiceCatalogAppRegistryFullAccess
 Provides full access to Service Catalog App Registry capabilities
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSServiceCatalogAppRegistryFullAccess | / |
 ```
 {
@@ -49731,7 +49733,7 @@ Provides full access to Service Catalog App Registry capabilities
 ## LakeFormationDataAccessServiceRolePolicy
 Policy to grant temporary data access to Lake Formation resources
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/LakeFormationDataAccessServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -49759,7 +49761,7 @@ Policy to grant temporary data access to Lake Formation resources
 ## AmazonChimeServiceRolePolicy
 Enables access to AWS Resources used or managed by Amazon Chime
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AmazonChimeServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -49792,7 +49794,7 @@ Enables access to AWS Resources used or managed by Amazon Chime
 ## AmazonSageMakerAdmin-ServiceCatalogProductsServiceRolePolicy
 Service role policy used by the AWS Service Catalog service to provision products from Amazon SageMaker portfolio of products. Grants permissions to a set of related services including CodePipeline, CodeBuild, CodeCommit, Glue, CloudFormation, etc,.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonSageMakerAdmin-ServiceCatalogProductsServiceRolePolicy | / |
 ```
 {
@@ -50171,7 +50173,7 @@ Service role policy used by the AWS Service Catalog service to provision product
 ## AWSTrustedAdvisorReportingServiceRolePolicy
 Service Policy for Trusted Advisor Multi-account Reporting
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSTrustedAdvisorReportingServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -50205,7 +50207,7 @@ Service Policy for Trusted Advisor Multi-account Reporting
 ## AWSOpsWorksRegisterCLI_EC2
 Policy to enable registration of EC2 instances via the OpsWorks CLI
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSOpsWorksRegisterCLI_EC2 | / |
 ```
 {
@@ -50248,7 +50250,7 @@ Policy to enable registration of EC2 instances via the OpsWorks CLI
 ## AWSWAFConsoleReadOnlyAccess
 Provides read-only access to AWS WAF via the AWS Management Console. Note that this policy also grants permissions to list Amazon CloudFront distributions, permissions to view load balancers on AWS Elastic Load Balancing, permissions to view Amazon API Gateway REST APIs and stages, permissions to list and view Amazon CloudWatch metrics, and permissions to view regions enabled within the account.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSWAFConsoleReadOnlyAccess | / |
 ```
 {
@@ -50290,7 +50292,7 @@ Provides read-only access to AWS WAF via the AWS Management Console. Note that t
 ## AWSSavingsPlansFullAccess
 Provides full access to Savings Plans service
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSSavingsPlansFullAccess | / |
 ```
 {
@@ -50314,7 +50316,7 @@ Provides full access to Savings Plans service
 ## AWSServiceRoleForImageBuilder
 Allows EC2ImageBuilder to call AWS services on your behalf.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForImageBuilder | /aws-service-role/ |
 ```
 {
@@ -50582,7 +50584,7 @@ Allows EC2ImageBuilder to call AWS services on your behalf.
 ## AmazonBraketServiceRolePolicy
 Allows Amazon Braket to create and manage AWS resources on your behalf
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AmazonBraketServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -50621,7 +50623,7 @@ Allows Amazon Braket to create and manage AWS resources on your behalf
 ## AmazonCodeGuruProfilerAgentAccess
 Provides access required by Amazon CodeGuru Profiler agent.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonCodeGuruProfilerAgentAccess | / |
 ```
 {
@@ -50649,7 +50651,7 @@ Provides access required by Amazon CodeGuru Profiler agent.
 ## AmazonLookoutVisionConsoleFullAccess
 Provides full access to Amazon Lookout for Vision and scoped access to required service and console dependencies.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonLookoutVisionConsoleFullAccess | / |
 ```
 {
@@ -50754,7 +50756,7 @@ Provides full access to Amazon Lookout for Vision and scoped access to required 
 ## AmazonCodeGuruReviewerServiceRolePolicy
 A service-linked role required for Amazon CodeGuru Reviewer to access resources on your behalf.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AmazonCodeGuruReviewerServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -50849,7 +50851,7 @@ A service-linked role required for Amazon CodeGuru Reviewer to access resources 
 ## ServerMigration_ServiceRole
 Permissions to allow the AWS Server Migration Service to migrate VMs to EC2: allows the Server Migration Service to place the migrated resources into the customer's EC2 account.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/ServerMigration_ServiceRole | /service-role/ |
 ```
 {
@@ -51066,7 +51068,7 @@ Permissions to allow the AWS Server Migration Service to migrate VMs to EC2: all
 ## AWSAppMeshPreviewEnvoyAccess
 App Mesh Preview Envoy policy for accessing Virtual Node configuration.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSAppMeshPreviewEnvoyAccess | / |
 ```
 {
@@ -51092,7 +51094,7 @@ App Mesh Preview Envoy policy for accessing Virtual Node configuration.
 ## AWSOutpostsServiceRolePolicy
 Service Linked Role policy to enable access to AWS resources managed by AWS Outposts
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSOutpostsServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -51121,7 +51123,7 @@ Service Linked Role policy to enable access to AWS resources managed by AWS Outp
 ## AmazonLambdaRolePolicyForLaunchWizardSAP
 Managed policy to support SAP provisioning using Amazon LaunchWizard service role for Lambda
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonLambdaRolePolicyForLaunchWizardSAP | / |
 ```
 {
@@ -51230,7 +51232,7 @@ Managed policy to support SAP provisioning using Amazon LaunchWizard service rol
 ## AmazonEC2RoleforAWSCodeDeployLimited
 Provides EC2 limited access to S3 bucket to download revision. This role is needed by the CodeDeploy agent on EC2 instances. 
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AmazonEC2RoleforAWSCodeDeployLimited | /service-role/ |
 ```
 {
@@ -51272,7 +51274,7 @@ Provides EC2 limited access to S3 bucket to download revision. This role is need
 ## ECRReplicationServiceRolePolicy
 Enables access to AWS Services and Resources used or managed by ECR Replication
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/ECRReplicationServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -51299,7 +51301,7 @@ Enables access to AWS Services and Resources used or managed by ECR Replication
 ## MigrationHubServiceRolePolicy
 Allows Migration Hub to call Application Discovery Service on your behalf
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/MigrationHubServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -51363,7 +51365,7 @@ Allows Migration Hub to call Application Discovery Service on your behalf
 ## AWSServiceRoleForMonitronPolicy
 Grants Amazon Monitron permissions to manage AWS resources, including AWS SSO user assignment on your behalf.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForMonitronPolicy | /aws-service-role/ |
 ```
 {
@@ -51395,7 +51397,7 @@ Grants Amazon Monitron permissions to manage AWS resources, including AWS SSO us
 ## AWSPanoramaSageMakerRolePolicy
 Allows Amazon SageMaker to manage objects in buckets created for use with AWS Panorama.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSPanoramaSageMakerRolePolicy | /service-role/ |
 ```
 {
@@ -51426,7 +51428,7 @@ Allows Amazon SageMaker to manage objects in buckets created for use with AWS Pa
 ## AWSIoTWirelessGatewayCertManager
 Allows the associated identity access to create, list and describe IoT Certificates
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSIoTWirelessGatewayCertManager | / |
 ```
 {
@@ -51455,7 +51457,7 @@ Allows the associated identity access to create, list and describe IoT Certifica
 ## AWSDirectConnectServiceRolePolicy
 Provides AWS Direct Connect permission to create and manage AWS resources on your behalf.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSDirectConnectServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -51485,7 +51487,7 @@ Provides AWS Direct Connect permission to create and manage AWS resources on you
 ## AWSApplicationMigrationEC2Access
 This policy provides Amazon EC2 operations required to use Application Migration Service (MGN) to launch the migrated servers as EC2 instances. Attach this policy to your IAM users or roles.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSApplicationMigrationEC2Access | / |
 ```
 {
@@ -51716,7 +51718,7 @@ This policy provides Amazon EC2 operations required to use Application Migration
 ## AWSImageBuilderReadOnlyAccess
 Provides read only access to all AWS Image Builder actions.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSImageBuilderReadOnlyAccess | / |
 ```
 {
@@ -51750,7 +51752,7 @@ Provides read only access to all AWS Image Builder actions.
 ## AWSGrafanaConsoleReadOnlyAccess
 Access to read only operations in Amazon Grafana.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSGrafanaConsoleReadOnlyAccess | / |
 ```
 {
@@ -51779,7 +51781,7 @@ Access to read only operations in Amazon Grafana.
 ## AWSMarketplaceMeteringRegisterUsage
 Provides permissions to register a resource and track usage through AWS Marketplace Metering Service.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSMarketplaceMeteringRegisterUsage | / |
 ```
 {
@@ -51805,7 +51807,7 @@ Provides permissions to register a resource and track usage through AWS Marketpl
 ## AmazonManagedBlockchainReadOnlyAccess
 Provides read-only access to Amazon Managed Blockchain.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonManagedBlockchainReadOnlyAccess | / |
 ```
 {
@@ -51834,7 +51836,7 @@ Provides read-only access to Amazon Managed Blockchain.
 ## AmazonLookoutVisionReadOnlyAccess
 Provides read only access to Amazon Lookout for Vision and scoped access to required dependencies.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonLookoutVisionReadOnlyAccess | / |
 ```
 {
@@ -51867,7 +51869,7 @@ Provides read only access to Amazon Lookout for Vision and scoped access to requ
 ## AmazonRekognitionCustomLabelsFullAccess
 This policy specifies rekognition and s3 permissions required by Amazon Rekognition Custom Labels feature.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonRekognitionCustomLabelsFullAccess | / |
 ```
 {
@@ -51916,7 +51918,7 @@ This policy specifies rekognition and s3 permissions required by Amazon Rekognit
 ## AmazonHealthLakeFullAccess
 Provides full access to Amazon HealthLake service.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonHealthLakeFullAccess | / |
 ```
 {
@@ -51956,7 +51958,7 @@ Provides full access to Amazon HealthLake service.
 ## AWSBackupServiceLinkedRolePolicyForBackup
 Provides AWS Backup permission to create backups on your behalf across AWS services
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSBackupServiceLinkedRolePolicyForBackup | /aws-service-role/ |
 ```
 {
@@ -52134,7 +52136,7 @@ Provides AWS Backup permission to create backups on your behalf across AWS servi
 ## AmazonManagedBlockchainConsoleFullAccess
 Provides full access to Amazon Managed Blockchain via the AWS Management Console
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonManagedBlockchainConsoleFullAccess | / |
 ```
 {
@@ -52167,7 +52169,7 @@ Provides full access to Amazon Managed Blockchain via the AWS Management Console
 ## AWSApplicationMigrationConversionServerPolicy
 his policy allows the Application Migration Service (MGN) Conversion Server, which are EC2 instances launched by Application Migration Service, to communicate with the MGN service. An IAM role with this policy is attached (as an EC2 Instance Profile) by MGN to the MGN Conversion Servers, which are automatically launched and terminated by MGN, when needed. We do not recommend that you attach this policy to your IAM users or roles. MGN Conversion Servers are used by Application Migration Service when users choose to launch Test or Cutover instances using the MGN console, CLI, or API.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSApplicationMigrationConversionServerPolicy | /service-role/ |
 ```
 {
@@ -52196,7 +52198,7 @@ his policy allows the Application Migration Service (MGN) Conversion Server, whi
 ## AWSSavingsPlansReadOnlyAccess
 Provides read only access to Savings Plans service
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSSavingsPlansReadOnlyAccess | / |
 ```
 {
@@ -52223,7 +52225,7 @@ Provides read only access to Savings Plans service
 ## AmazonHoneycodeWorkbookFullAccess
 Provides full access to Honeycode Workbook via the AWS Management Console and the SDK.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonHoneycodeWorkbookFullAccess | / |
 ```
 {
@@ -52260,7 +52262,7 @@ Provides full access to Honeycode Workbook via the AWS Management Console and th
 ## AWSIoTDeviceTesterForGreengrassFullAccess
 Allows AWS IoT Device Tester to run the AWS Greengrass qualification suite by allowing access to related services including Lambda, IoT, API Gateway, IAM
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSIoTDeviceTesterForGreengrassFullAccess | / |
 ```
 {
@@ -52395,7 +52397,7 @@ Allows AWS IoT Device Tester to run the AWS Greengrass qualification suite by al
 ## AWSElasticBeanstalkRoleECS
 (Elastic Beanstalk operations role) Allows a multicontainer Docker environment to manage Amazon ECS clusters.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleECS | /service-role/ |
 ```
 {
@@ -52427,7 +52429,7 @@ Allows AWS IoT Device Tester to run the AWS Greengrass qualification suite by al
 ## AmazonWorkMailMessageFlowFullAccess
 Full access to the WorkMail Message Flow APIs
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonWorkMailMessageFlowFullAccess | / |
 ```
 {
@@ -52453,7 +52455,7 @@ Full access to the WorkMail Message Flow APIs
 ## AWSServiceRoleForSMS
 Provides access to AWS services and resources necessary to migrate service instances into AWS including EC2, S3 and Cloudformation.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AWSServiceRoleForSMS | /aws-service-role/ |
 ```
 {
@@ -52750,7 +52752,7 @@ Provides access to AWS services and resources necessary to migrate service insta
 ## AWSThinkboxDeadlineResourceTrackerAccessPolicy
 Grants permissions required for the operation of AWS Thinkbox's Deadline Resource Tracker. This includes full access to some EC2 actions, including DeleteFleets and CancelSpotFleetRequests.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSThinkboxDeadlineResourceTrackerAccessPolicy | / |
 ```
 {
@@ -52877,7 +52879,7 @@ Grants permissions required for the operation of AWS Thinkbox's Deadline Resourc
 ## CloudWatch-CrossAccountAccess
 Allows CloudWatch to assume CloudWatch-CrossAccountSharing roles in remote accounts on behalf of the current account in order to display data cross-account, cross-region
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/CloudWatch-CrossAccountAccess | /aws-service-role/ |
 ```
 {
@@ -52905,7 +52907,7 @@ Allows CloudWatch to assume CloudWatch-CrossAccountSharing roles in remote accou
 ## AWSLakeFormationDataAdmin
 Grants administrative access to AWS Lake Formation and related services, such as AWS Glue, to manage data lakes
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSLakeFormationDataAdmin | / |
 ```
 {
@@ -52969,7 +52971,7 @@ Grants administrative access to AWS Lake Formation and related services, such as
 ## AWSElasticBeanstalkRoleCore
 AWSElasticBeanstalkRoleCore (Elastic Beanstalk operations role) Allows core operation of a web service environment.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleCore | /service-role/ |
 ```
 {
@@ -53188,7 +53190,7 @@ AWSElasticBeanstalkRoleCore (Elastic Beanstalk operations role) Allows core oper
 ## AWSLambda_FullAccess
 Grants full access to AWS Lambda service, AWS Lambda console features, and other related AWS services.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSLambda_FullAccess | / |
 ```
 {
@@ -53254,7 +53256,7 @@ Grants full access to AWS Lambda service, AWS Lambda console features, and other
 ## AmazonEMRContainersServiceRolePolicy
 Allows access to other AWS service resources that are required to run Amazon EMR
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/AmazonEMRContainersServiceRolePolicy | /aws-service-role/ |
 ```
 {
@@ -53285,7 +53287,7 @@ Allows access to other AWS service resources that are required to run Amazon EMR
 ## AWSDenyAll
 Deny all access.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSDenyAll | / |
 ```
 {
@@ -53311,7 +53313,7 @@ Deny all access.
 ## AWSIQFullAccess
 Provides full access to AWS IQ
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSIQFullAccess | / |
 ```
 {
@@ -53351,7 +53353,7 @@ Provides full access to AWS IQ
 ## AmazonElasticContainerRegistryPublicPowerUser
 Provides full access to Amazon ECR Public repositories, but does not allow repository deletion or policy changes.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonElasticContainerRegistryPublicPowerUser | / |
 ```
 {
@@ -53390,7 +53392,7 @@ Provides full access to Amazon ECR Public repositories, but does not allow repos
 ## AmazonPrometheusConsoleFullAccess
 Grants full access to AWS Managed Prometheus resources in the AWS console
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonPrometheusConsoleFullAccess | / |
 ```
 {
@@ -53420,7 +53422,7 @@ Grants full access to AWS Managed Prometheus resources in the AWS console
 ## AWSElasticBeanstalkRoleSNS
 (Elastic Beanstalk operations role) Allows an environment to enable Amazon SNS topic integration.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkRoleSNS | /service-role/ |
 ```
 {
@@ -53462,7 +53464,7 @@ Grants full access to AWS Managed Prometheus resources in the AWS console
 ## AmazonEKSVPCResourceController
 Policy used by VPC Resource Controller to manage ENI and IPs for worker nodes.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonEKSVPCResourceController | / |
 ```
 {
@@ -53504,7 +53506,7 @@ Policy used by VPC Resource Controller to manage ENI and IPs for worker nodes.
 ## EC2InstanceConnect
 Allows customers to call EC2 Instance Connect to publish ephemeral keys to their EC2 instances and connect via ssh or the EC2 Instance Connect CLI.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/EC2InstanceConnect | / |
 ```
 {
@@ -53532,7 +53534,7 @@ Allows customers to call EC2 Instance Connect to publish ephemeral keys to their
 ## AWSCompromisedKeyQuarantineV2
 Denies access to certain actions, applied by the AWS team in the event that an IAM user's credentials have been compromised or exposed publicly. Do NOT remove this policy. Instead, please follow the instructions specified in the support case created for you regarding this event.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCompromisedKeyQuarantineV2 | / |
 ```
 {
@@ -53614,7 +53616,7 @@ Denies access to certain actions, applied by the AWS team in the event that an I
 ## ClientVPNServiceConnectionsRolePolicy
 Policy to enable AWS Client VPN to manage your Client VPN endpoint connections.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/aws-service-role/ClientVPNServiceConnectionsRolePolicy | /aws-service-role/ |
 ```
 {
@@ -53640,7 +53642,7 @@ Policy to enable AWS Client VPN to manage your Client VPN endpoint connections.
 ## AmazonAppFlowFullAccess
 Provides full access to Amazon AppFlow and access to AWS services supported as flow source or destination (S3 and Redshift). Also provides access to KMS for encryption
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonAppFlowFullAccess | / |
 ```
 {
@@ -53762,7 +53764,7 @@ Provides full access to Amazon AppFlow and access to AWS services supported as f
 ## Ec2ImageBuilderCrossAccountDistributionAccess
 Permissions need by EC2 Image Builder to perform a cross account distribution.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/Ec2ImageBuilderCrossAccountDistributionAccess | / |
 ```
 {
@@ -53795,7 +53797,7 @@ Permissions need by EC2 Image Builder to perform a cross account distribution.
 ## AWSThinkboxAWSPortalWorkerPolicy
 This policy grants the Deadline Workers in AWS Portal the necessary permissions required for normal operation.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSThinkboxAWSPortalWorkerPolicy | / |
 ```
 {
@@ -53888,7 +53890,7 @@ This policy grants the Deadline Workers in AWS Portal the necessary permissions 
 ## AmazonS3OutpostsReadOnlyAccess
 Provides read only access to Amazon S3 on Outposts via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonS3OutpostsReadOnlyAccess | / |
 ```
 {
@@ -53943,7 +53945,7 @@ Provides read only access to Amazon S3 on Outposts via the AWS Management Consol
 ## AWSCompromisedKeyQuarantine
 Denies access to certain actions, applied by the AWS team in the event that an IAM user's credentials have been compromised or exposed publicly. Do NOT remove this policy. Instead, please follow the instructions specified in the email sent to you regarding this event.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCompromisedKeyQuarantine | / |
 ```
 {
@@ -53998,7 +54000,7 @@ Denies access to certain actions, applied by the AWS team in the event that an I
 ## AWSAppMeshEnvoyAccess
 App Mesh Envoy policy for accessing Virtual Node configuration.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSAppMeshEnvoyAccess | / |
 ```
 {
@@ -54024,7 +54026,7 @@ App Mesh Envoy policy for accessing Virtual Node configuration.
 ## AmazonKendraReadOnlyAccess
 Provides read only access to Amazon Kendra via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonKendraReadOnlyAccess | / |
 ```
 {
@@ -54053,7 +54055,7 @@ Provides read only access to Amazon Kendra via the AWS Management Console.
 ## AmazonPrometheusFullAccess
 Grants full access to AWS Managed Prometheus resources
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonPrometheusFullAccess | / |
 ```
 {
@@ -54079,7 +54081,7 @@ Grants full access to AWS Managed Prometheus resources
 ## AWS_ConfigRole
 Default policy for AWS Config service role. Provides permissions required for AWS Config to track changes to your AWS resources.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWS_ConfigRole | /service-role/ |
 ```
 {
@@ -54322,7 +54324,7 @@ Default policy for AWS Config service role. Provides permissions required for AW
 ## AmazonNimbleStudio-StudioAdmin
 This policy grants access to Amazon Nimble Studio resources associated with the studio admin and related studio resources in other services. Attach this policy to the Admin role associated with your studio.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonNimbleStudio-StudioAdmin | / |
 ```
 {
@@ -54406,7 +54408,7 @@ This policy grants access to Amazon Nimble Studio resources associated with the 
 ## AWSCodeArtifactReadOnlyAccess
 Provides read only access to AWS CodeArtifact via the AWS Management Console.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AWSCodeArtifactReadOnlyAccess | / |
 ```
 {
@@ -54445,7 +54447,7 @@ Provides read only access to AWS CodeArtifact via the AWS Management Console.
 ## AmazonRedshiftDataFullAccess
 This policy provides full access to Amazon Redshift Data APIs. This policy also grants scoped access to other required services.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/AmazonRedshiftDataFullAccess | / |
 ```
 {
@@ -54521,7 +54523,7 @@ This policy provides full access to Amazon Redshift Data APIs. This policy also 
 ## AWSApplicationMigrationReplicationServerPolicy
 This policy allows the Application Migration Service (MGN) Replication Servers, which are EC2 instances launched by Application Migration Service - to communicate with the MGN service, and to create EBS snapshots in your AWS account. An IAM role with this policy is attached (as an EC2 Instance Profile) by Application Migration Service to the MGN Replication Servers which are automatically launched and terminated by MGN, as needed. MGN Replication Servers are used to facilitate data replication from your external servers to AWS, as part of the migration process managed using MGN. We do not recommend that you attach this policy to your IAM users or roles.
 | Arn | Path |
-| --- | --- | --- |
+| --- | --- |
 | arn:aws:iam::aws:policy/service-role/AWSApplicationMigrationReplicationServerPolicy | /service-role/ |
 ```
 {
