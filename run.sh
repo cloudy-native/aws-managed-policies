@@ -15,7 +15,6 @@ aws iam list-policies --scope AWS > $tmpfile
 
 cat $tmpfile | \
 jq -rc '.Policies[].Arn' | \
-head | \
 while read -r arn; do 
     policy=$(aws iam get-policy --policy-arn "$arn");
     PolicyName=$(jq -r '.Policy.PolicyName' <<< $policy);
