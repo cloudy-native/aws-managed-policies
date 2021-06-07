@@ -1,0 +1,38 @@
+
+## AmazonRoute53ResolverFullAccess
+Full access policy for Route 53 Resolver
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AmazonRoute53ResolverFullAccess | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "route53resolver:*",
+            "ec2:DescribeSubnets",
+            "ec2:CreateNetworkInterface",
+            "ec2:DeleteNetworkInterface",
+            "ec2:ModifyNetworkInterfaceAttribute",
+            "ec2:DescribeNetworkInterfaces",
+            "ec2:CreateNetworkInterfacePermission",
+            "ec2:DescribeSecurityGroups",
+            "ec2:DescribeVpcs",
+            "ec2:DescribeAvailabilityZones"
+          ],
+          "Resource": [
+            "*"
+          ]
+        }
+      ]
+    },
+    "VersionId": "v2",
+    "IsDefaultVersion": true,
+    "CreateDate": "2020-07-17T19:03:27+00:00"
+  }
+}
+```

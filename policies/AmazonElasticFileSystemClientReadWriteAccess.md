@@ -1,0 +1,29 @@
+
+## AmazonElasticFileSystemClientReadWriteAccess
+Provides read and write client access to an Amazon EFS file system
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AmazonElasticFileSystemClientReadWriteAccess | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "elasticfilesystem:ClientMount",
+            "elasticfilesystem:ClientWrite",
+            "elasticfilesystem:DescribeMountTargets"
+          ],
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2020-01-13T16:21:55+00:00"
+  }
+}
+```

@@ -1,0 +1,40 @@
+
+## AmazonSSMPatchAssociation
+Provide access to child instances for patch association operation.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AmazonSSMPatchAssociation | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": "ssm:DescribeEffectivePatchesForPatchBaseline",
+          "Resource": "arn:aws:ssm:*:*:patchbaseline/*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": "ssm:GetPatchBaseline",
+          "Resource": "arn:aws:ssm:*:*:patchbaseline/*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": "tag:GetResources",
+          "Resource": "*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": "ssm:DescribePatchBaselines",
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2020-05-13T16:00:42+00:00"
+  }
+}
+```

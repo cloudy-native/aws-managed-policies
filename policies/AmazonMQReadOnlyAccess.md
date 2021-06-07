@@ -1,0 +1,32 @@
+
+## AmazonMQReadOnlyAccess
+Provides read only access to AmazonMQ via the AWS Management Console.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AmazonMQReadOnlyAccess | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Action": [
+            "mq:Describe*",
+            "mq:List*",
+            "ec2:DescribeNetworkInterfaces",
+            "ec2:DescribeSecurityGroups",
+            "ec2:DescribeSubnets",
+            "ec2:DescribeVpcs"
+          ],
+          "Effect": "Allow",
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v2",
+    "IsDefaultVersion": true,
+    "CreateDate": "2017-11-28T19:02:03+00:00"
+  }
+}
+```

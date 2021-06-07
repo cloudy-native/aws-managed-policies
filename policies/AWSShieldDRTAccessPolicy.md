@@ -1,0 +1,52 @@
+
+## AWSShieldDRTAccessPolicy
+Provides the AWS DDoS Response Team with limited access to your AWS account to assist with DDoS attack mitigation during a high-severity event.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/service-role/AWSShieldDRTAccessPolicy | /service-role/ |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Sid": "SRTAccessProtectedResources",
+          "Effect": "Allow",
+          "Action": [
+            "cloudfront:List*",
+            "route53:List*",
+            "elasticloadbalancing:Describe*",
+            "cloudwatch:Describe*",
+            "cloudwatch:Get*",
+            "cloudwatch:List*",
+            "cloudfront:GetDistribution*",
+            "globalaccelerator:ListAccelerators",
+            "globalaccelerator:DescribeAccelerator",
+            "ec2:DescribeRegions",
+            "ec2:DescribeAddresses"
+          ],
+          "Resource": "*"
+        },
+        {
+          "Sid": "SRTManageProtections",
+          "Effect": "Allow",
+          "Action": [
+            "shield:*",
+            "waf:*",
+            "wafv2:*",
+            "waf-regional:*",
+            "elasticloadbalancing:SetWebACL",
+            "cloudfront:UpdateDistribution",
+            "apigateway:SetWebACL"
+          ],
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v6",
+    "IsDefaultVersion": true,
+    "CreateDate": "2020-12-15T17:28:15+00:00"
+  }
+}
+```

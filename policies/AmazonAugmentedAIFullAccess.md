@@ -1,0 +1,54 @@
+
+## AmazonAugmentedAIFullAccess
+Provides access to perform all operations Amazon Augmented AI resources, including FlowDefinitions, HumanTaskUis and HumanLoops. Does not allow access for creating FlowDefinitions against the public-crowd Workteam.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AmazonAugmentedAIFullAccess | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "sagemaker:*HumanLoop",
+            "sagemaker:*HumanLoops",
+            "sagemaker:*FlowDefinition",
+            "sagemaker:*FlowDefinitions",
+            "sagemaker:*HumanTaskUi",
+            "sagemaker:*HumanTaskUis"
+          ],
+          "Resource": "*",
+          "Condition": {
+            "StringEqualsIfExists": {
+              "sagemaker:WorkteamType": [
+                "private-crowd",
+                "vendor-crowd"
+              ]
+            }
+          }
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "iam:PassRole"
+          ],
+          "Resource": "arn:aws:iam::*:role/*",
+          "Condition": {
+            "StringEquals": {
+              "iam:PassedToService": [
+                "sagemaker.amazonaws.com"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2019-12-03T16:21:56+00:00"
+  }
+}
+```

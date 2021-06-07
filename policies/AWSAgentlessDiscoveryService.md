@@ -1,0 +1,90 @@
+
+## AWSAgentlessDiscoveryService
+Provides access for the Discovery Agentless Connector to register with AWS Application Discovery Service.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AWSAgentlessDiscoveryService | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "awsconnector:RegisterConnector",
+            "awsconnector:GetConnectorHealth"
+          ],
+          "Resource": "*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": "iam:GetUser",
+          "Resource": "*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "s3:GetObject",
+            "s3:ListBucket"
+          ],
+          "Resource": [
+            "arn:aws:s3:::connector-platform-upgrade-info/*",
+            "arn:aws:s3:::connector-platform-upgrade-info",
+            "arn:aws:s3:::connector-platform-upgrade-bundles/*",
+            "arn:aws:s3:::connector-platform-upgrade-bundles",
+            "arn:aws:s3:::connector-platform-release-notes/*",
+            "arn:aws:s3:::connector-platform-release-notes",
+            "arn:aws:s3:::prod.agentless.discovery.connector.upgrade/*",
+            "arn:aws:s3:::prod.agentless.discovery.connector.upgrade"
+          ]
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "s3:PutObject",
+            "s3:PutObjectAcl"
+          ],
+          "Resource": [
+            "arn:aws:s3:::import-to-ec2-connector-debug-logs/*"
+          ]
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "SNS:Publish"
+          ],
+          "Resource": "arn:aws:sns:*:*:metrics-sns-topic-for-*"
+        },
+        {
+          "Sid": "Discovery",
+          "Effect": "Allow",
+          "Action": [
+            "Discovery:*"
+          ],
+          "Resource": "*"
+        },
+        {
+          "Sid": "arsenal",
+          "Effect": "Allow",
+          "Action": [
+            "arsenal:RegisterOnPremisesAgent"
+          ],
+          "Resource": "*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "mgh:GetHomeRegion"
+          ],
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v2",
+    "IsDefaultVersion": true,
+    "CreateDate": "2020-02-24T23:08:23+00:00"
+  }
+}
+```

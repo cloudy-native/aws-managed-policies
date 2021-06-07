@@ -1,0 +1,43 @@
+
+## AmazonEC2RoleforDataPipelineRole
+Default policy for the Amazon EC2 Role for Data Pipeline service role.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/service-role/AmazonEC2RoleforDataPipelineRole | /service-role/ |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "cloudwatch:*",
+            "datapipeline:*",
+            "dynamodb:*",
+            "ec2:Describe*",
+            "elasticmapreduce:AddJobFlowSteps",
+            "elasticmapreduce:Describe*",
+            "elasticmapreduce:ListInstance*",
+            "elasticmapreduce:ModifyInstanceGroups",
+            "rds:Describe*",
+            "redshift:DescribeClusters",
+            "redshift:DescribeClusterSecurityGroups",
+            "s3:*",
+            "sdb:*",
+            "sns:*",
+            "sqs:*"
+          ],
+          "Resource": [
+            "*"
+          ]
+        }
+      ]
+    },
+    "VersionId": "v3",
+    "IsDefaultVersion": true,
+    "CreateDate": "2016-02-22T17:24:05+00:00"
+  }
+}
+```

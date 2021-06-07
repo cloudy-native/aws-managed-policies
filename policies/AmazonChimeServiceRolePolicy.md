@@ -1,0 +1,34 @@
+
+## AmazonChimeServiceRolePolicy
+Enables access to AWS Resources used or managed by Amazon Chime
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/aws-service-role/AmazonChimeServiceRolePolicy | /aws-service-role/ |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "iam:CreateServiceLinkedRole"
+          ],
+          "Resource": [
+            "arn:aws:iam::*:role/aws-service-role/chime.amazonaws.com/AWSServiceRoleForAmazonChime"
+          ],
+          "Condition": {
+            "StringLike": {
+              "iam:AWSServiceName": "chime.amazonaws.com"
+            }
+          }
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2019-09-30T22:25:06+00:00"
+  }
+}
+```

@@ -1,0 +1,176 @@
+
+## AWSBackupOperatorAccess
+This policy grants users permissions to assign AWS resources to backup plans, create on-demand backups, and restore backups. This policy does not allow the user to create or edit backup plans or to delete scheduled backups after they are created.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AWSBackupOperatorAccess | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "backup:Get*",
+            "backup:List*",
+            "backup:Describe*",
+            "backup:CreateBackupSelection",
+            "backup:DeleteBackupSelection",
+            "backup:GetRecoveryPointRestoreMetadata",
+            "backup:StartBackupJob",
+            "backup:StartRestoreJob",
+            "backup:StartCopyJob"
+          ],
+          "Resource": "*"
+        },
+        {
+          "Action": [
+            "rds:DescribeDBSnapshots",
+            "rds:ListTagsForResource",
+            "rds:DescribeDBInstances",
+            "rds:describeDBSnapshots",
+            "rds:describeDBEngineVersions",
+            "rds:describeOptionGroups",
+            "rds:describeOrderableDBInstanceOptions",
+            "rds:describeDBSubnetGroups",
+            "rds:DescribeDBClusterSnapshots",
+            "rds:DescribeDBClusters",
+            "rds:DescribeDBParameterGroups",
+            "rds:DescribeDBClusterParameterGroups",
+            "rds:DescribeDBInstanceAutomatedBackups"
+          ],
+          "Effect": "Allow",
+          "Resource": "*"
+        },
+        {
+          "Action": [
+            "dynamodb:ListBackups",
+            "dynamodb:ListTables"
+          ],
+          "Effect": "Allow",
+          "Resource": "*"
+        },
+        {
+          "Action": [
+            "elasticfilesystem:DescribeFilesystems"
+          ],
+          "Resource": "arn:aws:elasticfilesystem:*:*:file-system/*",
+          "Effect": "Allow"
+        },
+        {
+          "Action": [
+            "ec2:DescribeSnapshots",
+            "ec2:DescribeVolumes",
+            "ec2:describeAvailabilityZones",
+            "ec2:DescribeVpcs",
+            "ec2:DescribeAccountAttributes",
+            "ec2:DescribeSecurityGroups",
+            "ec2:DescribeImages",
+            "ec2:DescribeSubnets",
+            "ec2:DescribePlacementGroups",
+            "ec2:DescribeInstances",
+            "ec2:DescribeInstanceTypes"
+          ],
+          "Effect": "Allow",
+          "Resource": "*"
+        },
+        {
+          "Action": [
+            "tag:GetTagKeys",
+            "tag:GetTagValues",
+            "tag:GetResources"
+          ],
+          "Effect": "Allow",
+          "Resource": "*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "storagegateway:DescribeCachediSCSIVolumes",
+            "storagegateway:DescribeStorediSCSIVolumes"
+          ],
+          "Resource": "arn:aws:storagegateway:*:*:gateway/*/volume/*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "storagegateway:ListGateways"
+          ],
+          "Resource": "arn:aws:storagegateway:*:*:*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "storagegateway:DescribeGatewayInformation",
+            "storagegateway:ListVolumes",
+            "storagegateway:ListLocalDisks"
+          ],
+          "Resource": "arn:aws:storagegateway:*:*:gateway/*"
+        },
+        {
+          "Action": [
+            "iam:ListRoles",
+            "iam:GetRole"
+          ],
+          "Effect": "Allow",
+          "Resource": "*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": "iam:PassRole",
+          "Resource": [
+            "arn:aws:iam::*:role/*AwsBackup*",
+            "arn:aws:iam::*:role/*AWSBackup*"
+          ],
+          "Condition": {
+            "StringLike": {
+              "iam:PassedToService": "backup.amazonaws.com"
+            }
+          }
+        },
+        {
+          "Effect": "Allow",
+          "Action": "organizations:DescribeOrganization",
+          "Resource": "*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "ssm:CancelCommand",
+            "ssm:GetCommandInvocation"
+          ],
+          "Resource": "*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": "ssm:SendCommand",
+          "Resource": [
+            "arn:aws:ssm:*:*:document/AWSEC2-CreateVssSnapshot",
+            "arn:aws:ec2:*:*:instance/*"
+          ]
+        },
+        {
+          "Action": "fsx:DescribeBackups",
+          "Effect": "Allow",
+          "Resource": "arn:aws:fsx:*:*:backup/*"
+        },
+        {
+          "Action": "fsx:DescribeFileSystems",
+          "Effect": "Allow",
+          "Resource": "arn:aws:fsx:*:*:file-system/*"
+        },
+        {
+          "Action": "ds:DescribeDirectories",
+          "Effect": "Allow",
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v7",
+    "IsDefaultVersion": true,
+    "CreateDate": "2021-03-10T18:31:50+00:00"
+  }
+}
+```

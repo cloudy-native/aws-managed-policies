@@ -1,0 +1,114 @@
+
+## AwsGlueDataBrewFullAccessPolicy
+Provides full access to AWS Glue DataBrew via the AWS Management Console. Also provides select access to related services (e.g., S3, KMS, Glue).
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AwsGlueDataBrewFullAccessPolicy | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "appflow:DescribeFlow",
+            "appflow:DescribeFlowExecutionRecords",
+            "appflow:ListFlows",
+            "databrew:*",
+            "glue:GetConnection",
+            "glue:GetConnections",
+            "glue:GetDatabases",
+            "glue:GetPartitions",
+            "glue:GetTable",
+            "glue:GetTables",
+            "glue:GetDataCatalogEncryptionSettings",
+            "dataexchange:ListDataSets",
+            "dataexchange:ListDataSetRevisions",
+            "dataexchange:ListRevisionAssets",
+            "dataexchange:CreateJob",
+            "dataexchange:StartJob",
+            "dataexchange:GetJob",
+            "ec2:DescribeSecurityGroups",
+            "ec2:DescribeVpcs",
+            "ec2:DescribeSubnets",
+            "kms:DescribeKey",
+            "kms:ListKeys",
+            "kms:ListAliases",
+            "redshift:DescribeClusters",
+            "redshift:DescribeClusterSubnetGroups",
+            "redshift-data:ListDatabases",
+            "redshift-data:ListSchemas",
+            "redshift-data:ListTables",
+            "s3:ListAllMyBuckets",
+            "s3:GetBucketCORS",
+            "s3:GetBucketLocation",
+            "s3:GetEncryptionConfiguration",
+            "secretsmanager:ListSecrets",
+            "secretsmanager:DescribeSecret",
+            "sts:GetCallerIdentity",
+            "cloudtrail:LookupEvents",
+            "iam:ListRoles",
+            "iam:GetRole"
+          ],
+          "Resource": [
+            "*"
+          ]
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "glue:CreateConnection"
+          ],
+          "Resource": [
+            "arn:aws:glue:*:*:catalog",
+            "arn:aws:glue:*:*:connection/AwsGlueDataBrew-*"
+          ]
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "s3:ListBucket",
+            "s3:GetObject"
+          ],
+          "Resource": [
+            "arn:aws:s3:::databrew-public-datasets-*"
+          ]
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "kms:GenerateDataKey"
+          ],
+          "Resource": [
+            "*"
+          ],
+          "Condition": {
+            "StringLike": {
+              "kms:ViaService": "s3.*.amazonaws.com"
+            }
+          }
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "iam:PassRole"
+          ],
+          "Resource": "arn:aws:iam::*:role/*",
+          "Condition": {
+            "StringEquals": {
+              "iam:PassedToService": [
+                "databrew.amazonaws.com"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "VersionId": "v4",
+    "IsDefaultVersion": true,
+    "CreateDate": "2021-04-28T15:54:32+00:00"
+  }
+}
+```

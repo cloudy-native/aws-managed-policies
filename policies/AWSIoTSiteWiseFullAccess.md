@@ -1,0 +1,27 @@
+
+## AWSIoTSiteWiseFullAccess
+Provides full access to IoT SiteWise.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AWSIoTSiteWiseFullAccess | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "iotsitewise:*"
+          ],
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2018-12-04T20:53:39+00:00"
+  }
+}
+```

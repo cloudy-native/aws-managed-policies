@@ -3,10 +3,10 @@
 tmpfile=$(mktemp /tmp/aws-policies.XXXXXX)
 preamble=preamble.md
 toc=toc.md
-body=body.md
 
 echo > $toc
-echo > $body
+
+mkdir -p ./policies
 
 echo '| Policy | Description |' >> $toc;
 echo '| --- | --- |' >> $toc;
@@ -24,17 +24,21 @@ while read -r arn; do
     DefaultVersionId=$(jq -r '.Policy.DefaultVersionId' <<< $policy);
 
     anchor=$(echo -n "$PolicyName" | tr '[:upper:]' '[:lower:]' | tr '[:space:]' '-')
-    echo "| [$PolicyName](#$anchor) | $Description | " >> $toc;
+    echo "| [$PolicyName](./policies/${PolicyName}.md) | $Description | " >> $toc;
 
-    echo "## $PolicyName" >> $body;
-    echo "$Description" >> $body;    
-    echo '| Arn | Path |' >> $body;
-    echo '| --- | --- |' >> $body;
-    echo '|' "$Arn" '|' "$PolicyPath" '|' >> $body;
+    policy_file="./policies/${PolicyName}.md";
+    echo > $policy_file;
+
     policy_version=$(aws iam get-policy-version --policy-arn "$Arn" --version-id "$DefaultVersionId");
-    echo '```' >> $body;
-    echo "$(jq <<< $policy_version)" >> $body;
-    echo '```' >> $body;
+    
+    echo "## $PolicyName" >> $policy_file;
+    echo "$Description" >> $policy_file;
+    echo '| Arn | Path |' >> $policy_file;
+    echo '| --- | --- |' >> $policy_file;
+    echo '|' "$Arn" '|' "$PolicyPath" '|' >> $policy_file;
+    echo '```' >> $policy_file;
+    jq <<< $policy_version >> $policy_file;
+    echo '```' >> $policy_file;
 done
 
-cat $preamble $toc $body > README.md
+cat $preamble $toc > README.md

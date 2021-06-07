@@ -1,0 +1,48 @@
+
+## AmazonEventBridgeSchemasFullAccess
+Provides full access to Amazon EventBridge Schemas.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AmazonEventBridgeSchemasFullAccess | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Sid": "AmazonEventBridgeSchemasFullAccess",
+          "Effect": "Allow",
+          "Action": [
+            "schemas:*"
+          ],
+          "Resource": "*"
+        },
+        {
+          "Sid": "AmazonEventBridgeManageRule",
+          "Effect": "Allow",
+          "Action": [
+            "events:PutRule",
+            "events:PutTargets",
+            "events:EnableRule",
+            "events:DisableRule",
+            "events:DeleteRule",
+            "events:RemoveTargets",
+            "events:ListTargetsByRule"
+          ],
+          "Resource": "arn:aws:events:*:*:rule/*Schemas*"
+        },
+        {
+          "Sid": "IAMCreateServiceLinkedRoleForAmazonEventBridgeSchemas",
+          "Effect": "Allow",
+          "Action": "iam:CreateServiceLinkedRole",
+          "Resource": "arn:aws:iam::*:role/aws-service-role/schemas.amazonaws.com/AWSServiceRoleForSchemas"
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2019-11-28T23:12:53+00:00"
+  }
+}
+```

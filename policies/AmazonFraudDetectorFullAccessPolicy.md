@@ -1,0 +1,62 @@
+
+## AmazonFraudDetectorFullAccessPolicy
+Gives access to all actions for Amazon Fraud Detector
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AmazonFraudDetectorFullAccessPolicy | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "frauddetector:*"
+          ],
+          "Resource": "*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "sagemaker:ListEndpoints",
+            "sagemaker:DescribeEndpoint"
+          ],
+          "Resource": "*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "s3:ListAllMyBuckets",
+            "s3:GetBucketLocation"
+          ],
+          "Resource": "*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "iam:ListRoles"
+          ],
+          "Resource": "*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "iam:PassRole"
+          ],
+          "Resource": "*",
+          "Condition": {
+            "StringEquals": {
+              "iam:PassedToService": "frauddetector.amazonaws.com"
+            }
+          }
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2019-12-03T22:46:26+00:00"
+  }
+}
+```

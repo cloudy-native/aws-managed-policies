@@ -1,0 +1,135 @@
+
+## AWSLicenseManagerServiceRolePolicy
+AWS License Manager service default role policy
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/aws-service-role/AWSLicenseManagerServiceRolePolicy | /aws-service-role/ |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Sid": "IAMPermissions",
+          "Effect": "Allow",
+          "Action": [
+            "iam:CreateServiceLinkedRole"
+          ],
+          "Resource": [
+            "arn:aws:iam::*:role/aws-service-role/license-management.marketplace.amazonaws.com/AWSServiceRoleForMarketplaceLicenseManagement"
+          ],
+          "Condition": {
+            "StringEquals": {
+              "iam:AWSServiceName": "license-management.marketplace.amazonaws.com"
+            }
+          }
+        },
+        {
+          "Sid": "S3BucketPermissions1",
+          "Effect": "Allow",
+          "Action": [
+            "s3:GetBucketLocation",
+            "s3:ListBucket"
+          ],
+          "Resource": [
+            "arn:aws:s3:::aws-license-manager-service-*"
+          ]
+        },
+        {
+          "Sid": "S3BucketPermissions2",
+          "Effect": "Allow",
+          "Action": [
+            "s3:ListAllMyBuckets"
+          ],
+          "Resource": [
+            "*"
+          ]
+        },
+        {
+          "Sid": "S3ObjectPermissions",
+          "Effect": "Allow",
+          "Action": [
+            "s3:PutObject"
+          ],
+          "Resource": [
+            "arn:aws:s3:::aws-license-manager-service-*"
+          ]
+        },
+        {
+          "Sid": "SNSAccountPermissions",
+          "Effect": "Allow",
+          "Action": [
+            "sns:Publish"
+          ],
+          "Resource": [
+            "arn:aws:sns:*:*:aws-license-manager-service-*"
+          ]
+        },
+        {
+          "Sid": "SNSTopicPermissions",
+          "Effect": "Allow",
+          "Action": [
+            "sns:ListTopics"
+          ],
+          "Resource": [
+            "*"
+          ]
+        },
+        {
+          "Sid": "EC2Permissions",
+          "Effect": "Allow",
+          "Action": [
+            "ec2:DescribeInstances",
+            "ec2:DescribeImages",
+            "ec2:DescribeHosts"
+          ],
+          "Resource": [
+            "*"
+          ]
+        },
+        {
+          "Sid": "SSMPermissions",
+          "Effect": "Allow",
+          "Action": [
+            "ssm:ListInventoryEntries",
+            "ssm:GetInventory",
+            "ssm:CreateAssociation"
+          ],
+          "Resource": [
+            "*"
+          ]
+        },
+        {
+          "Sid": "OrganizationPermissions",
+          "Effect": "Allow",
+          "Action": [
+            "organizations:ListAWSServiceAccessForOrganization",
+            "organizations:DescribeOrganization"
+          ],
+          "Resource": [
+            "*"
+          ]
+        },
+        {
+          "Sid": "LicenseManagerPermissions",
+          "Effect": "Allow",
+          "Action": [
+            "license-manager:GetServiceSettings",
+            "license-manager:GetLicense*",
+            "license-manager:UpdateLicenseSpecificationsForResource",
+            "license-manager:ListUsageForLicenseConfiguration",
+            "license-manager:ListDistributedGrants"
+          ],
+          "Resource": [
+            "*"
+          ]
+        }
+      ]
+    },
+    "VersionId": "v4",
+    "IsDefaultVersion": true,
+    "CreateDate": "2021-03-09T20:23:10+00:00"
+  }
+}
+```

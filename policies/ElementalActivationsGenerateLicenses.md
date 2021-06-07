@@ -1,0 +1,30 @@
+
+## ElementalActivationsGenerateLicenses
+Access to view purchased assets and generate software licenses for pending activations
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/ElementalActivationsGenerateLicenses | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "elemental-activations:Get*",
+            "elemental-activations:GenerateLicenses",
+            "elemental-activations:StartFileUpload",
+            "elemental-activations:CompleteFileUpload"
+          ],
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2020-08-28T18:28:58+00:00"
+  }
+}
+```

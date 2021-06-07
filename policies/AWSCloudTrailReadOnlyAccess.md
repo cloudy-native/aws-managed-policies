@@ -1,0 +1,46 @@
+
+## AWSCloudTrailReadOnlyAccess
+Provides read only access to AWS CloudTrail.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AWSCloudTrailReadOnlyAccess | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "s3:GetObject",
+            "s3:GetBucketLocation"
+          ],
+          "Resource": "*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "cloudtrail:GetTrail",
+            "cloudtrail:GetTrailStatus",
+            "cloudtrail:DescribeTrails",
+            "cloudtrail:ListTrails",
+            "cloudtrail:LookupEvents",
+            "cloudtrail:ListTags",
+            "cloudtrail:ListPublicKeys",
+            "cloudtrail:GetEventSelectors",
+            "cloudtrail:GetInsightSelectors",
+            "s3:ListAllMyBuckets",
+            "kms:ListAliases",
+            "lambda:ListFunctions"
+          ],
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v9",
+    "IsDefaultVersion": true,
+    "CreateDate": "2019-11-20T21:06:49+00:00"
+  }
+}
+```

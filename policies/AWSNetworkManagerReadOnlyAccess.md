@@ -1,0 +1,29 @@
+
+## AWSNetworkManagerReadOnlyAccess
+Provides read only access to Amazon NetworkManager via the AWS Management Console.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AWSNetworkManagerReadOnlyAccess | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "networkmanager:Describe*",
+            "networkmanager:Get*",
+            "networkmanager:List*"
+          ],
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2019-12-03T17:35:05+00:00"
+  }
+}
+```

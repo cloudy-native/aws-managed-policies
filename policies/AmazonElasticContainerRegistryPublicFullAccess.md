@@ -1,0 +1,28 @@
+
+## AmazonElasticContainerRegistryPublicFullAccess
+Provides administrative access to Amazon ECR Public resources
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AmazonElasticContainerRegistryPublicFullAccess | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "ecr-public:*",
+            "sts:GetServiceBearerToken"
+          ],
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2020-12-01T17:25:52+00:00"
+  }
+}
+```

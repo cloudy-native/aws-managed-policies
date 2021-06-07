@@ -1,0 +1,27 @@
+
+## AWSCloudFormationFullAccess
+Provides full access to AWS CloudFormation.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AWSCloudFormationFullAccess | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "cloudformation:*"
+          ],
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2019-07-26T21:50:35+00:00"
+  }
+}
+```

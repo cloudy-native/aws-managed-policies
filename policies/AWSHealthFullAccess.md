@@ -1,0 +1,54 @@
+
+## AWSHealthFullAccess
+Allows full access to the AWS Health Apis and Notifications and the Personal Health Dashboard
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AWSHealthFullAccess | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "organizations:EnableAWSServiceAccess",
+            "organizations:DisableAWSServiceAccess"
+          ],
+          "Resource": "*",
+          "Condition": {
+            "StringEquals": {
+              "organizations:ServicePrincipal": "health.amazonaws.com"
+            }
+          }
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "health:*",
+            "organizations:ListAccounts",
+            "organizations:ListParents",
+            "organizations:DescribeAccount",
+            "organizations:ListDelegatedAdministrators"
+          ],
+          "Resource": "*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": "iam:CreateServiceLinkedRole",
+          "Resource": "*",
+          "Condition": {
+            "StringEquals": {
+              "iam:AWSServiceName": "health.amazonaws.com"
+            }
+          }
+        }
+      ]
+    },
+    "VersionId": "v3",
+    "IsDefaultVersion": true,
+    "CreateDate": "2020-11-16T18:11:34+00:00"
+  }
+}
+```

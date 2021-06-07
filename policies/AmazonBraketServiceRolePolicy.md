@@ -1,0 +1,40 @@
+
+## AmazonBraketServiceRolePolicy
+Allows Amazon Braket to create and manage AWS resources on your behalf
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/aws-service-role/AmazonBraketServiceRolePolicy | /aws-service-role/ |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "s3:PutObject",
+            "s3:GetObject",
+            "s3:ListBucket"
+          ],
+          "Resource": "arn:aws:s3:::amazon-braket-*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "logs:PutLogEvents",
+            "logs:CreateLogStream",
+            "logs:DescribeLogStreams",
+            "logs:CreateLogGroup",
+            "logs:DescribeLogGroups"
+          ],
+          "Resource": "arn:aws:logs:*:*:log-group:/aws/braket:*"
+        }
+      ]
+    },
+    "VersionId": "v2",
+    "IsDefaultVersion": true,
+    "CreateDate": "2020-08-06T20:10:42+00:00"
+  }
+}
+```

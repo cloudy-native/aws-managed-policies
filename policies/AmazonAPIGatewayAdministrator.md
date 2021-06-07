@@ -1,0 +1,27 @@
+
+## AmazonAPIGatewayAdministrator
+Provides full access to create/edit/delete APIs in Amazon API Gateway via the AWS Management Console.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AmazonAPIGatewayAdministrator | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "apigateway:*"
+          ],
+          "Resource": "arn:aws:apigateway:*::/*"
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2015-07-09T17:34:45+00:00"
+  }
+}
+```

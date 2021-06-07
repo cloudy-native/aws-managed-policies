@@ -1,0 +1,30 @@
+
+## AmazonMacieHandshakeRole
+Grants permission to create the service-linked role of Amazon Macie.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/service-role/AmazonMacieHandshakeRole | /service-role/ |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": "iam:CreateServiceLinkedRole",
+          "Resource": "*",
+          "Condition": {
+            "ForAnyValue:StringEquals": {
+              "iam:AWSServiceName": "macie.amazonaws.com"
+            }
+          }
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2018-06-28T15:46:10+00:00"
+  }
+}
+```

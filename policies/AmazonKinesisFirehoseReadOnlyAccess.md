@@ -1,0 +1,28 @@
+
+## AmazonKinesisFirehoseReadOnlyAccess
+Provides read only access to all Amazon Kinesis Firehose Delivery Streams.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AmazonKinesisFirehoseReadOnlyAccess | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Action": [
+            "firehose:Describe*",
+            "firehose:List*"
+          ],
+          "Effect": "Allow",
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2015-10-07T18:43:39+00:00"
+  }
+}
+```

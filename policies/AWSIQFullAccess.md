@@ -1,0 +1,41 @@
+
+## AWSIQFullAccess
+Provides full access to AWS IQ
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AWSIQFullAccess | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Action": [
+            "iq:*",
+            "iq-permission:*"
+          ],
+          "Effect": "Allow",
+          "Resource": "*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": "iam:CreateServiceLinkedRole",
+          "Resource": "*",
+          "Condition": {
+            "StringEquals": {
+              "iam:AWSServiceName": [
+                "permission.iq.amazonaws.com",
+                "contract.iq.amazonaws.com"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "VersionId": "v2",
+    "IsDefaultVersion": true,
+    "CreateDate": "2019-09-25T20:22:34+00:00"
+  }
+}
+```

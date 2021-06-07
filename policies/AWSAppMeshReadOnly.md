@@ -1,0 +1,54 @@
+
+## AWSAppMeshReadOnly
+Provides read-only access to the AWS App Mesh APIs and Management Console.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AWSAppMeshReadOnly | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "appmesh:Describe*",
+            "appmesh:List*"
+          ],
+          "Resource": "*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "cloudformation:DescribeStack*"
+          ],
+          "Resource": "arn:aws:cloudformation:*:*:stack/AWSAppMesh-GettingStarted-*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "acm:ListCertificates",
+            "acm:DescribeCertificate",
+            "acm-pca:DescribeCertificateAuthority",
+            "acm-pca:ListCertificateAuthorities"
+          ],
+          "Resource": "*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "servicediscovery:ListNamespaces",
+            "servicediscovery:ListServices",
+            "servicediscovery:ListInstances"
+          ],
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v5",
+    "IsDefaultVersion": true,
+    "CreateDate": "2021-01-07T19:53:16+00:00"
+  }
+}
+```

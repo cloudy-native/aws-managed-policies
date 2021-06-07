@@ -1,0 +1,28 @@
+
+## CloudWatchApplicationInsightsReadOnlyAccess
+Provides read only access to CloudWatch Application Insights. 
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/CloudWatchApplicationInsightsReadOnlyAccess | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "applicationinsights:Describe*",
+            "applicationinsights:List*"
+          ],
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2020-11-24T18:48:00+00:00"
+  }
+}
+```

@@ -1,0 +1,48 @@
+
+## AmazonWorkLinkServiceRolePolicy
+Enables access to AWS Services and Resources used or managed by Amazon WorkLink
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/aws-service-role/AmazonWorkLinkServiceRolePolicy | /aws-service-role/ |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "ec2:CreateNetworkInterface",
+            "ec2:DeleteNetworkInterfacePermission",
+            "ec2:CreateNetworkInterfacePermission",
+            "ec2:ModifyNetworkInterfaceAttribute",
+            "ec2:DeleteNetworkInterface"
+          ],
+          "Resource": "*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "kinesis:PutRecord",
+            "kinesis:PutRecords"
+          ],
+          "Resource": "arn:aws:kinesis:*:*:stream/AmazonWorkLink-*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "elasticloadbalancing:ModifyListener",
+            "elasticloadbalancing:AddListenerCertificates",
+            "elasticloadbalancing:RemoveListenerCertificates"
+          ],
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v2",
+    "IsDefaultVersion": true,
+    "CreateDate": "2020-02-07T20:48:49+00:00"
+  }
+}
+```

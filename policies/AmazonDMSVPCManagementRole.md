@@ -1,0 +1,34 @@
+
+## AmazonDMSVPCManagementRole
+Provides access to manage VPC settings for AWS managed customer configurations
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/service-role/AmazonDMSVPCManagementRole | /service-role/ |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "ec2:CreateNetworkInterface",
+            "ec2:DescribeAvailabilityZones",
+            "ec2:DescribeInternetGateways",
+            "ec2:DescribeSecurityGroups",
+            "ec2:DescribeSubnets",
+            "ec2:DescribeVpcs",
+            "ec2:DeleteNetworkInterface",
+            "ec2:ModifyNetworkInterfaceAttribute"
+          ],
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v3",
+    "IsDefaultVersion": true,
+    "CreateDate": "2016-05-23T16:29:57+00:00"
+  }
+}
+```

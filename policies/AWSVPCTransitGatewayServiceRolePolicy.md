@@ -1,0 +1,34 @@
+
+## AWSVPCTransitGatewayServiceRolePolicy
+Allow VPC Transit Gateway to create and manage necessary resources for your Transit Gateway VPC Attachments.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/aws-service-role/AWSVPCTransitGatewayServiceRolePolicy | /aws-service-role/ |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Action": [
+            "ec2:CreateNetworkInterface",
+            "ec2:DescribeNetworkInterfaces",
+            "ec2:ModifyNetworkInterfaceAttribute",
+            "ec2:DeleteNetworkInterface",
+            "ec2:CreateNetworkInterfacePermission",
+            "ec2:AssignIpv6Addresses",
+            "ec2:UnAssignIpv6Addresses"
+          ],
+          "Resource": "*",
+          "Effect": "Allow",
+          "Sid": "0"
+        }
+      ]
+    },
+    "VersionId": "v2",
+    "IsDefaultVersion": true,
+    "CreateDate": "2021-04-15T16:31:44+00:00"
+  }
+}
+```

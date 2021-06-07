@@ -1,0 +1,52 @@
+
+## AWSCodeDeployReadOnlyAccess
+Provides read only access to CodeDeploy resources.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AWSCodeDeployReadOnlyAccess | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Action": [
+            "codedeploy:Batch*",
+            "codedeploy:Get*",
+            "codedeploy:List*"
+          ],
+          "Effect": "Allow",
+          "Resource": "*"
+        },
+        {
+          "Sid": "CodeStarNotificationsPowerUserAccess",
+          "Effect": "Allow",
+          "Action": [
+            "codestar-notifications:DescribeNotificationRule"
+          ],
+          "Resource": "*",
+          "Condition": {
+            "StringLike": {
+              "codestar-notifications:NotificationsForResource": "arn:aws:codedeploy:*"
+            }
+          }
+        },
+        {
+          "Sid": "CodeStarNotificationsListAccess",
+          "Effect": "Allow",
+          "Action": [
+            "codestar-notifications:ListNotificationRules",
+            "codestar-notifications:ListEventTypes",
+            "codestar-notifications:ListTargets"
+          ],
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v3",
+    "IsDefaultVersion": true,
+    "CreateDate": "2020-04-02T16:20:09+00:00"
+  }
+}
+```

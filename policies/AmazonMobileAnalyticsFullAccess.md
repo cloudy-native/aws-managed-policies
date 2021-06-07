@@ -1,0 +1,25 @@
+
+## AmazonMobileAnalyticsFullAccess
+Provides full access to all application resources.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AmazonMobileAnalyticsFullAccess | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": "mobileanalytics:*",
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2015-02-06T18:40:34+00:00"
+  }
+}
+```

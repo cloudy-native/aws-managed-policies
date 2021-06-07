@@ -1,0 +1,43 @@
+
+## AmazonEKSVPCResourceController
+Policy used by VPC Resource Controller to manage ENI and IPs for worker nodes.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AmazonEKSVPCResourceController | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": "ec2:CreateNetworkInterfacePermission",
+          "Resource": "*",
+          "Condition": {
+            "ForAnyValue:StringEquals": {
+              "ec2:ResourceTag/eks:eni:owner": "eks-vpc-resource-controller"
+            }
+          }
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "ec2:CreateNetworkInterface",
+            "ec2:DetachNetworkInterface",
+            "ec2:ModifyNetworkInterfaceAttribute",
+            "ec2:DeleteNetworkInterface",
+            "ec2:AttachNetworkInterface",
+            "ec2:UnassignPrivateIpAddresses",
+            "ec2:AssignPrivateIpAddresses"
+          ],
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2020-08-12T00:55:34+00:00"
+  }
+}
+```

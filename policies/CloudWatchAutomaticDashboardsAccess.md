@@ -1,0 +1,69 @@
+
+## CloudWatchAutomaticDashboardsAccess
+Provides access to the non-CloudWatch APIs used to display CloudWatch Automatic Dashboards, including the contents of objects such as Lambda functions
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/CloudWatchAutomaticDashboardsAccess | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Action": [
+            "autoscaling:DescribeAutoScalingGroups",
+            "cloudfront:GetDistribution",
+            "cloudfront:ListDistributions",
+            "dynamodb:DescribeTable",
+            "dynamodb:ListTables",
+            "ec2:DescribeInstances",
+            "ec2:DescribeVolumes",
+            "ecs:DescribeClusters",
+            "ecs:DescribeContainerInstances",
+            "ecs:ListClusters",
+            "ecs:ListContainerInstances",
+            "ecs:ListServices",
+            "elasticache:DescribeCacheClusters",
+            "elasticbeanstalk:DescribeEnvironments",
+            "elasticfilesystem:DescribeFileSystems",
+            "elasticloadbalancing:DescribeLoadBalancers",
+            "kinesis:DescribeStream",
+            "kinesis:ListStreams",
+            "lambda:GetFunction",
+            "lambda:ListFunctions",
+            "rds:DescribeDBClusters",
+            "rds:DescribeDBInstances",
+            "resource-groups:ListGroupResources",
+            "resource-groups:ListGroups",
+            "route53:GetHealthCheck",
+            "route53:ListHealthChecks",
+            "s3:ListAllMyBuckets",
+            "s3:ListBucket",
+            "sns:ListTopics",
+            "sqs:GetQueueAttributes",
+            "sqs:GetQueueUrl",
+            "sqs:ListQueues",
+            "synthetics:DescribeCanariesLastRun",
+            "tag:GetResources"
+          ],
+          "Effect": "Allow",
+          "Resource": "*"
+        },
+        {
+          "Action": [
+            "apigateway:GET"
+          ],
+          "Effect": "Allow",
+          "Resource": [
+            "arn:aws:apigateway:*::/restapis*"
+          ]
+        }
+      ]
+    },
+    "VersionId": "v4",
+    "IsDefaultVersion": true,
+    "CreateDate": "2021-04-20T13:05:40+00:00"
+  }
+}
+```

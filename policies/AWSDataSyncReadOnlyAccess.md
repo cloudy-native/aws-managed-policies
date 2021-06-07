@@ -1,0 +1,39 @@
+
+## AWSDataSyncReadOnlyAccess
+Provides read-only access to AWS DataSync
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AWSDataSyncReadOnlyAccess | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "datasync:Describe*",
+            "datasync:List*",
+            "ec2:DescribeSecurityGroups",
+            "ec2:DescribeSubnets",
+            "elasticfilesystem:DescribeFileSystems",
+            "elasticfilesystem:DescribeMountTargets",
+            "fsx:DescribeFileSystems",
+            "iam:GetRole",
+            "iam:ListRoles",
+            "logs:DescribeLogGroups",
+            "logs:DescribeResourcePolicies",
+            "s3:ListAllMyBuckets",
+            "s3:ListBucket"
+          ],
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v3",
+    "IsDefaultVersion": true,
+    "CreateDate": "2020-06-30T17:59:22+00:00"
+  }
+}
+```

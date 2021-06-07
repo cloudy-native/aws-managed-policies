@@ -1,0 +1,37 @@
+
+## AWSCodeArtifactAdminAccess
+Provides full access to AWS CodeArtifact via the AWS Management Console.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AWSCodeArtifactAdminAccess | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Action": [
+            "codeartifact:*"
+          ],
+          "Effect": "Allow",
+          "Resource": "*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": "sts:GetServiceBearerToken",
+          "Resource": "*",
+          "Condition": {
+            "StringEquals": {
+              "sts:AWSServiceName": "codeartifact.amazonaws.com"
+            }
+          }
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2020-06-16T23:53:23+00:00"
+  }
+}
+```

@@ -1,0 +1,43 @@
+
+## AmazonCodeGuruProfilerFullAccess
+Provides full access to Amazon CodeGuru Profiler.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AmazonCodeGuruProfilerFullAccess | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Action": [
+            "codeguru-profiler:*",
+            "iam:ListRoles",
+            "iam:ListUsers",
+            "sns:ListTopics",
+            "codeguru:*"
+          ],
+          "Effect": "Allow",
+          "Resource": "*"
+        },
+        {
+          "Action": [
+            "iam:CreateServiceLinkedRole"
+          ],
+          "Effect": "Allow",
+          "Resource": "arn:aws:iam::*:role/*AWSServiceRoleForCodeGuruProfiler*",
+          "Condition": {
+            "StringEquals": {
+              "iam:AWSServiceName": "codeguru-profiler.amazonaws.com"
+            }
+          }
+        }
+      ]
+    },
+    "VersionId": "v4",
+    "IsDefaultVersion": true,
+    "CreateDate": "2020-07-15T03:23:08+00:00"
+  }
+}
+```

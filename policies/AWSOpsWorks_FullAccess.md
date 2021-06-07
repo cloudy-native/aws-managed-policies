@@ -1,0 +1,55 @@
+
+## AWSOpsWorks_FullAccess
+Provides full access to AWS OpsWorks.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AWSOpsWorks_FullAccess | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "cloudwatch:GetMetricStatistics",
+            "ec2:DescribeAccountAttributes",
+            "ec2:DescribeAvailabilityZones",
+            "ec2:DescribeInstances",
+            "ec2:DescribeKeyPairs",
+            "ec2:DescribeSecurityGroups",
+            "ec2:DescribeSubnets",
+            "ec2:DescribeVpcs",
+            "elasticloadbalancing:DescribeInstanceHealth",
+            "elasticloadbalancing:DescribeLoadBalancers",
+            "iam:GetRolePolicy",
+            "iam:ListInstanceProfiles",
+            "iam:ListRoles",
+            "iam:ListUsers",
+            "opsworks:*"
+          ],
+          "Resource": [
+            "*"
+          ]
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "iam:PassRole"
+          ],
+          "Resource": "*",
+          "Condition": {
+            "StringEquals": {
+              "iam:PassedToService": "opsworks.amazonaws.com"
+            }
+          }
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2021-01-22T16:29:08+00:00"
+  }
+}
+```

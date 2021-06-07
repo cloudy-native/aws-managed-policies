@@ -1,0 +1,92 @@
+
+## AmazonRedshiftQueryEditor
+Provides full access to the Amazon Redshift Query Editor and to saved queries via the AWS Management Console.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AmazonRedshiftQueryEditor | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "redshift:GetClusterCredentials",
+            "redshift:ListSchemas",
+            "redshift:ListTables",
+            "redshift:ListDatabases",
+            "redshift:ExecuteQuery",
+            "redshift:FetchResults",
+            "redshift:CancelQuery",
+            "redshift:DescribeClusters",
+            "redshift:DescribeQuery",
+            "redshift:DescribeTable",
+            "redshift:ViewQueriesFromConsole",
+            "redshift:DescribeSavedQueries",
+            "redshift:CreateSavedQuery",
+            "redshift:DeleteSavedQueries",
+            "redshift:ModifySavedQuery"
+          ],
+          "Resource": "*"
+        },
+        {
+          "Sid": "DataAPIPermissions",
+          "Action": [
+            "redshift-data:ExecuteStatement",
+            "redshift-data:ListDatabases",
+            "redshift-data:ListSchemas",
+            "redshift-data:ListTables",
+            "redshift-data:DescribeTable"
+          ],
+          "Effect": "Allow",
+          "Resource": "*"
+        },
+        {
+          "Sid": "DataAPIIAMSessionPermissionsRestriction",
+          "Action": [
+            "redshift-data:GetStatementResult",
+            "redshift-data:CancelStatement",
+            "redshift-data:DescribeStatement",
+            "redshift-data:ListStatements"
+          ],
+          "Effect": "Allow",
+          "Resource": "*",
+          "Condition": {
+            "StringEquals": {
+              "redshift-data:statement-owner-iam-userid": "${aws:userid}"
+            }
+          }
+        },
+        {
+          "Sid": "SecretsManagerListPermissions",
+          "Action": [
+            "secretsmanager:ListSecrets"
+          ],
+          "Effect": "Allow",
+          "Resource": "*"
+        },
+        {
+          "Sid": "SecretsManagerCreateGetPermissions",
+          "Action": [
+            "secretsmanager:CreateSecret",
+            "secretsmanager:GetSecretValue",
+            "secretsmanager:TagResource"
+          ],
+          "Effect": "Allow",
+          "Resource": "arn:aws:secretsmanager:*:*:secret:*",
+          "Condition": {
+            "StringEquals": {
+              "secretsmanager:ResourceTag/RedshiftQueryOwner": "${aws:userid}"
+            }
+          }
+        }
+      ]
+    },
+    "VersionId": "v4",
+    "IsDefaultVersion": true,
+    "CreateDate": "2021-02-16T19:33:45+00:00"
+  }
+}
+```

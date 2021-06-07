@@ -1,0 +1,35 @@
+
+## AmazonElasticMapReduceReadOnlyAccess
+Provides read only access to Amazon Elastic MapReduce via the AWS Management Console.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AmazonElasticMapReduceReadOnlyAccess | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Action": [
+            "elasticmapreduce:Describe*",
+            "elasticmapreduce:List*",
+            "elasticmapreduce:GetBlockPublicAccessConfiguration",
+            "elasticmapreduce:ViewEventsFromAllClustersInConsole",
+            "s3:GetObject",
+            "s3:ListAllMyBuckets",
+            "s3:ListBucket",
+            "sdb:Select",
+            "cloudwatch:GetMetricStatistics"
+          ],
+          "Effect": "Allow",
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v3",
+    "IsDefaultVersion": true,
+    "CreateDate": "2020-07-29T23:14:09+00:00"
+  }
+}
+```

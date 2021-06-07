@@ -1,0 +1,36 @@
+
+## AWSPanoramaApplianceRolePolicy
+Allows AWS IoT software on an AWS Panorama Appliance to upload logs to Amazon CloudWatch.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/service-role/AWSPanoramaApplianceRolePolicy | /service-role/ |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Sid": "PanoramaDeviceCreateLogStream",
+          "Effect": "Allow",
+          "Action": [
+            "logs:CreateLogStream",
+            "logs:DescribeLogStreams",
+            "logs:PutLogEvents"
+          ],
+          "Resource": "arn:aws:logs:*:*:log-group:/aws/panorama_device*:log-stream:*"
+        },
+        {
+          "Sid": "PanoramaDeviceCreateLogGroup",
+          "Effect": "Allow",
+          "Action": "logs:CreateLogGroup",
+          "Resource": "arn:aws:logs:*:*:log-group:/aws/panorama_device*"
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2020-12-01T13:13:18+00:00"
+  }
+}
+```

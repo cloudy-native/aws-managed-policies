@@ -1,0 +1,43 @@
+
+## AlexaForBusinessNetworkProfileServicePolicy
+This policy enables Alexa for Business to perform automated tasks scheduled by your network profiles.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/aws-service-role/AlexaForBusinessNetworkProfileServicePolicy | /aws-service-role/ |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Sid": "A4bPcaTagAccess",
+          "Action": [
+            "acm-pca:GetCertificate",
+            "acm-pca:IssueCertificate",
+            "acm-pca:RevokeCertificate"
+          ],
+          "Effect": "Allow",
+          "Resource": "*",
+          "Condition": {
+            "StringEquals": {
+              "aws:ResourceTag/a4b": "enabled"
+            }
+          }
+        },
+        {
+          "Sid": "A4bNetworkProfileAccess",
+          "Effect": "Allow",
+          "Action": [
+            "secretsmanager:GetSecretValue"
+          ],
+          "Resource": "arn:aws:secretsmanager:*:*:secret:A4BNetworkProfile*"
+        }
+      ]
+    },
+    "VersionId": "v2",
+    "IsDefaultVersion": true,
+    "CreateDate": "2019-04-05T21:57:56+00:00"
+  }
+}
+```

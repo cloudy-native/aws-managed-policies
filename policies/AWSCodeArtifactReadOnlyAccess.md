@@ -1,0 +1,40 @@
+
+## AWSCodeArtifactReadOnlyAccess
+Provides read only access to AWS CodeArtifact via the AWS Management Console.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AWSCodeArtifactReadOnlyAccess | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Action": [
+            "codeartifact:Describe*",
+            "codeartifact:Get*",
+            "codeartifact:List*",
+            "codeartifact:ReadFromRepository"
+          ],
+          "Effect": "Allow",
+          "Resource": "*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": "sts:GetServiceBearerToken",
+          "Resource": "*",
+          "Condition": {
+            "StringEquals": {
+              "sts:AWSServiceName": "codeartifact.amazonaws.com"
+            }
+          }
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2020-06-25T21:23:52+00:00"
+  }
+}
+```

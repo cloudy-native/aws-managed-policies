@@ -1,0 +1,26 @@
+
+## AWSElementalMediaLiveReadOnly
+Provides read only access to AWS Elemental MediaLive resources
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AWSElementalMediaLiveReadOnly | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": {
+        "Effect": "Allow",
+        "Action": [
+          "medialive:List*",
+          "medialive:Describe*"
+        ],
+        "Resource": "*"
+      }
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2020-07-08T16:38:07+00:00"
+  }
+}
+```

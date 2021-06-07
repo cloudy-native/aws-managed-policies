@@ -1,0 +1,123 @@
+
+## AmazonAppFlowFullAccess
+Provides full access to Amazon AppFlow and access to AWS services supported as flow source or destination (S3 and Redshift). Also provides access to KMS for encryption
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AmazonAppFlowFullAccess | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": "appflow:*",
+          "Resource": "*"
+        },
+        {
+          "Sid": "ListRolesForRedshift",
+          "Effect": "Allow",
+          "Action": "iam:ListRoles",
+          "Resource": "*"
+        },
+        {
+          "Sid": "KMSListAccess",
+          "Action": [
+            "kms:ListKeys",
+            "kms:DescribeKey",
+            "kms:ListAliases"
+          ],
+          "Effect": "Allow",
+          "Resource": "*"
+        },
+        {
+          "Sid": "KMSGrantAccess",
+          "Effect": "Allow",
+          "Action": [
+            "kms:CreateGrant"
+          ],
+          "Resource": "*",
+          "Condition": {
+            "StringLike": {
+              "kms:ViaService": "appflow.*.amazonaws.com"
+            },
+            "Bool": {
+              "kms:GrantIsForAWSResource": "true"
+            }
+          }
+        },
+        {
+          "Sid": "KMSListGrantAccess",
+          "Effect": "Allow",
+          "Action": [
+            "kms:ListGrants"
+          ],
+          "Resource": "*",
+          "Condition": {
+            "StringLike": {
+              "kms:ViaService": "appflow.*.amazonaws.com"
+            }
+          }
+        },
+        {
+          "Sid": "S3ReadAccess",
+          "Effect": "Allow",
+          "Action": [
+            "s3:ListAllMyBuckets",
+            "s3:ListBucket",
+            "s3:GetBucketLocation",
+            "s3:GetBucketPolicy"
+          ],
+          "Resource": "*"
+        },
+        {
+          "Sid": "S3PutBucketPolicyAccess",
+          "Effect": "Allow",
+          "Action": [
+            "s3:PutBucketPolicy"
+          ],
+          "Resource": "arn:aws:s3:::appflow-*"
+        },
+        {
+          "Sid": "SecretsManagerCreateSecretAccess",
+          "Effect": "Allow",
+          "Action": "secretsmanager:CreateSecret",
+          "Resource": "*",
+          "Condition": {
+            "StringLike": {
+              "secretsmanager:Name": "appflow!*"
+            },
+            "ForAnyValue:StringEquals": {
+              "aws:CalledVia": [
+                "appflow.amazonaws.com"
+              ]
+            }
+          }
+        },
+        {
+          "Sid": "SecretsManagerPutResourcePolicyAccess",
+          "Effect": "Allow",
+          "Action": [
+            "secretsmanager:PutResourcePolicy"
+          ],
+          "Resource": "*",
+          "Condition": {
+            "ForAnyValue:StringEquals": {
+              "aws:CalledVia": [
+                "appflow.amazonaws.com"
+              ]
+            },
+            "StringEqualsIgnoreCase": {
+              "secretsmanager:ResourceTag/aws:secretsmanager:owningService": "appflow"
+            }
+          }
+        }
+      ]
+    },
+    "VersionId": "v2",
+    "IsDefaultVersion": true,
+    "CreateDate": "2020-12-07T22:49:15+00:00"
+  }
+}
+```

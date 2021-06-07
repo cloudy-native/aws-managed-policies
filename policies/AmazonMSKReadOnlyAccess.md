@@ -1,0 +1,34 @@
+
+## AmazonMSKReadOnlyAccess
+Provide readonly access to Amazon MSK
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AmazonMSKReadOnlyAccess | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Action": [
+            "kafka:Describe*",
+            "kafka:List*",
+            "kafka:Get*",
+            "ec2:DescribeNetworkInterfaces",
+            "ec2:DescribeSecurityGroups",
+            "ec2:DescribeSubnets",
+            "ec2:DescribeVpcs",
+            "kms:DescribeKey"
+          ],
+          "Effect": "Allow",
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2019-01-14T22:28:45+00:00"
+  }
+}
+```

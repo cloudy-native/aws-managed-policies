@@ -1,0 +1,32 @@
+
+## AWSElementalMediaStoreFullAccess
+Provides full read and write access to all MediaStore APIs
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AWSElementalMediaStoreFullAccess | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Action": [
+            "mediastore:*"
+          ],
+          "Effect": "Allow",
+          "Resource": "*",
+          "Condition": {
+            "Bool": {
+              "aws:SecureTransport": "true"
+            }
+          }
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2018-03-05T23:15:31+00:00"
+  }
+}
+```

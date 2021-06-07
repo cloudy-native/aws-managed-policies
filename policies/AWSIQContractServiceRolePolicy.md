@@ -1,0 +1,27 @@
+
+## AWSIQContractServiceRolePolicy
+Used by AWS IQ to execute payment requests on behalf of a customer
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/aws-service-role/AWSIQContractServiceRolePolicy | /aws-service-role/ |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Action": [
+            "aws-marketplace:Subscribe"
+          ],
+          "Effect": "Allow",
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2019-08-22T19:28:39+00:00"
+  }
+}
+```

@@ -1,0 +1,94 @@
+
+## AWSThinkboxAWSPortalWorkerPolicy
+This policy grants the Deadline Workers in AWS Portal the necessary permissions required for normal operation.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AWSThinkboxAWSPortalWorkerPolicy | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "ec2:DescribeTags"
+          ],
+          "Resource": [
+            "*"
+          ]
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "ec2:TerminateInstances"
+          ],
+          "Resource": [
+            "arn:aws:ec2:*:*:instance/*"
+          ],
+          "Condition": {
+            "StringEquals": {
+              "ec2:ResourceTag/DeadlineRole": "DeadlineRenderNode"
+            }
+          }
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "s3:GetObject",
+            "s3:PutObject",
+            "s3:ListBucket"
+          ],
+          "Resource": [
+            "arn:aws:s3:::aws-portal-cache*"
+          ]
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "s3:GetObject"
+          ],
+          "Resource": [
+            "arn:aws:s3:::stack*/gateway_certs/*"
+          ]
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "logs:CreateLogStream",
+            "logs:PutLogEvents",
+            "logs:DescribeLogStreams",
+            "logs:DescribeLogGroups"
+          ],
+          "Resource": [
+            "arn:aws:logs:*:*:log-group:/thinkbox*"
+          ]
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "logs:CreateLogGroup"
+          ],
+          "Resource": [
+            "*"
+          ]
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "sqs:SendMessage",
+            "sqs:GetQueueUrl"
+          ],
+          "Resource": [
+            "arn:aws:sqs:*:*:DeadlineAWS*"
+          ]
+        }
+      ]
+    },
+    "VersionId": "v4",
+    "IsDefaultVersion": true,
+    "CreateDate": "2020-12-07T23:27:47+00:00"
+  }
+}
+```

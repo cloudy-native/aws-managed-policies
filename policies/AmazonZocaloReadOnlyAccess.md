@@ -1,0 +1,30 @@
+
+## AmazonZocaloReadOnlyAccess
+Provides read only access to Amazon Zocalo
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AmazonZocaloReadOnlyAccess | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "zocalo:Describe*",
+            "ds:DescribeDirectories",
+            "ec2:DescribeVpcs",
+            "ec2:DescribeSubnets"
+          ],
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2015-02-06T18:41:14+00:00"
+  }
+}
+```

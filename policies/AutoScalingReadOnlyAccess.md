@@ -1,0 +1,25 @@
+
+## AutoScalingReadOnlyAccess
+Provides read-only access to Auto Scaling. 
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AutoScalingReadOnlyAccess | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": "autoscaling:Describe*",
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2017-01-12T19:39:35+00:00"
+  }
+}
+```

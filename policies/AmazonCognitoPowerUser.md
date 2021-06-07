@@ -1,0 +1,67 @@
+
+## AmazonCognitoPowerUser
+Provides administrative access to existing Amazon Cognito resources. You will need AWS account admin privileges to create new Cognito resources.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AmazonCognitoPowerUser | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "cognito-identity:*",
+            "cognito-idp:*",
+            "cognito-sync:*",
+            "iam:ListRoles",
+            "iam:ListOpenIdConnectProviders",
+            "iam:GetRole",
+            "iam:ListSAMLProviders",
+            "iam:GetSAMLProvider",
+            "kinesis:ListStreams",
+            "lambda:GetPolicy",
+            "lambda:ListFunctions",
+            "sns:GetSMSSandboxAccountStatus",
+            "sns:ListPlatformApplications",
+            "ses:ListIdentities",
+            "ses:GetIdentityVerificationAttributes",
+            "mobiletargeting:GetApps",
+            "acm:ListCertificates"
+          ],
+          "Resource": "*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": "iam:CreateServiceLinkedRole",
+          "Resource": "*",
+          "Condition": {
+            "StringEquals": {
+              "iam:AWSServiceName": [
+                "cognito-idp.amazonaws.com",
+                "email.cognito-idp.amazonaws.com"
+              ]
+            }
+          }
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "iam:DeleteServiceLinkedRole",
+            "iam:GetServiceLinkedRoleDeletionStatus"
+          ],
+          "Resource": [
+            "arn:aws:iam::*:role/aws-service-role/cognito-idp.amazonaws.com/AWSServiceRoleForAmazonCognitoIdp*",
+            "arn:aws:iam::*:role/aws-service-role/email.cognito-idp.amazonaws.com/AWSServiceRoleForAmazonCognitoIdpEmail*"
+          ]
+        }
+      ]
+    },
+    "VersionId": "v6",
+    "IsDefaultVersion": true,
+    "CreateDate": "2021-05-27T22:48:53+00:00"
+  }
+}
+```

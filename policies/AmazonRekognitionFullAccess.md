@@ -1,0 +1,27 @@
+
+## AmazonRekognitionFullAccess
+Access to all Amazon Rekognition APIs
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AmazonRekognitionFullAccess | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "rekognition:*"
+          ],
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2016-11-30T14:40:44+00:00"
+  }
+}
+```

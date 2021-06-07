@@ -1,0 +1,39 @@
+
+## DynamoDBKinesisReplicationServiceRolePolicy
+Provide AWS DynamoDB access to KinesisDataStreams
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/aws-service-role/DynamoDBKinesisReplicationServiceRolePolicy | /aws-service-role/ |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": "kms:GenerateDataKey",
+          "Resource": "*",
+          "Condition": {
+            "StringLike": {
+              "kms:ViaService": "kinesis.*.amazonaws.com"
+            }
+          }
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "kinesis:PutRecord",
+            "kinesis:PutRecords",
+            "kinesis:DescribeStream"
+          ],
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2020-11-12T00:43:25+00:00"
+  }
+}
+```

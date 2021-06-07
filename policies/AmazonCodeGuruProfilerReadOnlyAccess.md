@@ -1,0 +1,33 @@
+
+## AmazonCodeGuruProfilerReadOnlyAccess
+Provides read only access to Amazon CodeGuru Profiler.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AmazonCodeGuruProfilerReadOnlyAccess | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Action": [
+            "codeguru:Get*",
+            "codeguru-profiler:BatchGet*",
+            "codeguru-profiler:Describe*",
+            "codeguru-profiler:Get*",
+            "codeguru-profiler:List*",
+            "iam:ListRoles",
+            "iam:ListUsers"
+          ],
+          "Effect": "Allow",
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v3",
+    "IsDefaultVersion": true,
+    "CreateDate": "2020-06-27T23:52:52+00:00"
+  }
+}
+```

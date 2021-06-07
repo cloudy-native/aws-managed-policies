@@ -1,0 +1,33 @@
+
+## CloudWatchLambdaInsightsExecutionRolePolicy
+Policy required for the Lambda Insights Extension
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/CloudWatchLambdaInsightsExecutionRolePolicy | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": "logs:CreateLogGroup",
+          "Resource": "*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "logs:CreateLogStream",
+            "logs:PutLogEvents"
+          ],
+          "Resource": "arn:aws:logs:*:*:log-group:/aws/lambda-insights:*"
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2020-10-07T19:27:06+00:00"
+  }
+}
+```

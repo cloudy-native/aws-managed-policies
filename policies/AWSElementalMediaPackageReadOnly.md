@@ -1,0 +1,26 @@
+
+## AWSElementalMediaPackageReadOnly
+Provides read only access to AWS Elemental MediaPackage resources
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AWSElementalMediaPackageReadOnly | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": {
+        "Effect": "Allow",
+        "Action": [
+          "mediapackage:List*",
+          "mediapackage:Describe*"
+        ],
+        "Resource": "*"
+      }
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2017-12-30T00:04:29+00:00"
+  }
+}
+```

@@ -1,0 +1,32 @@
+
+## ComprehendFullAccess
+Provides full access to Amazon Comprehend.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/ComprehendFullAccess | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Action": [
+            "comprehend:*",
+            "s3:ListAllMyBuckets",
+            "s3:ListBucket",
+            "s3:GetBucketLocation",
+            "iam:ListRoles",
+            "iam:GetRole"
+          ],
+          "Effect": "Allow",
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v2",
+    "IsDefaultVersion": true,
+    "CreateDate": "2017-12-05T01:36:24+00:00"
+  }
+}
+```

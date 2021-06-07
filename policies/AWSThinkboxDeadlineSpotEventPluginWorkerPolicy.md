@@ -1,0 +1,68 @@
+
+## AWSThinkboxDeadlineSpotEventPluginWorkerPolicy
+Grant permissions required for an EC2 instance running AWS Thinkbox Deadline Spot Event Plugin Worker software.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AWSThinkboxDeadlineSpotEventPluginWorkerPolicy | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "ec2:DescribeInstances",
+            "ec2:DescribeTags"
+          ],
+          "Resource": [
+            "*"
+          ]
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "ec2:TerminateInstances"
+          ],
+          "Resource": [
+            "arn:aws:ec2:*:*:instance/*"
+          ],
+          "Condition": {
+            "StringEquals": {
+              "ec2:ResourceTag/DeadlineTrackedAWSResource": "SpotEventPlugin"
+            }
+          }
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "ec2:TerminateInstances"
+          ],
+          "Resource": [
+            "arn:aws:ec2:*:*:instance/*"
+          ],
+          "Condition": {
+            "StringEquals": {
+              "ec2:ResourceTag/DeadlineResourceTracker": "SpotEventPlugin"
+            }
+          }
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "sqs:GetQueueUrl",
+            "sqs:SendMessage"
+          ],
+          "Resource": [
+            "arn:aws:sqs:*:*:DeadlineAWSComputeNodeState*"
+          ]
+        }
+      ]
+    },
+    "VersionId": "v2",
+    "IsDefaultVersion": true,
+    "CreateDate": "2020-12-07T23:31:31+00:00"
+  }
+}
+```

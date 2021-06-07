@@ -1,0 +1,60 @@
+
+## AWSCodeStarNotificationsServiceRolePolicy
+Allows AWS CodeStar Notifications to access Amazon CloudWatch Events on your behalf
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/aws-service-role/AWSCodeStarNotificationsServiceRolePolicy | /aws-service-role/ |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Action": [
+            "events:PutTargets",
+            "events:PutRule",
+            "events:DescribeRule"
+          ],
+          "Resource": "arn:aws:events:*:*:rule/awscodestarnotifications-*",
+          "Effect": "Allow"
+        },
+        {
+          "Action": [
+            "sns:CreateTopic"
+          ],
+          "Resource": "arn:aws:sns:*:*:CodeStarNotifications-*",
+          "Effect": "Allow"
+        },
+        {
+          "Action": [
+            "codecommit:GetCommentsForPullRequest",
+            "codecommit:GetCommentsForComparedCommit",
+            "chatbot:DescribeSlackChannelConfigurations",
+            "chatbot:UpdateSlackChannelConfiguration",
+            "codecommit:GetDifferences",
+            "codepipeline:ListActionExecutions"
+          ],
+          "Resource": "*",
+          "Effect": "Allow"
+        },
+        {
+          "Action": [
+            "codecommit:GetFile"
+          ],
+          "Resource": "*",
+          "Condition": {
+            "StringNotEquals": {
+              "aws:ResourceTag/ExcludeFileContentFromNotifications": "true"
+            }
+          },
+          "Effect": "Allow"
+        }
+      ]
+    },
+    "VersionId": "v4",
+    "IsDefaultVersion": true,
+    "CreateDate": "2020-03-19T16:01:55+00:00"
+  }
+}
+```

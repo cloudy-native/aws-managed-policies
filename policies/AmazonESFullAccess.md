@@ -1,0 +1,27 @@
+
+## AmazonESFullAccess
+Provides full access to the Amazon ES configuration service.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AmazonESFullAccess | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Action": [
+            "es:*"
+          ],
+          "Effect": "Allow",
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2015-10-01T19:14:00+00:00"
+  }
+}
+```

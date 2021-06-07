@@ -1,0 +1,43 @@
+
+## AmazonRekognitionServiceRole
+Allows Rekognition to call AWS services on your behalf.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/service-role/AmazonRekognitionServiceRole | /service-role/ |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "sns:Publish"
+          ],
+          "Resource": "arn:aws:sns:*:*:AmazonRekognition*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "kinesis:PutRecord",
+            "kinesis:PutRecords"
+          ],
+          "Resource": "arn:aws:kinesis:*:*:stream/AmazonRekognition*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "kinesisvideo:GetDataEndpoint",
+            "kinesisvideo:GetMedia"
+          ],
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2017-11-29T16:52:13+00:00"
+  }
+}
+```

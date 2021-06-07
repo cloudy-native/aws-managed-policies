@@ -1,0 +1,40 @@
+
+## AmazonCognitoReadOnly
+Provides read only access to Amazon Cognito resources.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AmazonCognitoReadOnly | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "cognito-identity:Describe*",
+            "cognito-identity:Get*",
+            "cognito-identity:List*",
+            "cognito-idp:Describe*",
+            "cognito-idp:AdminGet*",
+            "cognito-idp:AdminList*",
+            "cognito-idp:List*",
+            "cognito-idp:Get*",
+            "cognito-sync:Describe*",
+            "cognito-sync:Get*",
+            "cognito-sync:List*",
+            "iam:ListOpenIdConnectProviders",
+            "iam:ListRoles",
+            "sns:ListPlatformApplications"
+          ],
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v4",
+    "IsDefaultVersion": true,
+    "CreateDate": "2019-08-01T19:21:04+00:00"
+  }
+}
+```

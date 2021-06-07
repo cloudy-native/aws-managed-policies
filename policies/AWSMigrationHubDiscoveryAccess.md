@@ -1,0 +1,65 @@
+
+## AWSMigrationHubDiscoveryAccess
+Policy allows AWSMigrationHubService to call AWSApplicationDiscoveryService on behalf of the customer.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/service-role/AWSMigrationHubDiscoveryAccess | /service-role/ |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "discovery:ListConfigurations",
+            "discovery:DescribeConfigurations"
+          ],
+          "Resource": [
+            "*"
+          ]
+        },
+        {
+          "Effect": "Allow",
+          "Action": "ec2:CreateTags",
+          "Resource": [
+            "arn:aws:ec2:*:*:instance/*",
+            "arn:aws:ec2:*:*:image/*",
+            "arn:aws:ec2:*:*:volume/*"
+          ],
+          "Condition": {
+            "ForAllValues:StringEquals": {
+              "aws:TagKeys": "aws:migrationhub:source-id"
+            }
+          }
+        },
+        {
+          "Effect": "Allow",
+          "Action": "dms:AddTagsToResource",
+          "Resource": [
+            "arn:aws:dms:*:*:endpoint:*"
+          ],
+          "Condition": {
+            "ForAllValues:StringEquals": {
+              "aws:TagKeys": "aws:migrationhub:source-id"
+            }
+          }
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "ec2:DescribeInstanceAttribute"
+          ],
+          "Resource": [
+            "*"
+          ]
+        }
+      ]
+    },
+    "VersionId": "v3",
+    "IsDefaultVersion": true,
+    "CreateDate": "2020-08-06T17:34:42+00:00"
+  }
+}
+```

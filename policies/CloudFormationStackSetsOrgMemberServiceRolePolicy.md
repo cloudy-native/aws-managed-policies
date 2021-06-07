@@ -1,0 +1,46 @@
+
+## CloudFormationStackSetsOrgMemberServiceRolePolicy
+Service Role for CloudFormation StackSets (Organization Member Account)
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/aws-service-role/CloudFormationStackSetsOrgMemberServiceRolePolicy | /aws-service-role/ |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Action": [
+            "iam:CreateRole",
+            "iam:DeleteRole",
+            "iam:GetRole"
+          ],
+          "Effect": "Allow",
+          "Resource": [
+            "arn:aws:iam::*:role/stacksets-exec-*"
+          ]
+        },
+        {
+          "Action": [
+            "iam:DetachRolePolicy",
+            "iam:AttachRolePolicy"
+          ],
+          "Effect": "Allow",
+          "Resource": [
+            "arn:aws:iam::*:role/stacksets-exec-*"
+          ],
+          "Condition": {
+            "StringEquals": {
+              "iam:PolicyARN": "arn:aws:iam::aws:policy/AdministratorAccess"
+            }
+          }
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2019-12-09T23:52:37+00:00"
+  }
+}
+```

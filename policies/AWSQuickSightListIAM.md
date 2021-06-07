@@ -1,0 +1,27 @@
+
+## AWSQuickSightListIAM
+Allow QuickSight to list IAM entities
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/service-role/AWSQuickSightListIAM | /service-role/ |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "iam:List*"
+          ],
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2015-11-10T23:25:07+00:00"
+  }
+}
+```

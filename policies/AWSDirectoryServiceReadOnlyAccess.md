@@ -1,0 +1,41 @@
+
+## AWSDirectoryServiceReadOnlyAccess
+Provides read only access to AWS Directory Service.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AWSDirectoryServiceReadOnlyAccess | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Action": [
+            "ds:Check*",
+            "ds:Describe*",
+            "ds:Get*",
+            "ds:List*",
+            "ds:Verify*",
+            "ec2:DescribeNetworkInterfaces",
+            "ec2:DescribeSubnets",
+            "ec2:DescribeVpcs",
+            "sns:ListTopics",
+            "sns:GetTopicAttributes",
+            "sns:ListSubscriptions",
+            "sns:ListSubscriptionsByTopic",
+            "organizations:DescribeAccount",
+            "organizations:DescribeOrganization",
+            "organizations:ListAWSServiceAccessForOrganization"
+          ],
+          "Effect": "Allow",
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v4",
+    "IsDefaultVersion": true,
+    "CreateDate": "2018-09-25T21:54:01+00:00"
+  }
+}
+```

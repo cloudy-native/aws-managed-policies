@@ -1,0 +1,92 @@
+
+## ApplicationDiscoveryServiceContinuousExportServiceRolePolicy
+Enables access to AWS Services and Resources used or managed by Application Discovery Service Continuous Export feature
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/aws-service-role/ApplicationDiscoveryServiceContinuousExportServiceRolePolicy | /aws-service-role/ |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Action": [
+            "glue:CreateDatabase",
+            "glue:UpdateDatabase",
+            "glue:CreateTable",
+            "glue:UpdateTable",
+            "firehose:CreateDeliveryStream",
+            "firehose:DescribeDeliveryStream",
+            "logs:CreateLogGroup"
+          ],
+          "Effect": "Allow",
+          "Resource": "*"
+        },
+        {
+          "Action": [
+            "firehose:DeleteDeliveryStream",
+            "firehose:PutRecord",
+            "firehose:PutRecordBatch",
+            "firehose:UpdateDestination"
+          ],
+          "Effect": "Allow",
+          "Resource": "arn:aws:firehose:*:*:deliverystream/aws-application-discovery-service*"
+        },
+        {
+          "Action": [
+            "s3:CreateBucket",
+            "s3:ListBucket",
+            "s3:PutBucketLogging",
+            "s3:PutEncryptionConfiguration"
+          ],
+          "Effect": "Allow",
+          "Resource": "arn:aws:s3:::aws-application-discovery-service*"
+        },
+        {
+          "Action": [
+            "s3:GetObject"
+          ],
+          "Effect": "Allow",
+          "Resource": "arn:aws:s3:::aws-application-discovery-service*/*"
+        },
+        {
+          "Action": [
+            "logs:CreateLogStream",
+            "logs:PutRetentionPolicy"
+          ],
+          "Effect": "Allow",
+          "Resource": "arn:aws:logs:*:*:log-group:/aws/application-discovery-service/firehose*"
+        },
+        {
+          "Action": [
+            "iam:PassRole"
+          ],
+          "Effect": "Allow",
+          "Resource": "arn:aws:iam::*:role/AWSApplicationDiscoveryServiceFirehose",
+          "Condition": {
+            "StringLike": {
+              "iam:PassedToService": "firehose.amazonaws.com"
+            }
+          }
+        },
+        {
+          "Action": [
+            "iam:PassRole"
+          ],
+          "Effect": "Allow",
+          "Resource": "arn:aws:iam::*:role/service-role/AWSApplicationDiscoveryServiceFirehose",
+          "Condition": {
+            "StringLike": {
+              "iam:PassedToService": "firehose.amazonaws.com"
+            }
+          }
+        }
+      ]
+    },
+    "VersionId": "v2",
+    "IsDefaultVersion": true,
+    "CreateDate": "2018-08-13T22:31:21+00:00"
+  }
+}
+```

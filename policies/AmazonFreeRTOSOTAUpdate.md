@@ -1,0 +1,72 @@
+
+## AmazonFreeRTOSOTAUpdate
+Allows user to access Amazon FreeRTOS OTA Update 
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/service-role/AmazonFreeRTOSOTAUpdate | /service-role/ |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "s3:GetObjectVersion",
+            "s3:PutObject",
+            "s3:GetObject"
+          ],
+          "Resource": "arn:aws:s3:::afr-ota*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "signer:StartSigningJob",
+            "signer:DescribeSigningJob",
+            "signer:GetSigningProfile",
+            "signer:PutSigningProfile"
+          ],
+          "Resource": "*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "s3:ListBucketVersions",
+            "s3:ListBucket",
+            "s3:ListAllMyBuckets",
+            "s3:GetBucketLocation"
+          ],
+          "Resource": "*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "iot:DeleteJob",
+            "iot:DescribeJob"
+          ],
+          "Resource": "arn:aws:iot:*:*:job/AFR_OTA*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "iot:DeleteStream"
+          ],
+          "Resource": "arn:aws:iot:*:*:stream/AFR_OTA*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "iot:CreateStream",
+            "iot:CreateJob"
+          ],
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v3",
+    "IsDefaultVersion": true,
+    "CreateDate": "2020-12-18T17:47:30+00:00"
+  }
+}
+```

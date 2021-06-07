@@ -1,0 +1,72 @@
+
+## AWSElasticBeanstalkServiceRolePolicy
+AWS Elastic Beanstalk Service Linked Role policy which grants permissions to create & manage resources (i.e.: AutoScaling, EC2, S3, CloudFormation, ELB, etc.) on your behalf.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/aws-service-role/AWSElasticBeanstalkServiceRolePolicy | /aws-service-role/ |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Sid": "AllowCloudformationReadOperationsOnElasticBeanstalkStacks",
+          "Effect": "Allow",
+          "Action": [
+            "cloudformation:DescribeStackResource",
+            "cloudformation:DescribeStackResources",
+            "cloudformation:DescribeStacks"
+          ],
+          "Resource": [
+            "arn:aws:cloudformation:*:*:stack/awseb-*",
+            "arn:aws:cloudformation:*:*:stack/eb-*"
+          ]
+        },
+        {
+          "Sid": "AllowOperations",
+          "Effect": "Allow",
+          "Action": [
+            "autoscaling:DescribeAutoScalingGroups",
+            "autoscaling:DescribeAutoScalingInstances",
+            "autoscaling:DescribeNotificationConfigurations",
+            "autoscaling:DescribeScalingActivities",
+            "autoscaling:PutNotificationConfiguration",
+            "ec2:DescribeInstanceStatus",
+            "ec2:AssociateAddress",
+            "ec2:DescribeAddresses",
+            "ec2:DescribeInstances",
+            "ec2:DescribeSecurityGroups",
+            "elasticloadbalancing:DescribeInstanceHealth",
+            "elasticloadbalancing:DescribeLoadBalancers",
+            "elasticloadbalancing:DescribeTargetHealth",
+            "elasticloadbalancing:DescribeTargetGroups",
+            "lambda:GetFunction",
+            "sqs:GetQueueAttributes",
+            "sqs:GetQueueUrl",
+            "sns:Publish"
+          ],
+          "Resource": [
+            "*"
+          ]
+        },
+        {
+          "Sid": "AllowOperationsOnHealthStreamingLogs",
+          "Effect": "Allow",
+          "Action": [
+            "logs:CreateLogStream",
+            "logs:DescribeLogGroups",
+            "logs:DescribeLogStreams",
+            "logs:DeleteLogGroup",
+            "logs:PutLogEvents"
+          ],
+          "Resource": "arn:aws:logs:*:*:log-group:/aws/elasticbeanstalk/*"
+        }
+      ]
+    },
+    "VersionId": "v6",
+    "IsDefaultVersion": true,
+    "CreateDate": "2019-06-06T21:59:51+00:00"
+  }
+}
+```

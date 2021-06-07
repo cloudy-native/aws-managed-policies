@@ -1,0 +1,42 @@
+
+## AWSCertificateManagerPrivateCAAuditor
+Provides auditor access to AWS Certificate Manager Private Certificate Authority
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AWSCertificateManagerPrivateCAAuditor | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "acm-pca:CreateCertificateAuthorityAuditReport",
+            "acm-pca:DescribeCertificateAuthority",
+            "acm-pca:DescribeCertificateAuthorityAuditReport",
+            "acm-pca:GetCertificateAuthorityCsr",
+            "acm-pca:GetCertificateAuthorityCertificate",
+            "acm-pca:GetCertificate",
+            "acm-pca:GetPolicy",
+            "acm-pca:ListPermissions",
+            "acm-pca:ListTags"
+          ],
+          "Resource": "arn:aws:acm-pca:*:*:certificate-authority/*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "acm-pca:ListCertificateAuthorities"
+          ],
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v4",
+    "IsDefaultVersion": true,
+    "CreateDate": "2020-08-17T22:54:12+00:00"
+  }
+}
+```

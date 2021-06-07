@@ -1,0 +1,52 @@
+
+## AWSIoTSiteWiseMonitorPortalAccess
+This policy grants permissions to access AWS IoT SiteWise assets and asset data, create AWS IoT SiteWise Monitor resources, and list AWS SSO users.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/service-role/AWSIoTSiteWiseMonitorPortalAccess | /service-role/ |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "iotsitewise:CreateProject",
+            "iotsitewise:DescribeProject",
+            "iotsitewise:UpdateProject",
+            "iotsitewise:DeleteProject",
+            "iotsitewise:ListProjects",
+            "iotsitewise:BatchAssociateProjectAssets",
+            "iotsitewise:BatchDisassociateProjectAssets",
+            "iotsitewise:ListProjectAssets",
+            "iotsitewise:CreateDashboard",
+            "iotsitewise:DescribeDashboard",
+            "iotsitewise:UpdateDashboard",
+            "iotsitewise:DeleteDashboard",
+            "iotsitewise:ListDashboards",
+            "iotsitewise:CreateAccessPolicy",
+            "iotsitewise:DescribeAccessPolicy",
+            "iotsitewise:UpdateAccessPolicy",
+            "iotsitewise:DeleteAccessPolicy",
+            "iotsitewise:ListAccessPolicies",
+            "iotsitewise:DescribeAsset",
+            "iotsitewise:ListAssets",
+            "iotsitewise:ListAssociatedAssets",
+            "iotsitewise:DescribeAssetProperty",
+            "iotsitewise:GetAssetPropertyValue",
+            "iotsitewise:GetAssetPropertyValueHistory",
+            "iotsitewise:GetAssetPropertyAggregates",
+            "sso-directory:DescribeUsers"
+          ],
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2020-05-19T20:01:21+00:00"
+  }
+}
+```

@@ -1,0 +1,28 @@
+
+## ElementalAppliancesSoftwareReadOnlyAccess
+Read-only access to view Elemental Appliances and Software quotes and orders
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/ElementalAppliancesSoftwareReadOnlyAccess | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "elemental-appliances-software:List*",
+            "elemental-appliances-software:Get*"
+          ],
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2020-04-01T22:31:09+00:00"
+  }
+}
+```

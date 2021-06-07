@@ -1,0 +1,62 @@
+
+## AmazonMCSFullAccess
+Provide full access to Amazon Managed Apache Cassandra Service
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AmazonMCSFullAccess | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "application-autoscaling:DeleteScalingPolicy",
+            "application-autoscaling:DeregisterScalableTarget",
+            "application-autoscaling:DescribeScalableTargets",
+            "application-autoscaling:DescribeScalingActivities",
+            "application-autoscaling:DescribeScalingPolicies",
+            "application-autoscaling:PutScalingPolicy",
+            "application-autoscaling:RegisterScalableTarget",
+            "application-autoscaling:PutScheduledAction",
+            "application-autoscaling:DeleteScheduledAction",
+            "application-autoscaling:DescribeScheduledActions"
+          ],
+          "Resource": "*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "cassandra:*"
+          ],
+          "Resource": "*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "cloudwatch:DeleteAlarms",
+            "cloudwatch:DescribeAlarms",
+            "cloudwatch:PutMetricAlarm"
+          ],
+          "Resource": "*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": "iam:CreateServiceLinkedRole",
+          "Resource": "arn:aws:iam::*:role/aws-service-role/cassandra.application-autoscaling.amazonaws.com/AWSServiceRoleForApplicationAutoScaling_CassandraTable",
+          "Condition": {
+            "StringLike": {
+              "iam:AWSServiceName": "cassandra.application-autoscaling.amazonaws.com"
+            }
+          }
+        }
+      ]
+    },
+    "VersionId": "v2",
+    "IsDefaultVersion": true,
+    "CreateDate": "2020-04-17T19:19:29+00:00"
+  }
+}
+```

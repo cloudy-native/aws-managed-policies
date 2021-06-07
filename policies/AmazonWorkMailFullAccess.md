@@ -1,0 +1,96 @@
+
+## AmazonWorkMailFullAccess
+Provides full access to WorkMail, Directory Service, SES, EC2 and read access to KMS metadata.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AmazonWorkMailFullAccess | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "ds:AuthorizeApplication",
+            "ds:CheckAlias",
+            "ds:CreateAlias",
+            "ds:CreateDirectory",
+            "ds:CreateIdentityPoolDirectory",
+            "ds:DeleteDirectory",
+            "ds:DescribeDirectories",
+            "ds:GetDirectoryLimits",
+            "ds:ListAuthorizedApplications",
+            "ds:UnauthorizeApplication",
+            "ec2:AuthorizeSecurityGroupEgress",
+            "ec2:AuthorizeSecurityGroupIngress",
+            "ec2:CreateNetworkInterface",
+            "ec2:CreateSecurityGroup",
+            "ec2:CreateSubnet",
+            "ec2:CreateTags",
+            "ec2:CreateVpc",
+            "ec2:DeleteSecurityGroup",
+            "ec2:DeleteSubnet",
+            "ec2:DeleteVpc",
+            "ec2:DescribeAvailabilityZones",
+            "ec2:DescribeRouteTables",
+            "ec2:DescribeSubnets",
+            "ec2:DescribeVpcs",
+            "ec2:RevokeSecurityGroupEgress",
+            "ec2:RevokeSecurityGroupIngress",
+            "kms:DescribeKey",
+            "kms:ListAliases",
+            "lambda:ListFunctions",
+            "route53:ChangeResourceRecordSets",
+            "route53:ListHostedZones",
+            "route53:ListResourceRecordSets",
+            "route53:GetHostedZone",
+            "route53domains:CheckDomainAvailability",
+            "route53domains:ListDomains",
+            "ses:*",
+            "workmail:*",
+            "iam:ListRoles",
+            "logs:DescribeLogGroups",
+            "logs:CreateLogGroup",
+            "logs:PutRetentionPolicy",
+            "cloudwatch:GetMetricData"
+          ],
+          "Resource": "*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": "iam:CreateServiceLinkedRole",
+          "Resource": "*",
+          "Condition": {
+            "StringEquals": {
+              "iam:AWSServiceName": "events.workmail.amazonaws.com"
+            }
+          }
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "iam:DeleteServiceLinkedRole",
+            "iam:GetServiceLinkedRoleDeletionStatus"
+          ],
+          "Resource": "arn:aws:iam::*:role/aws-service-role/events.workmail.amazonaws.com/AWSServiceRoleForAmazonWorkMailEvents*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": "iam:PassRole",
+          "Resource": "arn:aws:iam::*:role/*workmail*",
+          "Condition": {
+            "StringLike": {
+              "iam:PassedToService": "events.workmail.amazonaws.com"
+            }
+          }
+        }
+      ]
+    },
+    "VersionId": "v10",
+    "IsDefaultVersion": true,
+    "CreateDate": "2020-12-21T14:13:40+00:00"
+  }
+}
+```

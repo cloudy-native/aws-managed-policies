@@ -1,0 +1,37 @@
+
+## AWSLambdaInvocation-DynamoDB
+Provides read access to DynamoDB Streams.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AWSLambdaInvocation-DynamoDB | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "lambda:InvokeFunction"
+          ],
+          "Resource": "*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "dynamodb:DescribeStream",
+            "dynamodb:GetRecords",
+            "dynamodb:GetShardIterator",
+            "dynamodb:ListStreams"
+          ],
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2015-02-06T18:40:47+00:00"
+  }
+}
+```

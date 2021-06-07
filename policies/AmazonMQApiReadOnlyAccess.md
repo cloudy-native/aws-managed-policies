@@ -1,0 +1,32 @@
+
+## AmazonMQApiReadOnlyAccess
+Provides read only access to AmazonMQ via our API/SDK.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AmazonMQApiReadOnlyAccess | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Action": [
+            "mq:Describe*",
+            "mq:List*",
+            "ec2:DescribeNetworkInterfaces",
+            "ec2:DescribeSecurityGroups",
+            "ec2:DescribeSubnets",
+            "ec2:DescribeVpcs"
+          ],
+          "Effect": "Allow",
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2018-12-18T20:31:13+00:00"
+  }
+}
+```

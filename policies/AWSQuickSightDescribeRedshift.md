@@ -1,0 +1,27 @@
+
+## AWSQuickSightDescribeRedshift
+Allow QuickSight to describe Redshift resources
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/service-role/AWSQuickSightDescribeRedshift | /service-role/ |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Action": [
+            "redshift:Describe*"
+          ],
+          "Effect": "Allow",
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2015-11-10T23:25:01+00:00"
+  }
+}
+```

@@ -1,0 +1,109 @@
+
+## AWSGreengrassResourceAccessRolePolicy
+Policy for AWS Greengrass service role which allows access to related services including AWS Lambda and AWS IoT thing shadows.
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/service-role/AWSGreengrassResourceAccessRolePolicy | /service-role/ |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Sid": "AllowGreengrassAccessToShadows",
+          "Action": [
+            "iot:DeleteThingShadow",
+            "iot:GetThingShadow",
+            "iot:UpdateThingShadow"
+          ],
+          "Effect": "Allow",
+          "Resource": [
+            "arn:aws:iot:*:*:thing/GG_*",
+            "arn:aws:iot:*:*:thing/*-gcm",
+            "arn:aws:iot:*:*:thing/*-gda",
+            "arn:aws:iot:*:*:thing/*-gci"
+          ]
+        },
+        {
+          "Sid": "AllowGreengrassToDescribeThings",
+          "Action": [
+            "iot:DescribeThing"
+          ],
+          "Effect": "Allow",
+          "Resource": "arn:aws:iot:*:*:thing/*"
+        },
+        {
+          "Sid": "AllowGreengrassToDescribeCertificates",
+          "Action": [
+            "iot:DescribeCertificate"
+          ],
+          "Effect": "Allow",
+          "Resource": "arn:aws:iot:*:*:cert/*"
+        },
+        {
+          "Sid": "AllowGreengrassToCallGreengrassServices",
+          "Action": [
+            "greengrass:*"
+          ],
+          "Effect": "Allow",
+          "Resource": "*"
+        },
+        {
+          "Sid": "AllowGreengrassToGetLambdaFunctions",
+          "Action": [
+            "lambda:GetFunction",
+            "lambda:GetFunctionConfiguration"
+          ],
+          "Effect": "Allow",
+          "Resource": "*"
+        },
+        {
+          "Sid": "AllowGreengrassToGetGreengrassSecrets",
+          "Action": [
+            "secretsmanager:GetSecretValue"
+          ],
+          "Effect": "Allow",
+          "Resource": "arn:aws:secretsmanager:*:*:secret:greengrass-*"
+        },
+        {
+          "Sid": "AllowGreengrassAccessToS3Objects",
+          "Action": [
+            "s3:GetObject"
+          ],
+          "Effect": "Allow",
+          "Resource": [
+            "arn:aws:s3:::*Greengrass*",
+            "arn:aws:s3:::*GreenGrass*",
+            "arn:aws:s3:::*greengrass*",
+            "arn:aws:s3:::*Sagemaker*",
+            "arn:aws:s3:::*SageMaker*",
+            "arn:aws:s3:::*sagemaker*"
+          ]
+        },
+        {
+          "Sid": "AllowGreengrassAccessToS3BucketLocation",
+          "Action": [
+            "s3:GetBucketLocation"
+          ],
+          "Effect": "Allow",
+          "Resource": "*"
+        },
+        {
+          "Sid": "AllowGreengrassAccessToSageMakerTrainingJobs",
+          "Action": [
+            "sagemaker:DescribeTrainingJob"
+          ],
+          "Effect": "Allow",
+          "Resource": [
+            "arn:aws:sagemaker:*:*:training-job/*"
+          ]
+        }
+      ]
+    },
+    "VersionId": "v5",
+    "IsDefaultVersion": true,
+    "CreateDate": "2018-11-14T00:35:02+00:00"
+  }
+}
+```

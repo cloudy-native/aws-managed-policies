@@ -1,0 +1,78 @@
+
+## AWSOpsWorksRegisterCLI_OnPremises
+Policy to enable registration of On-Premises instances via the OpsWorks CLI
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/AWSOpsWorksRegisterCLI_OnPremises | / |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "opsworks:AssignInstance",
+            "opsworks:CreateLayer",
+            "opsworks:DeregisterInstance",
+            "opsworks:DescribeInstances",
+            "opsworks:DescribeStackProvisioningParameters",
+            "opsworks:DescribeStacks",
+            "opsworks:UnassignInstance"
+          ],
+          "Resource": [
+            "*"
+          ]
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "ec2:DescribeInstances"
+          ],
+          "Resource": [
+            "*"
+          ]
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "iam:CreateGroup",
+            "iam:AddUserToGroup"
+          ],
+          "Resource": [
+            "arn:aws:iam::*:group/AWS/OpsWorks/OpsWorks-*"
+          ]
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "iam:CreateUser",
+            "iam:CreateAccessKey"
+          ],
+          "Resource": [
+            "arn:aws:iam::*:user/AWS/OpsWorks/OpsWorks-*"
+          ]
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "iam:AttachUserPolicy"
+          ],
+          "Resource": [
+            "arn:aws:iam::*:user/AWS/OpsWorks/OpsWorks-*"
+          ],
+          "Condition": {
+            "ArnEquals": {
+              "iam:PolicyARN": "arn:aws:iam::aws:policy/AWSOpsWorksInstanceRegistration"
+            }
+          }
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2019-06-18T15:33:16+00:00"
+  }
+}
+```

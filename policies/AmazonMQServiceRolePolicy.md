@@ -1,0 +1,89 @@
+
+## AmazonMQServiceRolePolicy
+Service Linked Role Policy for AWS Amazon MQ
+| Arn | Path |
+| --- | --- |
+| arn:aws:iam::aws:policy/aws-service-role/AmazonMQServiceRolePolicy | /aws-service-role/ |
+```
+{
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "ec2:DescribeVpcEndpoints"
+          ],
+          "Resource": "*"
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "ec2:CreateVpcEndpoint"
+          ],
+          "Resource": [
+            "arn:aws:ec2:*:*:vpc/*",
+            "arn:aws:ec2:*:*:subnet/*",
+            "arn:aws:ec2:*:*:security-group/*"
+          ]
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "ec2:CreateVpcEndpoint"
+          ],
+          "Resource": [
+            "arn:aws:ec2:*:*:vpc-endpoint/*"
+          ],
+          "Condition": {
+            "StringEquals": {
+              "aws:RequestTag/AMQManaged": "true"
+            }
+          }
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "ec2:CreateTags"
+          ],
+          "Resource": "arn:aws:ec2:*:*:vpc-endpoint/*",
+          "Condition": {
+            "StringEquals": {
+              "ec2:CreateAction": "CreateVpcEndpoint"
+            }
+          }
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "ec2:DeleteVpcEndpoints"
+          ],
+          "Resource": "arn:aws:ec2:*:*:vpc-endpoint/*",
+          "Condition": {
+            "StringEquals": {
+              "ec2:ResourceTag/AMQManaged": "true"
+            }
+          }
+        },
+        {
+          "Effect": "Allow",
+          "Action": [
+            "logs:PutLogEvents",
+            "logs:DescribeLogStreams",
+            "logs:DescribeLogGroups",
+            "logs:CreateLogStream",
+            "logs:CreateLogGroup"
+          ],
+          "Resource": [
+            "arn:aws:logs:*:*:log-group:/aws/amazonmq/*"
+          ]
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": true,
+    "CreateDate": "2020-11-04T16:07:17+00:00"
+  }
+}
+```
